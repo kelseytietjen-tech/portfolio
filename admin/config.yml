@@ -3,7 +3,7 @@ backend:
   repo: kelseytietjen-tech/portfolio
   branch: main
   auth:
-    content_api_key: YOUR_GITHUB_PAT
+    content_api_key: ghp_9tRTOC8RK9nUjHcwgZS3RCgMu5uCli3WsEMED
 
 media_folder: "/"
 public_folder: "/"
