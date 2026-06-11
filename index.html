@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Kelsey Tietjen | Medical Sales</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --cream: #F7F4EF;
+    --warm-white: #FDFBF8;
+    --charcoal: #1C1C1A;
+    --mid: #5C5A56;
+    --light: #9C9A96;
+    --accent: #8B6F4E;
+    --accent-light: #C4A882;
+    --border: #E8E4DC;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--warm-white); color: var(--charcoal); font-size: 15px; line-height: 1.7; }
+  .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; }
+  .hero-left { background: var(--charcoal); display: flex; align-items: center; justify-content: center; padding: 4rem; position: relative; }
+  .hero-left::after { content: ''; position: absolute; top: 0; right: -1px; width: 60px; height: 100%; background: var(--warm-white); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
+  .hero-photo { width: 100%; max-width: 380px; aspect-ratio: 3/4; object-fit: cover; object-position: top; filter: grayscale(20%) contrast(1.05); }
+  .hero-right { display: flex; flex-direction: column; justify-content: center; padding: 5rem 4rem 5rem 5rem; background: var(--warm-white); }
+  .eyebrow { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; }
+  h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.05; color: var(--charcoal); margin-bottom: 0.5rem; }
+  h1 em { font-style: italic; color: var(--accent); }
+  .hero-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--mid); margin-bottom: 2rem; font-weight: 300; }
+  .quote-line { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-style: italic; color: var(--charcoal); border-left: 2px solid var(--accent); padding-left: 1.5rem; margin-bottom: 2.5rem; line-height: 1.5; }
+  .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.5rem; }
+  .pill { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 14px; border: 1px solid var(--border); color: var(--mid); background: var(--cream); }
+  .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn-primary { display: inline-block; background: var(--charcoal); color: var(--warm-white); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
+  .btn-primary:hover { background: var(--accent); }
+  .btn-secondary { display: inline-block; border: 1px solid var(--charcoal); color: var(--charcoal); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
+  .btn-secondary:hover { background: var(--charcoal); color: var(--warm-white); }
+  section { padding: 6rem 0; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
+  .section-label { font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
+  h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; line-height: 1.2; margin-bottom: 2rem; }
+  .narrative-section { background: var(--cream); }
+  .narrative-grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 4rem; align-items: start; padding-top: 0; }
+  .narrative-sticky { position: sticky; top: 4rem; }
+  .narrative-body p { color: var(--mid); margin-bottom: 1.5rem; font-size: 15px; line-height: 1.85; }
+  .narrative-body p:last-child { margin-bottom: 0; }
+  .highlight-text { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-style: italic; color: var(--charcoal); line-height: 1.5; margin-bottom: 1.5rem; }
+  .credentials { background: var(--charcoal); color: var(--warm-white); }
+  .credentials h2 { color: var(--warm-white); }
+  .credentials .section-label { color: var(--accent-light); }
+  .cred-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; }
+  .cred-item { background: rgba(255,255,255,0.04); padding: 2.5rem 2rem; border: 1px solid rgba(255,255,255,0.08); transition: background 0.2s; }
+  .cred-item:hover { background: rgba(255,255,255,0.08); }
+  .cred-number { font-family: 'Cormorant Garamond', serif; font-size: 3rem; font-weight: 300; color: var(--accent-light); line-height: 1; margin-bottom: 0.5rem; }
+  .cred-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.75rem; }
+  .cred-desc { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.6; }
+  .experience-section { background: var(--warm-white); }
+  .exp-list { margin-top: 3rem; }
+  .exp-item { display: grid; grid-template-columns: 200px 1fr; gap: 3rem; padding: 2.5rem 0; border-top: 1px solid var(--border); }
+  .exp-item:last-child { border-bottom: 1px solid var(--border); }
+  .exp-meta { padding-top: 4px; }
+  .exp-company { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.4rem; }
+  .exp-period { font-size: 12px; color: var(--light); }
+  .exp-title { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; margin-bottom: 0.75rem; color: var(--charcoal); }
+  .exp-body { font-size: 14px; color: var(--mid); line-height: 1.75; }
+  .exp-bullets { margin-top: 0.75rem; padding-left: 1rem; }
+  .exp-bullets li { font-size: 13px; color: var(--mid); margin-bottom: 0.4rem; line-height: 1.6; }
+  .recommendations-section { background: var(--warm-white); }
+  .rec-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 3rem; }
+  .rec-card { background: var(--cream); border: 1px solid var(--border); padding: 2rem; transition: background 0.2s; display: flex; flex-direction: column; }
+  .rec-card:hover { background: #F0EAE0; }
+  .rec-card-content { flex-grow: 1; }
+  .rec-card-buttons { margin-top: 1.5rem; display: flex; gap: 0.75rem; }
+  .btn-view-letter-small { background: var(--accent); color: var(--warm-white); padding: 10px 20px; font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.2s; }
+  .btn-view-letter-small:hover { background: var(--accent-light); }
+  .rec-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+  .rec-title { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 400; color: var(--charcoal); margin-bottom: 0.75rem; }
+  .rec-text { font-size: 13px; color: var(--mid); line-height: 1.7; }
+  .rec-footer { font-size: 12px; color: var(--light); margin-top: 1.5rem; font-style: italic; }
+  .contact-section { background: var(--charcoal); color: var(--warm-white); padding: 5rem 0; }
+  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+  .contact-section h2 { color: var(--warm-white); }
+  .contact-section .section-label { color: var(--accent-light); }
+  .contact-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-style: italic; color: rgba(255,255,255,0.5); margin-top: 1rem; }
+  .contact-details { display: flex; flex-direction: column; gap: 1.5rem; }
+  .contact-item { display: flex; flex-direction: column; gap: 4px; }
+  .contact-item-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-light); }
+  .contact-item-value { font-size: 15px; color: rgba(255,255,255,0.85); text-decoration: none; }
+  .contact-item-value:hover { color: var(--accent-light); }
+  .divider { width: 40px; height: 1px; background: var(--accent); margin: 1.5rem 0; }
+  .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+  .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 2rem 1rem; }
+  .modal.show { display: flex; align-items: center; justify-content: center; }
+  .modal-content { background-color: var(--warm-white); padding: 2rem; width: 95vw; max-width: 1200px; height: 90vh; overflow-y: auto; position: relative; }
+  .modal-close { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 28px; font-weight: bold; color: var(--charcoal); cursor: pointer; z-index: 1001; }
+  .modal-close:hover { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-left { min-height: 50vh; }
+    .hero-left::after { display: none; }
+    .hero-right { padding: 3rem 2rem; }
+    .narrative-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .narrative-sticky { position: static; }
+    .cred-grid { grid-template-columns: 1fr; }
+    .exp-item { grid-template-columns: 1fr; gap: 0.5rem; }
+    .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
+    .rec-grid { grid-template-columns: 1fr; }
+    .rec-card-buttons { margin-top: 1.5rem; }
+    .container { padding: 0 1.5rem; }
+    section { padding: 4rem 0; }
+  }
+</style>
+</head>
+<body id="app">
+
+<section class="hero">
+  <div class="hero-left">
+    <img src="headshot.png" alt="Kelsey Tietjen" class="hero-photo">
+  </div>
+  <div class="hero-right">
+    <p class="eyebrow" id="hero-eyebrow"></p>
+    <h1><span id="hero-name"></span><em id="hero-name-emphasis"></em></h1>
+    <p class="hero-tagline" id="hero-tagline"></p>
+    <blockquote class="quote-line" id="hero-quote"></blockquote>
+    <div class="hero-pills" id="hero-pills"></div>
+    <div class="cta-row" id="hero-cta"></div>
+  </div>
+</section>
+
+<section class="narrative-section">
+  <div class="container">
+    <div class="narrative-grid">
+      <div class="narrative-sticky">
+        <p class="section-label">Narrative</p>
+        <h2 id="narrative-title"></h2>
+      </div>
+      <div class="narrative-body">
+        <p class="highlight-text" id="narrative-highlight"></p>
+        <div id="narrative-body"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="credentials">
+  <div class="container">
+    <p class="section-label">Credentials</p>
+    <h2 id="credentials-title"></h2>
+    <div class="cred-grid" id="credentials-grid"></div>
+  </div>
+</section>
+
+<section class="experience-section">
+  <div class="container">
+    <p class="section-label">Experience</p>
+    <h2>Work Experience</h2>
+    <div class="exp-list" id="experience-list"></div>
+  </div>
+</section>
+
+<section class="recommendations-section">
+  <div class="container">
+    <p class="section-label">Recommendations</p>
+    <h2>What Others Say</h2>
+    <div class="rec-grid" id="recommendations-grid"></div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="fade-in">
+        <p class="section-label" id="contact-label"></p>
+        <h2 id="contact-title"></h2>
+        <p class="contact-tagline" id="contact-tagline"></p>
+      </div>
+      <div class="contact-details fade-in" id="contact-items"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+let portfolioData = {};
+
+// Load portfolio data from JSON file
+fetch('portfolio-data.json')
+  .then(response => response.json())
+  .then(data => {
+    portfolioData = data;
+    renderPortfolio();
+  })
+  .catch(err => console.error('Error loading portfolio data:', err));
+
+function renderPortfolio() {
+  // Hero section
+  document.getElementById('hero-eyebrow').textContent = portfolioData.hero.eyebrow;
+  document.getElementById('hero-name').textContent = portfolioData.hero.name + ' ';
+  document.getElementById('hero-name-emphasis').textContent = portfolioData.hero.nameEmphasis;
+  document.getElementById('hero-tagline').textContent = portfolioData.hero.tagline;
+  document.getElementById('hero-quote').textContent = portfolioData.hero.quote;
+  
+  // Pills
+  const pillsHTML = portfolioData.hero.pills.map(pill => `<span class="pill">${pill}</span>`).join('');
+  document.getElementById('hero-pills').innerHTML = pillsHTML;
+  
+  // CTA buttons
+  const ctaHTML = portfolioData.hero.cta.map(btn => {
+    const btnClass = btn.type === 'primary' ? 'btn-primary' : 'btn-secondary';
+    return `<a href="${btn.href}" class="${btnClass}">${btn.text}</a>`;
+  }).join('');
+  document.getElementById('hero-cta').innerHTML = ctaHTML;
+
+  // Narrative
+  document.getElementById('narrative-title').textContent = portfolioData.narrative.title;
+  document.getElementById('narrative-highlight').textContent = portfolioData.narrative.highlight;
+  const narrativeBody = portfolioData.narrative.body.split('\n').map(p => `<p>${p}</p>`).join('');
+  document.getElementById('narrative-body').innerHTML = narrativeBody;
+
+  // Credentials
+  document.getElementById('credentials-title').textContent = portfolioData.credentials.title;
+  const credHTML = portfolioData.credentials.items.map(item => `
+    <div class="cred-item">
+      <div class="cred-number">${item.number}</div>
+      <div class="cred-label">${item.label}</div>
+      <div class="cred-desc">${item.description}</div>
+    </div>
+  `).join('');
+  document.getElementById('credentials-grid').innerHTML = credHTML;
+
+  // Experience
+  const expHTML = portfolioData.experience.map(exp => `
+    <div class="exp-item fade-in">
+      <div class="exp-meta">
+        <div class="exp-company">${exp.company}</div>
+        <div class="exp-period">${exp.period}</div>
+      </div>
+      <div>
+        <div class="exp-title">${exp.title}</div>
+        <div class="exp-body">${exp.body}</div>
+        <ul class="exp-bullets">
+          ${exp.bullets.map(bullet => `<li>${bullet}</li>`).join('')}
+        </ul>
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('experience-list').innerHTML = expHTML;
+
+  // Recommendations
+  const recHTML = portfolioData.recommendations.map((rec, idx) => `
+    <div class="rec-card fade-in">
+      <div class="rec-card-content">
+        <div class="rec-label">${rec.label}</div>
+        <div class="rec-title">${rec.name}</div>
+        <p class="rec-text">${rec.text}</p>
+        <p class="rec-footer">${rec.title}</p>
+      </div>
+      ${rec.pdfFile ? `<div class="rec-card-buttons"><button class="btn-view-letter-small" onclick="openLetterModal('${rec.id}')">${rec.buttonText || 'View Letter'}</button></div>` : ''}
+    </div>
+  `).join('');
+  document.getElementById('recommendations-grid').innerHTML = recHTML;
+
+  // Contact
+  document.getElementById('contact-label').textContent = portfolioData.contact.title;
+  document.getElementById('contact-title').textContent = portfolioData.contact.headline;
+  document.getElementById('contact-tagline').textContent = portfolioData.contact.tagline;
+  const contactHTML = portfolioData.contact.items.map(item => {
+    if (item.href) {
+      return `
+        <div class="contact-item">
+          <span class="contact-item-label">${item.label}</span>
+          <a href="${item.href}" class="contact-item-value">${item.value}</a>
+        </div>
+      `;
+    } else {
+      return `
+        <div class="contact-item">
+          <span class="contact-item-label">${item.label}</span>
+          <span class="contact-item-value">${item.value}</span>
+        </div>
+      `;
+    }
+  }).join('');
+  document.getElementById('contact-items').innerHTML = contactHTML;
+
+  // Setup fade-in animation
+  setupFadeInAnimation();
+}
+
+function setupFadeInAnimation() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+}
+
+function openLetterModal(id) {
+  const modal = document.createElement('div');
+  modal.className = 'modal show';
+  modal.innerHTML = `
+    <div class="modal-content">
+      <span class="modal-close" onclick="this.parentElement.parentElement.remove()">&times;</span>
+      <iframe src="Kelsey_Tietjen_Letter_of_Recommendation.pdf" width="100%" height="100%" style="border: none; border-radius: 4px;"></iframe>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  modal.onclick = function(event) {
+    if (event.target == modal) {
+      modal.remove();
+    }
+  }
+}
+</script>
+</body>
+</html>
