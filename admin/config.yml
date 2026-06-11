@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: kelseytietjen-tech/portfolio
+  branch: main
+  auth:
+    content_api_key: ghp_9tRTOC8RK9nUjHcwgZS3RCgMu5uCli3WsEMED
+
+media_folder: "/"
+public_folder: "/"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - name: "resume"
+        label: "Resume"
+        file: "index.html"
+        fields:
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "About", name: "about", widget: "text"}
