@@ -1,0 +1,92 @@
+backend:
+  name: github
+  repo: kelseytietjen-tech/portfolio
+  branch: main
+  base_url: https://portfolio-auth.kelseytietjen.workers.dev
+  auth_endpoint: /auth
+
+media_folder: "/"
+public_folder: "/"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio Content"
+    files:
+      - name: "main"
+        label: "Main Portfolio"
+        file: "portfolio-data.json"
+        fields:
+          - name: "hero"
+            label: "Hero Section"
+            widget: "object"
+            fields:
+              - { name: "eyebrow", label: "Eyebrow Text", widget: "string" }
+              - { name: "name", label: "First Name", widget: "string" }
+              - { name: "nameEmphasis", label: "Last Name (Emphasized)", widget: "string" }
+              - { name: "tagline", label: "Tagline", widget: "string" }
+              - { name: "quote", label: "Main Quote", widget: "text" }
+              - name: "pills"
+                label: "Skills Pills"
+                widget: "list"
+                field: { name: "skill", label: "Skill", widget: "string" }
+
+          - name: "narrative"
+            label: "About Section"
+            widget: "object"
+            fields:
+              - { name: "title", label: "Section Title", widget: "string" }
+              - { name: "highlight", label: "Highlight Text", widget: "text" }
+              - { name: "body", label: "Body Text", widget: "text" }
+
+          - name: "credentials"
+            label: "Credentials Section"
+            widget: "object"
+            fields:
+              - { name: "title", label: "Section Title", widget: "string" }
+              - name: "items"
+                label: "Credentials"
+                widget: "list"
+                fields:
+                  - { name: "number", label: "Number/Stat", widget: "string" }
+                  - { name: "label", label: "Label", widget: "string" }
+                  - { name: "description", label: "Description", widget: "string" }
+
+          - name: "experience"
+            label: "Experience"
+            widget: "list"
+            fields:
+              - { name: "company", label: "Company", widget: "string" }
+              - { name: "period", label: "Date Range", widget: "string" }
+              - { name: "title", label: "Job Title", widget: "string" }
+              - { name: "body", label: "Description", widget: "text" }
+              - name: "bullets"
+                label: "Bullet Points"
+                widget: "list"
+                field: { name: "bullet", label: "Bullet", widget: "string" }
+
+          - name: "recommendations"
+            label: "Recommendations"
+            widget: "list"
+            fields:
+              - { name: "id", label: "ID", widget: "string" }
+              - { name: "label", label: "Category", widget: "string" }
+              - { name: "name", label: "Person Name", widget: "string" }
+              - { name: "title", label: "Person Title", widget: "string" }
+              - { name: "text", label: "Recommendation Text", widget: "text" }
+              - { name: "pdfFile", label: "PDF File", widget: "string", required: false }
+              - { name: "buttonText", label: "Button Text", widget: "string", required: false }
+
+          - name: "contact"
+            label: "Contact Section"
+            widget: "object"
+            fields:
+              - { name: "title", label: "Section Title", widget: "string" }
+              - { name: "headline", label: "Main Headline", widget: "string" }
+              - { name: "tagline", label: "Tagline", widget: "string" }
+              - name: "items"
+                label: "Contact Items"
+                widget: "list"
+                fields:
+                  - { name: "label", label: "Label", widget: "string" }
+                  - { name: "value", label: "Value/Text", widget: "string" }
+                  - { name: "href", label: "Link (optional)", widget: "string", required: false }
