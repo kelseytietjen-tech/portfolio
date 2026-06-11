@@ -2,7 +2,6 @@ backend:
   name: github
   repo: kelseytietjen-tech/portfolio
   branch: main
-  auth_type: pkce
 
 media_folder: "/"
 public_folder: "/"
@@ -88,4 +87,5 @@ collections:
                 fields:
                   - { name: "label", label: "Label", widget: "string" }
                   - { name: "value", label: "Value/Text", widget: "string" }
+                  - { name: "href", label: "Link (optional)", widget: "string", required: false }
                   - { name: "href", label: "Link (optional)", widget: "string", required: false }
