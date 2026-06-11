@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio CMS</title>
+</head>
+<body>
+  <script>
+    // Handle OAuth callback
+    if (window.location.search.includes('code=')) {
+      const code = new URLSearchParams(window.location.search).get('code');
+      fetch('https://portfolio-auth.kelseytietjen.workers.dev/auth?code=' + code)
+        .then(r => r.text())
+        .then(html => {
+          document.open();
+          document.write(html);
+          document.close();
+        });
+    }
+  </script>
+  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+</body>
+</html>
