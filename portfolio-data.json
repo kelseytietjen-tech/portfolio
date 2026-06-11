@@ -2,10 +2,15 @@
   "hero": {
     "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
     "name": "Kelsey",
-    "nameEmphasis": "Tietjen",
+    "nameEmphasis": "Carlson",
     "tagline": "Built across missions, boardrooms, and trauma bays.",
     "quote": "Entering impossible rooms. Building trust. Finding gaps. Executing solutions.",
-    "pills": ["Licensed EMT", "Goldman Sachs Alum", "Medical Device Sales", "Bilingual Spanish"],
+    "pills": [
+      "Licensed EMT",
+      "Goldman Sachs Alum",
+      "Medical Device Sales",
+      "Bilingual Spanish"
+    ],
     "cta": [
       {
         "text": "View LinkedIn",
@@ -98,14 +103,18 @@
       "period": "Jan 2015 – Dec 2019",
       "title": "Executive Director (Volunteer) — BYU Chapter",
       "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
-      "bullets": []
+      "bullets": [
+        "byu"
+      ]
     },
     {
       "company": "Volunteer Mission Service",
       "period": "Feb 2014 – Aug 2015",
       "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
       "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
-      "bullets": []
+      "bullets": [
+        "3 states"
+      ]
     }
   ],
   "recommendations": [
@@ -169,7 +178,7 @@
       {
         "label": "Location",
         "value": "Dallas-Fort Worth, Texas",
-        "href": null
+        "href": ""
       }
     ]
   }
