@@ -2,6 +2,8 @@ backend:
   name: github
   repo: kelseytietjen-tech/portfolio
   branch: main
+  base_url: https://portfolio-auth.kelseytietjen-tech.workers.dev
+  auth_endpoint: /auth
 
 media_folder: "/"
 public_folder: "/"
@@ -67,12 +69,12 @@ collections:
             widget: "list"
             fields:
               - { name: "id", label: "ID", widget: "string" }
-              - { name: "label", label: "Category (e.g. EMT INSTRUCTOR)", widget: "string" }
+              - { name: "label", label: "Category", widget: "string" }
               - { name: "name", label: "Person Name", widget: "string" }
               - { name: "title", label: "Person Title", widget: "string" }
               - { name: "text", label: "Recommendation Text", widget: "text" }
-              - { name: "pdfFile", label: "PDF File", widget: "string" }
-              - { name: "buttonText", label: "Button Text", widget: "string" }
+              - { name: "pdfFile", label: "PDF File", widget: "string", required: false }
+              - { name: "buttonText", label: "Button Text", widget: "string", required: false }
 
           - name: "contact"
             label: "Contact Section"
