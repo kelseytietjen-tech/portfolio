@@ -2,10 +2,8 @@ backend:
   name: github
   repo: kelseytietjen-tech/portfolio
   branch: main
-
 media_folder: "/"
 public_folder: "/"
-
 collections:
   - name: "portfolio"
     label: "Portfolio Content"
@@ -27,7 +25,6 @@ collections:
                 label: "Skills Pills"
                 widget: "list"
                 field: { name: "skill", label: "Skill", widget: "string" }
-
           - name: "narrative"
             label: "About Section"
             widget: "object"
@@ -35,7 +32,6 @@ collections:
               - { name: "title", label: "Section Title", widget: "string" }
               - { name: "highlight", label: "Highlight Text", widget: "text" }
               - { name: "body", label: "Body Text", widget: "text" }
-
           - name: "credentials"
             label: "Credentials Section"
             widget: "object"
@@ -48,7 +44,6 @@ collections:
                   - { name: "number", label: "Number/Stat", widget: "string" }
                   - { name: "label", label: "Label", widget: "string" }
                   - { name: "description", label: "Description", widget: "string" }
-
           - name: "experience"
             label: "Experience"
             widget: "list"
@@ -60,8 +55,8 @@ collections:
               - name: "bullets"
                 label: "Bullet Points"
                 widget: "list"
+                required: false
                 field: { name: "bullet", label: "Bullet", widget: "string" }
-
           - name: "recommendations"
             label: "Recommendations"
             widget: "list"
@@ -73,7 +68,6 @@ collections:
               - { name: "text", label: "Recommendation Text", widget: "text" }
               - { name: "pdfFile", label: "PDF File", widget: "string", required: false }
               - { name: "buttonText", label: "Button Text", widget: "string", required: false }
-
           - name: "contact"
             label: "Contact Section"
             widget: "object"
