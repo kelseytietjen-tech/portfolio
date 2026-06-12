@@ -2,8 +2,9 @@
   "hero": {
     "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
     "name": "Kelsey",
-    "nameEmphasis": "Tietjen",
+    "nameEmphasis": "Tietjenn",
     "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "quote": "",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
@@ -47,62 +48,6 @@
       }
     ]
   },
-  "recommendations": [
-    {
-      "id": "brock",
-      "label": "Stryker",
-      "name": "Brock Frazer",
-      "title": "Marketing Manager, Stryker",
-      "text": "She brings the kind of drive, curiosity, and relationship-building mindset that translates to medical sales success.",
-      "pdfFile": null,
-      "buttonText": null
-    },
-    {
-      "id": "spencer",
-      "label": "Stryker",
-      "name": "Spencer Curtis",
-      "title": "Product Manager, NPD, Stryker",
-      "text": "Kelsey has a unique drive, customer-first mindset and attention to detail that differentiates her from other candidates. She would perform with utmost accountability, integrity, and customer-centric mindset.",
-      "pdfFile": null,
-      "buttonText": null
-    },
-    {
-      "id": "adi",
-      "label": "EMT Instructor",
-      "name": "Aditya Kanakasabapathy",
-      "title": "EMT Instructor, University of Texas at Dallas",
-      "text": "She is capable of having a conversation about medical products with the relevant professionals on a really intelligent level, viewed through the patient care and clinical realities lens, which will facilitate her making a true connection with healthcare professionals.",
-      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
-      "buttonText": "View Full Letter"
-    },
-    {
-      "id": "justin",
-      "label": "iRhythm",
-      "name": "Justin Atchison",
-      "title": "Territory Manager, iRhythm Technologies",
-      "text": "I was immediately impressed by her communication skills, her genuine curiosity about the industry, and her potential as a sales professional. She asked thoughtful questions about the clinical side and showed real interest in how it impacts physicians and patients.",
-      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
-      "buttonText": "View Full Letter"
-    }
-  ],
-  "skills": [
-    {
-      "label": "Clinical",
-      "items": "Physician communication · Clinical fluency · Oncology familiarity · Patient-facing experience · EMT certified"
-    },
-    {
-      "label": "Execution",
-      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
-    },
-    {
-      "label": "Stakeholder",
-      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
-    },
-    {
-      "label": "Languages & Credentials",
-      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
-    }
-  ],
   "experience": [
     {
       "company": "UT Dallas",
@@ -152,6 +97,44 @@
       "bullets": []
     }
   ],
+  "recommendations": [
+    {
+      "id": "brock",
+      "label": "Stryker",
+      "name": "Brock Frazer",
+      "title": "Marketing Manager, Stryker",
+      "text": "She brings the kind of drive, curiosity, and relationship-building mindset that translates to medical sales success.",
+      "pdfFile": null,
+      "buttonText": null
+    },
+    {
+      "id": "spencer",
+      "label": "Stryker",
+      "name": "Spencer Curtis",
+      "title": "Product Manager, NPD, Stryker",
+      "text": "Kelsey has a unique drive, customer-first mindset and attention to detail that differentiates her from other candidates. She would perform with utmost accountability, integrity, and customer-centric mindset.",
+      "pdfFile": null,
+      "buttonText": null
+    },
+    {
+      "id": "adi",
+      "label": "EMT Instructor",
+      "name": "Aditya Kanakasabapathy",
+      "title": "EMT Instructor, University of Texas at Dallas",
+      "text": "She is capable of having a conversation about medical products with the relevant professionals on a really intelligent level, viewed through the patient care and clinical realities lens, which will facilitate her making a true connection with healthcare professionals.",
+      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
+      "buttonText": "View Full Letter"
+    },
+    {
+      "id": "justin",
+      "label": "iRhythm",
+      "name": "Justin Atchison",
+      "title": "Territory Manager, iRhythm Technologies",
+      "text": "I was immediately impressed by her communication skills, her genuine curiosity about the industry, and her potential as a sales professional. She asked thoughtful questions about the clinical side and showed real interest in how it impacts physicians and patients.",
+      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
+      "buttonText": "View Full Letter"
+    }
+  ],
   "contact": {
     "title": "Let's Connect",
     "headline": "I'd love to hear from you.",
@@ -178,5 +161,23 @@
         "href": null
       }
     ]
-  }
+  },
+  "skills": [
+    {
+      "label": "Clinical",
+      "items": "Physician communication · Clinical fluency · Oncology familiarity · Patient-facing experience · EMT certified"
+    },
+    {
+      "label": "Execution",
+      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
+    },
+    {
+      "label": "Stakeholder",
+      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
+    },
+    {
+      "label": "Languages & Credentials",
+      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
+    }
+  ]
 }
