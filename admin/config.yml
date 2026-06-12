@@ -16,69 +16,74 @@ collections:
             label: "Hero Section"
             widget: "object"
             fields:
-              - { name: "eyebrow", label: "Eyebrow Text", widget: "string" }
-              - { name: "name", label: "First Name", widget: "string" }
-              - { name: "nameEmphasis", label: "Last Name (Emphasized)", widget: "string" }
-              - { name: "tagline", label: "Tagline", widget: "string" }
-              - { name: "quote", label: "Main Quote", widget: "text" }
+              - { name: "eyebrow", label: "Eyebrow Text", widget: "string", required: false }
+              - { name: "name", label: "First Name", widget: "string", required: false }
+              - { name: "nameEmphasis", label: "Last Name (Emphasized)", widget: "string", required: false }
+              - { name: "tagline", label: "Tagline", widget: "string", required: false }
+              - { name: "quote", label: "Main Quote", widget: "text", required: false }
               - name: "pills"
                 label: "Skills Pills"
                 widget: "list"
-                field: { name: "skill", label: "Skill", widget: "string" }
+                required: false
+                field: { name: "skill", label: "Skill", widget: "string", required: false }
           - name: "narrative"
             label: "About Section"
             widget: "object"
             fields:
-              - { name: "title", label: "Section Title", widget: "string" }
-              - { name: "highlight", label: "Highlight Text", widget: "text" }
-              - { name: "body", label: "Body Text", widget: "text" }
+              - { name: "title", label: "Section Title", widget: "string", required: false }
+              - { name: "highlight", label: "Highlight Text", widget: "text", required: false }
+              - { name: "body", label: "Body Text", widget: "text", required: false }
           - name: "credentials"
             label: "Credentials Section"
             widget: "object"
             fields:
-              - { name: "title", label: "Section Title", widget: "string" }
+              - { name: "title", label: "Section Title", widget: "string", required: false }
               - name: "items"
                 label: "Credentials"
                 widget: "list"
+                required: false
                 fields:
-                  - { name: "number", label: "Number/Stat", widget: "string" }
-                  - { name: "label", label: "Label", widget: "string" }
-                  - { name: "description", label: "Description", widget: "string" }
+                  - { name: "number", label: "Number/Stat", widget: "string", required: false }
+                  - { name: "label", label: "Label", widget: "string", required: false }
+                  - { name: "description", label: "Description", widget: "string", required: false }
           - name: "experience"
             label: "Experience"
             widget: "list"
+            required: false
             fields:
-              - { name: "company", label: "Company", widget: "string" }
-              - { name: "period", label: "Date Range", widget: "string" }
-              - { name: "title", label: "Job Title", widget: "string" }
-              - { name: "body", label: "Description", widget: "text" }
+              - { name: "company", label: "Company", widget: "string", required: false }
+              - { name: "period", label: "Date Range", widget: "string", required: false }
+              - { name: "title", label: "Job Title", widget: "string", required: false }
+              - { name: "body", label: "Description", widget: "text", required: false }
               - name: "bullets"
                 label: "Bullet Points"
                 widget: "list"
                 required: false
-                field: { name: "bullet", label: "Bullet", widget: "string" }
+                field: { name: "bullet", label: "Bullet", widget: "string", required: false }
           - name: "recommendations"
             label: "Recommendations"
             widget: "list"
+            required: false
             fields:
-              - { name: "id", label: "ID", widget: "string" }
-              - { name: "label", label: "Category", widget: "string" }
-              - { name: "name", label: "Person Name", widget: "string" }
-              - { name: "title", label: "Person Title", widget: "string" }
-              - { name: "text", label: "Recommendation Text", widget: "text" }
+              - { name: "id", label: "ID", widget: "string", required: false }
+              - { name: "label", label: "Category", widget: "string", required: false }
+              - { name: "name", label: "Person Name", widget: "string", required: false }
+              - { name: "title", label: "Person Title", widget: "string", required: false }
+              - { name: "text", label: "Recommendation Text", widget: "text", required: false }
               - { name: "pdfFile", label: "PDF File", widget: "string", required: false }
               - { name: "buttonText", label: "Button Text", widget: "string", required: false }
           - name: "contact"
             label: "Contact Section"
             widget: "object"
             fields:
-              - { name: "title", label: "Section Title", widget: "string" }
-              - { name: "headline", label: "Main Headline", widget: "string" }
-              - { name: "tagline", label: "Tagline", widget: "string" }
+              - { name: "title", label: "Section Title", widget: "string", required: false }
+              - { name: "headline", label: "Main Headline", widget: "string", required: false }
+              - { name: "tagline", label: "Tagline", widget: "string", required: false }
               - name: "items"
                 label: "Contact Items"
                 widget: "list"
+                required: false
                 fields:
-                  - { name: "label", label: "Label", widget: "string" }
-                  - { name: "value", label: "Value/Text", widget: "string" }
+                  - { name: "label", label: "Label", widget: "string", required: false }
+                  - { name: "value", label: "Value/Text", widget: "string", required: false }
                   - { name: "href", label: "Link (optional)", widget: "string", required: false }
