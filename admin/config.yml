@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: kelseytietjen-tech/portfolio
-  branch: main
+  branch: stryker
 
 media_folder: "/"
 public_folder: "/"
