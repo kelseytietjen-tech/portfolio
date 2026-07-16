@@ -1,16 +1,20 @@
 {
+  "resumeLink": {
+    "url": "Kelsey_Tietjen_Resume.pdf",
+    "label": "View Full Resume"
+  },
   "hero": {
     "eyebrow": "Enterprise Healthcare Technology · Goldman Sachs Alum · Licensed EMT · DFW",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "tagline": "Strategic. Activator. Focus. Competition. Significance.",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
+    "title": "Why medical sales, why Smart Care",
     "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "body": "I spent most of my career in institutional finance, most recently at Goldman Sachs managing multi million dollar client relationships. When I left to be a full time parent, I always felt something missing.\n\nAfter witnessing a life and death situation, I got my EMT license. I spent countless hours in hospitals, including one rotation assisting a physician during emergency surgery, and kept noticing the same problem: nurses stretched too thin, physicians pulled in every direction, so many alarms and so much noise, patients waiting on a response that should have come faster.\n\nA friend later told me my personality was built for medical sales, and it clicked. The first thing I did was look for a product I could genuinely stand behind. That's how I found Smart Care. I know the ripple effect of what even one of these products can mean for a hospital, and I want to be part of Smart Care finding its way into as many places as it can, improving results for patients, clinicians, hospitals, and beyond."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -88,21 +92,21 @@
   "startStories": [
     {
       "id": "executive-presence",
-      "title": "The Room With No Margin for Error",
-      "teaser": "At Goldman Sachs I managed contracts where a single misread detail could cost a relationship, and that pressure built the kind of executive presence that travels from the OR to the C suite.",
-      "body": "At Goldman Sachs I managed syndicated loan contracts and presented directly to institutional clients and internal stakeholders. The contracts ran hundreds of pages of dense legal language, and a single misread detail could cost the relationship real money and real trust.\n\nI learned to read every contract front to back before I ever sat across from a client, so I could speak with the same confidence a senior decision maker expected from someone above my level. I anticipated their concerns before they raised them, translated complexity into plain terms, and held their trust through some of the most complex processes on the desk.\n\nThat built real executive presence, not the polished kind that only shows up in a boardroom, but the kind that holds steady with anyone from a scrub tech to a C suite executive. What that experience taught me is that presence isn't a personality trait, it's built one accurate, well prepared conversation at a time. That's exactly the discipline it takes to close deals in medical sales."
+      "title": "Executive and C-Suite Relationship Building",
+      "teaser": "At Goldman Sachs, a single misread detail could cost a relationship. That discipline built the executive presence I bring to every stakeholder, from scrub tech to C-suite.",
+      "body": "At Goldman Sachs, I managed syndicated loan contracts and presented directly to institutional clients and internal stakeholders, where a single misread detail could cost the trust of the relationship. That built real executive presence, the ability to confidently talk with senior decision makers, anticipate their concerns, and hold their trust through a complex process. I bring that same discipline to building relationships from scrub techs to C-suite that close deals."
     },
     {
       "id": "territory-strategy",
-      "title": "The Territory Strategy That Traveled",
-      "teaser": "During an eighteen month volunteer assignment I inherited a territory everyone had given up on, and the strategy that turned it around is the same one I'm using to study Smart Care.",
-      "body": "During an 18 month volunteer representative role across Nebraska, Iowa, and South Dakota, our quota was defined by how many people we could convert into members of our organization. I inherited a territory that was underperforming, and the obvious approaches weren't working.\n\nI turned it around through territory research, stakeholder mapping, active listening for the actual need behind every objection, and enough flexibility to change course when the direct path didn't work. Looking back, that's my Gallup Strategic strength showing up before I had a name for it.\n\nThat same instinct is how I approached Smart Care. I studied the platform's wearables and workflow tools, not because I had to, but because I found a product I genuinely believe in. I'd bring that same strategic approach to the team, and the same willingness to learn from coaching and feedback along the way, until I'm the best rep for my area."
+      "title": "Territory Strategy",
+      "teaser": "I inherited an underperforming territory and turned it into one of the best. That same strategic instinct is how I've been studying Smart Care.",
+      "body": "During an 18 month volunteer representative role across Nebraska, Iowa, and South Dakota, our quota was defined by how many people we could convert into members of our organization. I inherited an underperforming territory and turned it into one of the best through territory research, stakeholder mapping, active listening for the need, and an adaptive approach when the obvious path didn't work, a skillset that comes directly from my Gallup Strategic strength.\n\nThat same instinct carried into how I approached Smart Care. Studying the platform's wearables and workflow tools, I found a product I genuinely believe in, and I'd bring that same strategic approach to the team, learning from coaching and feedback along the way to become the best rep for my area."
     },
     {
       "id": "sales-velocity",
-      "title": "The Moment No One Else Moved",
-      "teaser": "During an EMT rotation a surgeon called for help mid emergency, and I was the only student who moved. That instinct is exactly how I approach a sales cycle.",
-      "body": "As an EMT finishing in the top 5% of my class, I trained in emergency rooms alongside physicians. During one rotation the surgeon was mid procedure when he needed extra hands and called out instructions to the three EMT students watching from the corner of the room.\n\nThe nurses were occupied. Everyone hesitated for a beat, except me. I moved immediately, before I had time to think it through, because the preparation was already there and the need was already clear.\n\nThat's my Activator strength in practice: not waiting for certainty, but acting the moment the need is obvious. I bring that same instinct to a sales cycle, real strategic preparation up front, followed by the willingness to act the second the moment calls for it."
+      "title": "Sales Cycle Velocity",
+      "teaser": "During an emergency in the OR, I was the only student who moved. That instinct is exactly how I approach a sales cycle.",
+      "body": "As an EMT finishing in the top 5% of my class, I trained in emergency rooms alongside physicians. During one rotation, a doctor gave rapid instructions during an emergency surgery situation. With the nurses occupied, he told the three EMT students watching from the corner of the room to jump in and help. I was the only one who moved immediately. That's my Activator strength in practice, acting as soon as the need is clear. I bring that same instinct to a sales cycle: strategic preparation, then action."
     }
   ],
   "skills": [
@@ -128,47 +132,35 @@
       "company": "UT Dallas",
       "period": "Jun – Sep 2025",
       "title": "Emergency Medical Technician — Clinical Rotations",
-      "body": "Top 5% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
-      "bullets": [
-        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
-        "Maintained strict sterile and regulatory compliance during in-transit care",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
-      ]
+      "body": "Top 5% of class. Working alongside physicians in the ER, trauma bay, and in-transit care taught me to read a room fast, communicate clearly under pressure, and earn trust with people who have no time for hesitation. Assisting during a live emergency tracheotomy and stabilizing patients during a helipad to trauma bay handoff sharpened the same instinct that closes deals: stay calm, act decisively, and never lose the thread of what the person in front of you actually needs.",
+      "bullets": []
     },
     {
       "company": "Goldman Sachs",
       "period": "Apr 2021 – Mar 2023",
       "title": "Global Markets Analyst",
-      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
-      "bullets": [
-        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
-        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
-        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues",
-        "Resolved a critical invoicing discrepancy by independently identifying a contract misinterpretation and influencing internal leadership alignment, strengthening a senior stakeholder relationship"
-      ]
+      "body": "Managing 20+ institutional relationships across multi-million dollar syndicated loan portfolios, in a 70+ hour week with zero room for error, built the executive presence and precision that complex, multi stakeholder sales cycles demand. Independently catching a contract misinterpretation others missed, resolving it, and aligning internal leadership around the fix taught me how to hold a senior relationship together under pressure, not just maintain it.",
+      "bullets": []
     },
     {
       "company": "Vivint Solar",
       "period": "May 2019 – Apr 2020",
       "title": "Business Operations Analyst",
-      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
-      "bullets": [
-        "Diagnosed territory level performance gaps and built executive forecasting models using SQL, Snowflake, and Python to align with board level targets"
-      ]
+      "body": "Diagnosing territory level performance gaps and building executive forecasting models in SQL, Snowflake, and Python taught me how to turn raw data into a business case a C suite will actually act on. Sizing and selling a $2M+ opportunity to senior leadership takes the same skill set territory ownership and quota forecasting require: know the numbers cold, then make the case.",
+      "bullets": []
     },
     {
       "company": "CASA",
       "period": "Jan 2015 – Dec 2019",
       "title": "Executive Director (Volunteer) — BYU Chapter",
-      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
+      "body": "Leading a 5 person team overseeing 100+ volunteer advocates across a high stakes judicial environment built the cross functional coordination and stakeholder management skills required to keep a complex, multi party process moving toward the right outcome for everyone involved.",
       "bullets": []
     },
     {
       "company": "Volunteer Mission Service",
       "period": "Feb 2014 – Aug 2015",
       "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
-      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
+      "body": "Inheriting an underperforming 3 state territory and building it into one of the strongest through stakeholder mapping, active listening, and a CRM pipeline I built myself is the same territory strategy playbook I'd bring to a designated sales territory: research the ground, find the real need, and adapt when the obvious approach doesn't work.",
       "bullets": []
     }
   ],
