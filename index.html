@@ -186,8 +186,8 @@
 <!-- SIGNATURE STORIES -->
 <section class="stories-section">
   <div class="container">
-    <p class="section-label">Signature Stories</p>
-    <h2>Which experiences tell it best.</h2>
+    <p class="section-label">What I Bring to the Team</p>
+    <h2>Experiences to tell it best.</h2>
     <div class="stories-grid" id="stories-grid"></div>
   </div>
 </section>
@@ -224,6 +224,7 @@
   <div class="container">
     <p class="section-label">Experience</p>
     <h2>Where I've been. What I built.</h2>
+    <a href="#" id="resume-link" class="btn-secondary" target="_blank" style="margin-bottom: 2.5rem; display: inline-block;">View Full Resume</a>
     <div class="exp-list" id="exp-list"></div>
   </div>
 </section>
@@ -250,7 +251,7 @@
 fetch('portfolio-data.json')
   .then(r => r.json())
   .then(data => {
-    const { hero, narrative, credentials, experience, recommendations, contact, skills, startStories } = data;
+    const { hero, narrative, credentials, experience, recommendations, contact, skills, startStories, resumeLink } = data;
 
     // HERO
     if (hero) {
@@ -440,6 +441,15 @@ fetch('portfolio-data.json')
         `;
         skillsGrid.appendChild(card);
       });
+    }
+
+    // RESUME LINK
+    if (resumeLink) {
+      const link = document.getElementById('resume-link');
+      if (link) {
+        link.href = resumeLink.url || '#';
+        link.textContent = resumeLink.label || 'View Full Resume';
+      }
     }
 
     // EXPERIENCE
