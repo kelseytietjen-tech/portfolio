@@ -1,530 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kelsey Tietjen | Medical Sales</title>
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://kelseytietjen.pages.dev">
-<meta property="og:title" content="Kelsey Tietjen | Medical Sales">
-<meta property="og:description" content="Goldman Sachs alum, licensed EMT, and medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
-<meta property="og:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kelsey Tietjen | Medical Sales">
-<meta name="twitter:description" content="Goldman Sachs alum, licensed EMT, and medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --cream: #EEF1F5;
-    --warm-white: #FFFFFF;
-    --charcoal: #1B365D;
-    --mid: #4A5A72;
-    --light: #8D98A8;
-    --accent: #FFB600;
-    --accent-light: #FFCB4D;
-    --border: #DCE3EA;
+{
+  "hero": {
+    "eyebrow": "Enterprise Healthcare Technology · Goldman Sachs Alum · Licensed EMT · DFW",
+    "name": "Kelsey",
+    "nameEmphasis": "Tietjen",
+    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
+    "email": "kelseytietjen@gmail.com"
+  },
+  "narrative": {
+    "title": "How do you just make things happen?",
+    "highlight": "",
+    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+  },
+  "credentials": {
+    "title": "The foundation behind the pitch.",
+    "items": [
+      {
+        "number": "20+",
+        "label": "Client Relationships",
+        "description": "20+ institutional accounts managed with zero defect accuracy, resolving contract disputes and strengthening executive trust at Goldman Sachs"
+      },
+      {
+        "number": "Top 5%",
+        "label": "EMT Program",
+        "description": "UT Dallas EMT certification with hands-on clinical rotations in emergency, surgical, and in-transit care"
+      },
+      {
+        "number": "$2M+",
+        "label": "Opportunity Identified",
+        "description": "Sized and sold a $2M+ business case directly to C suite leadership at Vivint, securing executive buy in on resource reallocation"
+      },
+      {
+        "number": "18mo",
+        "label": "Field Representative",
+        "description": "Built and deployed CRM pipelines across a 3 state territory, turning underperformance into consistent quota attainment"
+      },
+      {
+        "number": "100+",
+        "label": "Volunteer Advocates Led",
+        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
+      },
+      {
+        "number": "42K+",
+        "label": "ZIP Codes Analyzed",
+        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "brock",
+      "label": "Stryker",
+      "name": "Brock Frazer",
+      "title": "Marketing Manager, Stryker",
+      "text": "She brings the kind of drive, curiosity, and relationship-building mindset that translates to medical sales success.",
+      "pdfFile": null,
+      "buttonText": null
+    },
+    {
+      "id": "spencer",
+      "label": "Stryker",
+      "name": "Spencer Curtis",
+      "title": "Product Manager, NPD, Stryker",
+      "text": "Kelsey has a unique drive, customer-first mindset and attention to detail that differentiates her from other candidates. She would perform with utmost accountability, integrity, and customer-centric mindset.",
+      "pdfFile": null,
+      "buttonText": null
+    },
+    {
+      "id": "adi",
+      "label": "EMT Instructor",
+      "name": "Aditya Kanakasabapathy",
+      "title": "EMT Instructor, University of Texas at Dallas",
+      "text": "She is capable of having a conversation about medical products with the relevant professionals on a really intelligent level, viewed through the patient care and clinical realities lens, which will facilitate her making a true connection with healthcare professionals.",
+      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
+      "buttonText": "View Full Letter"
+    },
+    {
+      "id": "justin",
+      "label": "iRhythm",
+      "name": "Justin Atchison",
+      "title": "Territory Manager, iRhythm Technologies",
+      "text": "I was immediately impressed by her communication skills, her genuine curiosity about the industry, and her potential as a sales professional. She asked thoughtful questions about the clinical side and showed real interest in how it impacts physicians and patients.",
+      "pdfFile": "Letter_of_Recommendation_Kelsey_Tietjen_iRhythm.pdf",
+      "buttonText": "View Full Letter"
+    }
+  ],
+  "startStories": [
+    {
+      "id": "executive-presence",
+      "title": "The Room With No Margin for Error",
+      "teaser": "At Goldman Sachs I managed contracts where a single misread detail could cost a relationship, and that pressure built the kind of executive presence that travels from the OR to the C suite.",
+      "body": "At Goldman Sachs I managed syndicated loan contracts and presented directly to institutional clients and internal stakeholders. The contracts ran hundreds of pages of dense legal language, and a single misread detail could cost the relationship real money and real trust.\n\nI learned to read every contract front to back before I ever sat across from a client, so I could speak with the same confidence a senior decision maker expected from someone above my level. I anticipated their concerns before they raised them, translated complexity into plain terms, and held their trust through some of the most complex processes on the desk.\n\nThat built real executive presence, not the polished kind that only shows up in a boardroom, but the kind that holds steady with anyone from a scrub tech to a C suite executive. What that experience taught me is that presence isn't a personality trait, it's built one accurate, well prepared conversation at a time. That's exactly the discipline it takes to close deals in medical sales."
+    },
+    {
+      "id": "territory-strategy",
+      "title": "The Territory Strategy That Traveled",
+      "teaser": "During an eighteen month volunteer assignment I inherited a territory everyone had given up on, and the strategy that turned it around is the same one I'm using to study Smart Care.",
+      "body": "During an 18 month volunteer representative role across Nebraska, Iowa, and South Dakota, our quota was defined by how many people we could convert into members of our organization. I inherited a territory that was underperforming, and the obvious approaches weren't working.\n\nI turned it around through territory research, stakeholder mapping, active listening for the actual need behind every objection, and enough flexibility to change course when the direct path didn't work. Looking back, that's my Gallup Strategic strength showing up before I had a name for it.\n\nThat same instinct is how I approached Smart Care. I studied the platform's wearables and workflow tools, not because I had to, but because I found a product I genuinely believe in. I'd bring that same strategic approach to the team, and the same willingness to learn from coaching and feedback along the way, until I'm the best rep for my area."
+    },
+    {
+      "id": "sales-velocity",
+      "title": "The Moment No One Else Moved",
+      "teaser": "During an EMT rotation a surgeon called for help mid emergency, and I was the only student who moved. That instinct is exactly how I approach a sales cycle.",
+      "body": "As an EMT finishing in the top 5% of my class, I trained in emergency rooms alongside physicians. During one rotation the surgeon was mid procedure when he needed extra hands and called out instructions to the three EMT students watching from the corner of the room.\n\nThe nurses were occupied. Everyone hesitated for a beat, except me. I moved immediately, before I had time to think it through, because the preparation was already there and the need was already clear.\n\nThat's my Activator strength in practice: not waiting for certainty, but acting the moment the need is obvious. I bring that same instinct to a sales cycle, real strategic preparation up front, followed by the willingness to act the second the moment calls for it."
+    }
+  ],
+  "skills": [
+    {
+      "label": "Clinical",
+      "items": "Physician engagement · Hospital systems navigation · High acuity clinical fluency · Patient-facing experience · EMT certified"
+    },
+    {
+      "label": "Execution",
+      "items": "Territory ownership · Complex sales cycle management · CRM pipeline management · Forecasting and quota attainment · Data-driven decisions"
+    },
+    {
+      "label": "Stakeholder",
+      "items": "Executive and C suite stakeholder management · Consultative selling · Cross-functional collaboration · Negotiation and deal closing · Trust building"
+    },
+    {
+      "label": "Languages & Credentials",
+      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
+    }
+  ],
+  "experience": [
+    {
+      "company": "UT Dallas",
+      "period": "Jun – Sep 2025",
+      "title": "Emergency Medical Technician — Clinical Rotations",
+      "body": "Top 5% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
+      "bullets": [
+        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
+        "Maintained strict sterile and regulatory compliance during in-transit care",
+        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
+        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
+      ]
+    },
+    {
+      "company": "Goldman Sachs",
+      "period": "Apr 2021 – Mar 2023",
+      "title": "Global Markets Analyst",
+      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
+      "bullets": [
+        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
+        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
+        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues",
+        "Resolved a critical invoicing discrepancy by independently identifying a contract misinterpretation and influencing internal leadership alignment, strengthening a senior stakeholder relationship"
+      ]
+    },
+    {
+      "company": "Vivint Solar",
+      "period": "May 2019 – Apr 2020",
+      "title": "Business Operations Analyst",
+      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
+      "bullets": [
+        "Diagnosed territory level performance gaps and built executive forecasting models using SQL, Snowflake, and Python to align with board level targets"
+      ]
+    },
+    {
+      "company": "CASA",
+      "period": "Jan 2015 – Dec 2019",
+      "title": "Executive Director (Volunteer) — BYU Chapter",
+      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
+      "bullets": []
+    },
+    {
+      "company": "Volunteer Mission Service",
+      "period": "Feb 2014 – Aug 2015",
+      "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
+      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
+      "bullets": []
+    }
+  ],
+  "contact": {
+    "title": "Let's Connect",
+    "headline": "I'd love to hear from you.",
+    "tagline": "\"Built to close complex deals, one trusted relationship at a time.\"",
+    "items": [
+      {
+        "label": "Email",
+        "value": "kelseytietjen@gmail.com",
+        "href": "mailto:kelseytietjen@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "(385) 207-5272",
+        "href": "tel:3852075272"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/kelseytietjen",
+        "href": "https://www.linkedin.com/in/kelseytietjen"
+      },
+      {
+        "label": "Location",
+        "value": "Dallas-Fort Worth, Texas",
+        "href": null
+      }
+    ]
   }
-  html { scroll-behavior: smooth; }
-  body { font-family: 'DM Sans', sans-serif; background: var(--warm-white); color: var(--charcoal); font-size: 15px; line-height: 1.7; }
-  .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; }
-  .hero-left { background: var(--charcoal); display: flex; align-items: center; justify-content: center; padding: 4rem; position: relative; }
-  .hero-left::after { content: ''; position: absolute; top: 0; right: -1px; width: 60px; height: 100%; background: var(--warm-white); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
-  .hero-photo { width: 100%; max-width: 380px; aspect-ratio: 3/4; object-fit: cover; object-position: top; filter: grayscale(20%) contrast(1.05); }
-  .hero-right { display: flex; flex-direction: column; justify-content: center; padding: 5rem 4rem 5rem 5rem; background: var(--warm-white); }
-  .eyebrow { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; }
-  h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.05; color: var(--charcoal); margin-bottom: 0.5rem; }
-  h1 em { font-style: italic; color: var(--accent); }
-  .hero-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--mid); margin-bottom: 2rem; font-weight: 300; }
-  .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.5rem; }
-  .pill { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 14px; border: 1px solid var(--border); color: var(--mid); background: var(--cream); }
-  .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; }
-  .btn-primary { display: inline-block; background: var(--charcoal); color: var(--warm-white); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
-  .btn-primary:hover { background: var(--accent); }
-  .btn-secondary { display: inline-block; border: 1px solid var(--charcoal); color: var(--charcoal); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
-  .btn-secondary:hover { background: var(--charcoal); color: var(--warm-white); }
-  section { padding: 6rem 0; }
-  .container { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
-  .section-label { font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
-  h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; line-height: 1.2; margin-bottom: 2rem; }
-  .narrative-section { background: var(--cream); }
-  .narrative-grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 4rem; align-items: start; }
-  .narrative-sticky { position: sticky; top: 4rem; }
-  .narrative-body p { color: var(--mid); margin-bottom: 1.5rem; font-size: 15px; line-height: 1.85; }
-  .narrative-body p:last-child { margin-bottom: 0; }
-  .highlight-text { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-style: italic; color: var(--charcoal); line-height: 1.5; margin-bottom: 1.5rem; }
-  .credentials { background: var(--charcoal); color: var(--warm-white); }
-  .credentials h2 { color: var(--warm-white); }
-  .credentials .section-label { color: var(--accent-light); }
-  .cred-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; }
-  .cred-item { background: rgba(255,255,255,0.04); padding: 2.5rem 2rem; border: 1px solid rgba(255,255,255,0.08); transition: background 0.2s; }
-  .cred-item:hover { background: rgba(255,255,255,0.08); }
-  .cred-number { font-family: 'Cormorant Garamond', serif; font-size: 3rem; font-weight: 300; color: var(--accent-light); line-height: 1; margin-bottom: 0.5rem; }
-  .cred-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.75rem; }
-  .cred-desc { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.6; }
-  .recommendations-section { background: var(--warm-white); }
-  .rec-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 3rem; }
-  .rec-card { background: var(--cream); border: 1px solid var(--border); padding: 2rem; transition: background 0.2s; display: flex; flex-direction: column; }
-  .rec-card:hover { background: #E4EAF2; }
-  .rec-card-content { flex-grow: 1; }
-  .rec-card-buttons { margin-top: 1.5rem; display: flex; gap: 0.75rem; }
-  .btn-view-letter-small { background: var(--accent); color: var(--warm-white); padding: 10px 20px; font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.2s; }
-  .btn-view-letter-small:hover { background: var(--accent-light); }
-  .rec-quote { font-size: 14px; color: var(--charcoal); line-height: 1.8; font-style: italic; margin-bottom: 1rem; }
-  .rec-attribution { font-size: 12px; color: var(--light); font-weight: 500; }
-
-  /* SIGNATURE STORIES */
-  .stories-section { background: var(--charcoal); color: var(--warm-white); }
-  .stories-section h2 { color: var(--warm-white); }
-  .stories-section .section-label { color: var(--accent-light); }
-  .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.08); }
-  .story-card { background: #1F3A61; padding: 2.25rem; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; }
-  .story-card:hover { background: #274A78; }
-  .story-card-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--warm-white); margin-bottom: 1rem; line-height: 1.25; }
-  .story-card-teaser { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.75; flex-grow: 1; margin-bottom: 1.5rem; }
-  .story-card-cta { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-light); }
-  .story-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: var(--charcoal); overflow-y: auto; }
-  .story-modal.show { display: block; }
-  .story-modal-inner { max-width: 780px; margin: 0 auto; padding: 4rem 3rem 6rem; }
-  .story-modal-back { display: inline-flex; align-items: center; gap: 8px; background: none; border: none; color: rgba(255,255,255,0.6); font-size: 13px; font-family: 'DM Sans', sans-serif; cursor: pointer; margin-bottom: 2.5rem; padding: 0; transition: color 0.2s; }
-  .story-modal-back:hover { color: var(--accent-light); }
-  .story-modal-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 400; color: var(--warm-white); margin-bottom: 2rem; line-height: 1.15; }
-  .story-modal-body p { color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.9; margin-bottom: 1.4rem; }
-  .story-modal-body p:last-child { margin-bottom: 0; }
-
-  .skills-section { background: var(--cream); padding: 6rem 0; }
-  .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 3rem; }
-  .skill-card { background: var(--warm-white); border: 1px solid var(--border); padding: 2rem; }
-  .skill-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
-  .skill-items { font-size: 14px; color: var(--mid); line-height: 1.8; }
-  .experience-section { background: var(--warm-white); }
-  .exp-list { margin-top: 3rem; }
-  .exp-item { display: grid; grid-template-columns: 200px 1fr; gap: 3rem; padding: 2.5rem 0; border-top: 1px solid var(--border); }
-  .exp-item:last-child { border-bottom: 1px solid var(--border); }
-  .exp-meta { padding-top: 4px; }
-  .exp-company { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.4rem; }
-  .exp-period { font-size: 12px; color: var(--light); }
-  .exp-title { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; margin-bottom: 0.75rem; color: var(--charcoal); }
-  .exp-body { font-size: 14px; color: var(--mid); line-height: 1.75; }
-  .exp-bullets { margin-top: 0.75rem; padding-left: 1rem; }
-  .exp-bullets li { font-size: 13px; color: var(--mid); margin-bottom: 0.4rem; line-height: 1.6; }
-  .contact-section { background: var(--charcoal); color: var(--warm-white); padding: 5rem 0; }
-  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
-  .contact-section h2 { color: var(--warm-white); }
-  .contact-section .section-label { color: var(--accent-light); }
-  .contact-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-style: italic; color: rgba(255,255,255,0.5); margin-top: 1rem; }
-  .contact-details { display: flex; flex-direction: column; gap: 1.5rem; }
-  .contact-item { display: flex; flex-direction: column; gap: 4px; }
-  .contact-item-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-light); }
-  .contact-item-value { font-size: 15px; color: rgba(255,255,255,0.85); text-decoration: none; }
-  .contact-item-value:hover { color: var(--accent-light); }
-  .divider { width: 40px; height: 1px; background: var(--accent); margin: 1.5rem 0; }
-  @media (max-width: 768px) {
-    .hero { grid-template-columns: 1fr; min-height: auto; }
-    .hero-left { min-height: 50vh; }
-    .hero-left::after { display: none; }
-    .hero-right { padding: 3rem 2rem; }
-    .narrative-grid { grid-template-columns: 1fr; gap: 2rem; }
-    .narrative-sticky { position: static; }
-    .cred-grid { grid-template-columns: 1fr; }
-    .exp-item { grid-template-columns: 1fr; gap: 0.5rem; }
-    .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
-    .container { padding: 0 1.5rem; }
-    section { padding: 4rem 0; }
-    .rec-grid { grid-template-columns: 1fr; }
-    .skills-grid { grid-template-columns: 1fr; }
-    .stories-grid { grid-template-columns: 1fr; }
-    .story-modal-inner { padding: 3rem 1.5rem 4rem; }
-  }
-  .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
-  .fade-in.visible { opacity: 1; transform: translateY(0); }
-  .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 2rem 1rem; }
-  .modal.show { display: flex; align-items: center; justify-content: center; }
-  .modal-content { background-color: var(--warm-white); padding: 2rem; width: 95vw; max-width: 1200px; height: 90vh; overflow-y: auto; position: relative; }
-  .modal-close { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 28px; font-weight: bold; color: var(--charcoal); cursor: pointer; z-index: 1001; }
-  .modal-close:hover { color: var(--accent); }
-</style>
-</head>
-<body>
-
-<!-- HERO -->
-<section class="hero" id="hero-section">
-  <div class="hero-left">
-    <img src="headshot.png" alt="Kelsey Tietjen" class="hero-photo" id="hero-photo">
-  </div>
-  <div class="hero-right">
-    <p class="eyebrow" id="hero-eyebrow"></p>
-    <h1 id="hero-name-wrap"></h1>
-    <p class="hero-tagline" id="hero-tagline"></p>
-    <div class="divider"></div>
-    <div class="cta-row" id="hero-cta"></div>
-  </div>
-</section>
-
-<!-- NARRATIVE -->
-<section class="narrative-section">
-  <div class="container">
-    <div class="narrative-grid">
-      <div class="narrative-sticky fade-in">
-        <p class="section-label">My Story</p>
-        <h2 id="narrative-title"></h2>
-        <div class="divider"></div>
-      </div>
-      <div class="narrative-body fade-in" id="narrative-body"></div>
-    </div>
-  </div>
-</section>
-
-<!-- SIGNATURE STORIES -->
-<section class="stories-section">
-  <div class="container">
-    <p class="section-label">Signature Stories</p>
-    <h2>Which experiences tell it best.</h2>
-    <div class="stories-grid" id="stories-grid"></div>
-  </div>
-</section>
-
-<!-- RECOMMENDATIONS -->
-<section class="recommendations-section">
-  <div class="container">
-    <p class="section-label">Recommendations</p>
-    <h2>What others are saying.</h2>
-    <div class="rec-grid" id="rec-grid"></div>
-  </div>
-</section>
-
-<!-- CREDENTIALS / BY THE NUMBERS -->
-<section class="credentials">
-  <div class="container">
-    <p class="section-label">By the Numbers</p>
-    <h2 id="credentials-title"></h2>
-    <div class="cred-grid" id="cred-grid"></div>
-  </div>
-</section>
-
-<!-- SKILLS & STRENGTHS -->
-<section class="skills-section">
-  <div class="container">
-    <p class="section-label">Skills &amp; Strengths</p>
-    <h2>What I bring to the table.</h2>
-    <div class="skills-grid" id="skills-grid"></div>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section class="experience-section">
-  <div class="container">
-    <p class="section-label">Experience</p>
-    <h2>Where I've been. What I built.</h2>
-    <div class="exp-list" id="exp-list"></div>
-  </div>
-</section>
-
-<!-- MODALS (rendered dynamically) -->
-<div id="modals-container"></div>
-<div id="story-modals-container"></div>
-
-<!-- CONTACT -->
-<section class="contact-section">
-  <div class="container">
-    <div class="contact-inner">
-      <div class="fade-in">
-        <p class="section-label" id="contact-section-label"></p>
-        <h2 id="contact-headline"></h2>
-        <p class="contact-tagline" id="contact-tagline"></p>
-      </div>
-      <div class="contact-details fade-in" id="contact-details"></div>
-    </div>
-  </div>
-</section>
-
-<script>
-fetch('portfolio-data.json')
-  .then(r => r.json())
-  .then(data => {
-    const { hero, narrative, credentials, experience, recommendations, contact, skills, startStories } = data;
-
-    // HERO
-    if (hero) {
-      const eyebrow = document.getElementById('hero-eyebrow');
-      if (eyebrow) eyebrow.textContent = hero.eyebrow || '';
-
-      const nameWrap = document.getElementById('hero-name-wrap');
-      if (nameWrap && hero.name) {
-        nameWrap.innerHTML = hero.name + '<br><em>' + (hero.nameEmphasis || '') + '</em>';
-      }
-
-      const tagline = document.getElementById('hero-tagline');
-      if (tagline) tagline.textContent = hero.tagline || '';
-
-      const cta = document.getElementById('hero-cta');
-      if (cta) {
-        cta.innerHTML = '';
-        if (hero.linkedinUrl) {
-          const a1 = document.createElement('a');
-          a1.href = hero.linkedinUrl;
-          a1.target = '_blank';
-          a1.className = 'btn-primary';
-          a1.textContent = 'View LinkedIn';
-          cta.appendChild(a1);
-        }
-        if (hero.email) {
-          const a2 = document.createElement('a');
-          a2.href = 'mailto:' + hero.email;
-          a2.className = 'btn-secondary';
-          a2.textContent = 'Get in Touch';
-          cta.appendChild(a2);
-        }
-      }
-    }
-
-    // NARRATIVE
-    if (narrative) {
-      const title = document.getElementById('narrative-title');
-      if (title) title.textContent = narrative.title || '';
-
-      const body = document.getElementById('narrative-body');
-      if (body && narrative.body) {
-        const paras = narrative.body.split('\n\n').filter(p => p.trim());
-        body.innerHTML = '';
-        if (narrative.highlight) {
-          const hi = document.createElement('p');
-          hi.className = 'highlight-text';
-          hi.textContent = narrative.highlight;
-          body.appendChild(hi);
-        }
-        paras.forEach(p => {
-          const el = document.createElement('p');
-          el.textContent = p.trim();
-          body.appendChild(el);
-        });
-      }
-    }
-
-    // CREDENTIALS
-    if (credentials) {
-      const title = document.getElementById('credentials-title');
-      if (title) title.textContent = credentials.title || '';
-
-      const grid = document.getElementById('cred-grid');
-      if (grid && credentials.items) {
-        grid.innerHTML = '';
-        credentials.items.forEach(item => {
-          const div = document.createElement('div');
-          div.className = 'cred-item fade-in';
-          div.innerHTML = `
-            <div class="cred-number">${item.number || ''}</div>
-            <div class="cred-label">${item.label || ''}</div>
-            <div class="cred-desc">${item.description || ''}</div>
-          `;
-          grid.appendChild(div);
-        });
-      }
-    }
-
-    // RECOMMENDATIONS + MODALS
-    if (recommendations) {
-      const grid = document.getElementById('rec-grid');
-      const modals = document.getElementById('modals-container');
-      if (grid) grid.innerHTML = '';
-      if (modals) modals.innerHTML = '';
-
-      recommendations.forEach((rec, i) => {
-        const card = document.createElement('div');
-        card.className = 'rec-card fade-in';
-
-        const content = document.createElement('div');
-        content.className = 'rec-card-content';
-        content.innerHTML = `
-          <div class="rec-quote">"${rec.text || ''}"</div>
-          <div class="rec-attribution">— ${rec.name || ''}, ${rec.title || ''}</div>
-        `;
-        card.appendChild(content);
-
-        if (rec.pdfFile) {
-          const modalId = 'modal-' + (rec.id || i);
-          const btns = document.createElement('div');
-          btns.className = 'rec-card-buttons';
-          const btn = document.createElement('button');
-          btn.className = 'btn-view-letter-small';
-          btn.textContent = rec.buttonText || 'View Full Letter';
-          btn.onclick = () => document.getElementById(modalId).classList.add('show');
-          btns.appendChild(btn);
-          card.appendChild(btns);
-
-          // Build modal
-          const modal = document.createElement('div');
-          modal.id = modalId;
-          modal.className = 'modal';
-          modal.innerHTML = `
-            <div class="modal-content">
-              <span class="modal-close">&times;</span>
-              <iframe src="${rec.pdfFile}" width="100%" height="100%" style="border:none;border-radius:4px;"></iframe>
-            </div>
-          `;
-          modal.querySelector('.modal-close').onclick = () => modal.classList.remove('show');
-          modal.onclick = (e) => { if (e.target === modal) modal.classList.remove('show'); };
-          if (modals) modals.appendChild(modal);
-        }
-
-        if (grid) grid.appendChild(card);
-      });
-    }
-
-    // SIGNATURE STORIES + MODALS
-    if (startStories) {
-      const grid = document.getElementById('stories-grid');
-      const modals = document.getElementById('story-modals-container');
-      if (grid) grid.innerHTML = '';
-      if (modals) modals.innerHTML = '';
-
-      startStories.forEach((story, i) => {
-        const modalId = 'story-modal-' + (story.id || i);
-
-        const card = document.createElement('div');
-        card.className = 'story-card fade-in';
-        card.innerHTML = `
-          <div class="story-card-title">${story.title || ''}</div>
-          <div class="story-card-teaser">${story.teaser || ''}</div>
-          <div class="story-card-cta">Read More...</div>
-        `;
-        card.onclick = () => document.getElementById(modalId).classList.add('show');
-        if (grid) grid.appendChild(card);
-
-        const bodyParas = (story.body || '').split('\n\n').filter(p => p.trim());
-        const bodyHTML = bodyParas.map(p => `<p>${p.trim()}</p>`).join('');
-
-        const modal = document.createElement('div');
-        modal.id = modalId;
-        modal.className = 'story-modal';
-        modal.innerHTML = `
-          <div class="story-modal-inner">
-            <button class="story-modal-back">&#8592; Back</button>
-            <h3 class="story-modal-title">${story.title || ''}</h3>
-            <div class="story-modal-body">${bodyHTML}</div>
-          </div>
-        `;
-        modal.querySelector('.story-modal-back').onclick = () => modal.classList.remove('show');
-        if (modals) modals.appendChild(modal);
-      });
-    }
-
-    // SKILLS
-    const skillsGrid = document.getElementById('skills-grid');
-    if (skillsGrid) {
-      skillsGrid.innerHTML = '';
-
-      const skillItems = (skills && skills.length)
-        ? skills
-        : [
-            { label: 'Clinical', items: 'Physician communication · Clinical fluency · Oncology familiarity · Patient-facing experience · EMT certified' },
-            { label: 'Execution', items: 'Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management' },
-            { label: 'Stakeholder', items: 'Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building' },
-            { label: 'Languages & Credentials', items: 'Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified' }
-          ];
-
-      skillItems.forEach(s => {
-        const card = document.createElement('div');
-        card.className = 'skill-card fade-in';
-        card.innerHTML = `
-          <div class="skill-label">${s.label || ''}</div>
-          <div class="skill-items">${s.items || ''}</div>
-        `;
-        skillsGrid.appendChild(card);
-      });
-    }
-
-    // EXPERIENCE
-    if (experience) {
-      const list = document.getElementById('exp-list');
-      if (list) {
-        list.innerHTML = '';
-        experience.forEach(job => {
-          const item = document.createElement('div');
-          item.className = 'exp-item fade-in';
-
-          let bulletsHTML = '';
-          if (job.bullets && job.bullets.length) {
-            bulletsHTML = '<ul class="exp-bullets">' +
-              job.bullets.map(b => `<li>${b}</li>`).join('') +
-              '</ul>';
-          }
-
-          item.innerHTML = `
-            <div class="exp-meta">
-              <div class="exp-company">${job.company || ''}</div>
-              <div class="exp-period">${job.period || ''}</div>
-            </div>
-            <div>
-              <div class="exp-title">${job.title || ''}</div>
-              <div class="exp-body">${job.body || ''}</div>
-              ${bulletsHTML}
-            </div>
-          `;
-          list.appendChild(item);
-        });
-      }
-    }
-
-    // CONTACT
-    if (contact) {
-      const label = document.getElementById('contact-section-label');
-      if (label) label.textContent = contact.title || "Let's Connect";
-
-      const headline = document.getElementById('contact-headline');
-      if (headline) headline.textContent = contact.headline || "I'd love to hear from you.";
-
-      const tagline = document.getElementById('contact-tagline');
-      if (tagline) tagline.textContent = contact.tagline || '';
-
-      const details = document.getElementById('contact-details');
-      if (details && contact.items) {
-        details.innerHTML = '';
-        contact.items.forEach(item => {
-          const div = document.createElement('div');
-          div.className = 'contact-item';
-          const label = document.createElement('span');
-          label.className = 'contact-item-label';
-          label.textContent = item.label || '';
-          div.appendChild(label);
-
-          if (item.href) {
-            const a = document.createElement('a');
-            a.href = item.href;
-            a.className = 'contact-item-value';
-            if (item.href.startsWith('http')) a.target = '_blank';
-            a.textContent = item.value || '';
-            div.appendChild(a);
-          } else {
-            const span = document.createElement('span');
-            span.className = 'contact-item-value';
-            span.textContent = item.value || '';
-            div.appendChild(span);
-          }
-          details.appendChild(div);
-        });
-      }
-    }
-
-    // Fade-in observer
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry, i) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => entry.target.classList.add('visible'), i * 80);
-        }
-      });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-  })
-  .catch(err => console.error('Failed to load portfolio-data.json:', err));
-</script>
-</body>
-</html>
+}
