@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "eyebrow": "Stryker Smart Care · Goldman Sachs Alum · Licensed EMT · DFW",
+    "name": "Kelsey",
+    "nameEmphasis": "Tietjen",
+    "tagline": "Built for the room, the territory, and the trauma bay.",
+    "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
+    "email": "kelseytietjen@gmail.com"
+  },
+  "fitSection": {
+    "sectionLabel": "Why I'm a Fit",
+    "heading": "What Smart Care is looking for. What I bring.",
+    "items": [
+      {
+        "id": "csuite",
+        "postingLine": "Build and maintain executive and key customer relationships through the C-suite to build trust and close deals.",
+        "teaser": "At Goldman Sachs, a single misread detail could cost the trust of the relationship. That's where my executive presence was built.",
+        "body": "At Goldman Sachs, I managed syndicated loan contracts and presented directly to institutional clients and internal stakeholders, where a single misread detail could cost the trust of the relationship. That built real executive presence, the ability to confidently talk with senior decision makers, anticipate their concerns, and hold their trust through a complex process. I bring that same discipline to building relationships from scrub techs to C-suite that close deals."
+      },
+      {
+        "id": "territory",
+        "postingLine": "Plan and implement effective territory sales strategy required to progress deals through the process, staying informed on industry trends, competitor activity, and regulatory changes.",
+        "teaser": "I inherited a territory everyone else had written off, and turned it into one of the best.",
+        "body": "During an 18 month volunteer representative role across Nebraska, Iowa, and South Dakota, our quota was defined by how many people we could convert into members of our organization. I inherited an underperforming territory and turned it into one of the best through territory research, stakeholder mapping, active listening for the need, and an adaptive approach when the obvious path didn't work, a skillset that comes directly from my Gallup Strategic strength.\n\nThat same instinct carried into how I approached Smart Care. Studying the platform's wearables and workflow tools, I found a product I genuinely believe in, and I'd bring that same strategic approach to the team, learning from coaching and feedback along the way to become the best rep for my area."
+      },
+      {
+        "id": "velocity",
+        "postingLine": "Advance opportunities efficiently and with a sense of urgency through the sales cycle.",
+        "teaser": "A doctor needed hands to move, not think, and I was the only student who moved first.",
+        "body": "As an EMT finishing in the top 5% of my class, I trained in emergency rooms alongside physicians. During one rotation, a doctor gave rapid instructions during an emergency surgery situation. With the nurses occupied, he told the three EMT students watching from the corner of the room to jump in and help. I was the only one who moved immediately. That's my Activator strength in practice, acting as soon as the need is clear. I bring that same instinct to a sales cycle: strategic preparation, then action."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "headline": "I'd love to hear from you.",
+    "tagline": "\"Solving for the person across from me.\"",
+    "items": [
+      {
+        "label": "Email",
+        "value": "kelseytietjen@gmail.com",
+        "href": "mailto:kelseytietjen@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "(385) 207-5272",
+        "href": "tel:3852075272"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/kelseytietjen",
+        "href": "https://www.linkedin.com/in/kelseytietjen"
+      },
+      {
+        "label": "Location",
+        "value": "Dallas-Fort Worth, Texas",
+        "href": null
+      }
+    ]
+  }
+}

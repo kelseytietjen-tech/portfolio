@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelsey Tietjen | Stryker Smart Care</title>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kelseytietjen.pages.dev/stryker">
+<meta property="og:title" content="Kelsey Tietjen | Stryker Smart Care">
+<meta property="og:description" content="Goldman Sachs alum, licensed EMT, and medical sales professional in Dallas-Fort Worth. Built for the room, the territory, and the trauma bay.">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --cream: #F7F4EF;
+    --warm-white: #FDFBF8;
+    --charcoal: #1C1C1A;
+    --mid: #5C5A56;
+    --light: #9C9A96;
+    --accent: #8B6F4E;
+    --accent-light: #C4A882;
+    --border: #E8E4DC;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--warm-white); color: var(--charcoal); font-size: 15px; line-height: 1.7; }
+  .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; }
+  .hero-left { background: var(--charcoal); display: flex; align-items: center; justify-content: center; padding: 4rem; position: relative; }
+  .hero-left::after { content: ''; position: absolute; top: 0; right: -1px; width: 60px; height: 100%; background: var(--warm-white); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
+  .hero-photo { width: 100%; max-width: 380px; aspect-ratio: 3/4; object-fit: cover; object-position: top; filter: grayscale(20%) contrast(1.05); }
+  .hero-right { display: flex; flex-direction: column; justify-content: center; padding: 5rem 4rem 5rem 5rem; background: var(--warm-white); }
+  .eyebrow { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; }
+  h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.05; color: var(--charcoal); margin-bottom: 0.5rem; }
+  h1 em { font-style: italic; color: var(--accent); }
+  .hero-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--mid); margin-bottom: 2rem; font-weight: 300; }
+  .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn-primary { display: inline-block; background: var(--charcoal); color: var(--warm-white); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
+  .btn-primary:hover { background: var(--accent); }
+  .btn-secondary { display: inline-block; border: 1px solid var(--charcoal); color: var(--charcoal); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
+  .btn-secondary:hover { background: var(--charcoal); color: var(--warm-white); }
+  section { padding: 6rem 0; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
+  .section-label { font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
+  h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; line-height: 1.2; margin-bottom: 2rem; }
+  .divider { width: 40px; height: 1px; background: var(--accent); margin: 1.5rem 0; }
+
+  /* FIT SECTION (posting line + expand) */
+  .fit-section { background: var(--charcoal); color: var(--warm-white); }
+  .fit-section h2 { color: var(--warm-white); }
+  .fit-section .section-label { color: var(--accent-light); }
+  .fit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.08); }
+  .fit-card { background: #232320; padding: 2.25rem; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; }
+  .fit-card:hover { background: #2B2B27; }
+  .fit-card-posting { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; font-weight: 400; color: var(--accent-light); margin-bottom: 1.25rem; line-height: 1.4; }
+  .fit-card-teaser { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.75; flex-grow: 1; margin-bottom: 1.5rem; }
+  .fit-card-cta { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-light); }
+  .fit-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: var(--charcoal); overflow-y: auto; }
+  .fit-modal.show { display: block; }
+  .fit-modal-inner { max-width: 780px; margin: 0 auto; padding: 4rem 3rem 6rem; }
+  .fit-modal-back { display: inline-flex; align-items: center; gap: 8px; background: none; border: none; color: rgba(255,255,255,0.6); font-size: 13px; font-family: 'DM Sans', sans-serif; cursor: pointer; margin-bottom: 2.5rem; padding: 0; transition: color 0.2s; }
+  .fit-modal-back:hover { color: var(--accent-light); }
+  .fit-modal-posting { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(1.4rem, 3vw, 1.8rem); font-weight: 400; color: var(--accent-light); margin-bottom: 2rem; line-height: 1.4; }
+  .fit-modal-body p { color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.9; margin-bottom: 1.4rem; }
+  .fit-modal-body p:last-child { margin-bottom: 0; }
+
+  .contact-section { background: var(--cream); padding: 5rem 0; }
+  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+  .contact-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-style: italic; color: var(--mid); margin-top: 1rem; }
+  .contact-details { display: flex; flex-direction: column; gap: 1.5rem; }
+  .contact-item { display: flex; flex-direction: column; gap: 4px; }
+  .contact-item-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); }
+  .contact-item-value { font-size: 15px; color: var(--charcoal); text-decoration: none; }
+  .contact-item-value:hover { color: var(--accent); }
+
+  @media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-left { min-height: 50vh; }
+    .hero-left::after { display: none; }
+    .hero-right { padding: 3rem 2rem; }
+    .container { padding: 0 1.5rem; }
+    section { padding: 4rem 0; }
+    .fit-grid { grid-template-columns: 1fr; }
+    .fit-modal-inner { padding: 3rem 1.5rem 4rem; }
+    .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
+  }
+  .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero" id="hero-section">
+  <div class="hero-left">
+    <img src="headshot.png" alt="Kelsey Tietjen" class="hero-photo" id="hero-photo">
+  </div>
+  <div class="hero-right">
+    <p class="eyebrow" id="hero-eyebrow"></p>
+    <h1 id="hero-name-wrap"></h1>
+    <p class="hero-tagline" id="hero-tagline"></p>
+    <div class="divider"></div>
+    <div class="cta-row" id="hero-cta"></div>
+  </div>
+</section>
+
+<!-- WHY I'M A FIT -->
+<section class="fit-section">
+  <div class="container">
+    <p class="section-label" id="fit-label"></p>
+    <h2 id="fit-heading"></h2>
+    <div class="fit-grid" id="fit-grid"></div>
+  </div>
+</section>
+
+<!-- MODALS -->
+<div id="fit-modals-container"></div>
+
+<!-- CONTACT -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="fade-in">
+        <p class="section-label" id="contact-section-label"></p>
+        <h2 id="contact-headline"></h2>
+        <p class="contact-tagline" id="contact-tagline"></p>
+      </div>
+      <div class="contact-details fade-in" id="contact-details"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+fetch('stryker-data.json')
+  .then(r => r.json())
+  .then(data => {
+    const { hero, fitSection, contact } = data;
+
+    // HERO
+    if (hero) {
+      const eyebrow = document.getElementById('hero-eyebrow');
+      if (eyebrow) eyebrow.textContent = hero.eyebrow || '';
+
+      const nameWrap = document.getElementById('hero-name-wrap');
+      if (nameWrap && hero.name) {
+        nameWrap.innerHTML = hero.name + '<br><em>' + (hero.nameEmphasis || '') + '</em>';
+      }
+
+      const tagline = document.getElementById('hero-tagline');
+      if (tagline) tagline.textContent = hero.tagline || '';
+
+      const cta = document.getElementById('hero-cta');
+      if (cta) {
+        cta.innerHTML = '';
+        if (hero.linkedinUrl) {
+          const a1 = document.createElement('a');
+          a1.href = hero.linkedinUrl;
+          a1.target = '_blank';
+          a1.className = 'btn-primary';
+          a1.textContent = 'View LinkedIn';
+          cta.appendChild(a1);
+        }
+        if (hero.email) {
+          const a2 = document.createElement('a');
+          a2.href = 'mailto:' + hero.email;
+          a2.className = 'btn-secondary';
+          a2.textContent = 'Get in Touch';
+          cta.appendChild(a2);
+        }
+      }
+    }
+
+    // FIT SECTION + MODALS
+    if (fitSection) {
+      const label = document.getElementById('fit-label');
+      if (label) label.textContent = fitSection.sectionLabel || '';
+
+      const heading = document.getElementById('fit-heading');
+      if (heading) heading.textContent = fitSection.heading || '';
+
+      const grid = document.getElementById('fit-grid');
+      const modals = document.getElementById('fit-modals-container');
+      if (grid) grid.innerHTML = '';
+      if (modals) modals.innerHTML = '';
+
+      (fitSection.items || []).forEach((item, i) => {
+        const modalId = 'fit-modal-' + (item.id || i);
+
+        const card = document.createElement('div');
+        card.className = 'fit-card fade-in';
+        card.innerHTML = `
+          <div class="fit-card-posting">"${item.postingLine || ''}"</div>
+          <div class="fit-card-teaser">${item.teaser || ''}</div>
+          <div class="fit-card-cta">Read More...</div>
+        `;
+        card.onclick = () => document.getElementById(modalId).classList.add('show');
+        if (grid) grid.appendChild(card);
+
+        const bodyParas = (item.body || '').split('\n\n').filter(p => p.trim());
+        const bodyHTML = bodyParas.map(p => `<p>${p.trim()}</p>`).join('');
+
+        const modal = document.createElement('div');
+        modal.id = modalId;
+        modal.className = 'fit-modal';
+        modal.innerHTML = `
+          <div class="fit-modal-inner">
+            <button class="fit-modal-back">&#8592; Back</button>
+            <div class="fit-modal-posting">"${item.postingLine || ''}"</div>
+            <div class="fit-modal-body">${bodyHTML}</div>
+          </div>
+        `;
+        modal.querySelector('.fit-modal-back').onclick = () => modal.classList.remove('show');
+        if (modals) modals.appendChild(modal);
+      });
+    }
+
+    // CONTACT
+    if (contact) {
+      const label = document.getElementById('contact-section-label');
+      if (label) label.textContent = contact.title || "Let's Connect";
+
+      const headline = document.getElementById('contact-headline');
+      if (headline) headline.textContent = contact.headline || "I'd love to hear from you.";
+
+      const tagline = document.getElementById('contact-tagline');
+      if (tagline) tagline.textContent = contact.tagline || '';
+
+      const details = document.getElementById('contact-details');
+      if (details && contact.items) {
+        details.innerHTML = '';
+        contact.items.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'contact-item';
+          const lbl = document.createElement('span');
+          lbl.className = 'contact-item-label';
+          lbl.textContent = item.label || '';
+          div.appendChild(lbl);
+
+          if (item.href) {
+            const a = document.createElement('a');
+            a.href = item.href;
+            a.className = 'contact-item-value';
+            if (item.href.startsWith('http')) a.target = '_blank';
+            a.textContent = item.value || '';
+            div.appendChild(a);
+          } else {
+            const span = document.createElement('span');
+            span.className = 'contact-item-value';
+            span.textContent = item.value || '';
+            div.appendChild(span);
+          }
+          details.appendChild(div);
+        });
+      }
+    }
+
+    // Fade-in observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  })
+  .catch(err => console.error('Failed to load stryker-data.json:', err));
+</script>
+</body>
+</html>
