@@ -1,16 +1,20 @@
 {
+  "resumeLink": {
+    "url": "Kelsey_Tietjen_Resume.pdf",
+    "label": "View Full Resume"
+  },
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
+    "eyebrow": "Specialty Representative, Psychiatry · AbbVie · McKinney, TX",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "tagline": "Strategic | Activator | Focus | Competition | Significance",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
+    "title": "Why psychiatry, why AbbVie",
     "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "body": "I spent the first part of my career in institutional finance, most recently at Goldman Sachs, where I managed multi million dollar client relationships. I enjoyed many parts of my financial roles, but I always sensed there was a career out there that fit my personality even better. In 2023 I left to become a full time parent.\n\nIn 2025 I watched a stranger save someone's life during a medical emergency, and that moment stayed with me. It pushed me to get my EMT license. I trained in the ER and trauma bay, and it was there, watching how often a psychiatric crisis sat underneath the physical one, that I started paying attention to mental health care specifically. Every rotation reinforced the same thing: providers who are stretched thin need a partner who shows up prepared, knows the science, and respects their time.\n\nI've always been achievement oriented and tenacious about whatever I take on, so when the idea of specialty pharmaceutical sales came up, it clicked immediately. Psychiatry is the therapeutic area I want to build a career in, because I've seen up close how much a well supported prescriber can do for a patient in crisis, and how much unmet need still exists in North Texas. McKinney and the surrounding DFW suburbs are growing fast, and the psychiatric provider base hasn't kept pace with the population.\n\nMy years advocating for court involved children with CASA put me in rooms with families navigating serious mental health needs long before I ever considered this industry, and gave me a real, grounded respect for what's at stake in psychiatric care. That, paired with the discipline I built managing institutional accounts at Goldman and the field instincts from 18 months running my own multi state territory, is what I'd bring to AbbVie's psychiatry portfolio: someone who treats every physician relationship like it matters, because it does, and who will out work the territory to build the access this therapeutic area deserves.\n\nI am the person who can do that for you."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -18,7 +22,7 @@
       {
         "number": "20+",
         "label": "Client Relationships",
-        "description": "Institutional accounts managed at Goldman Sachs across multi-million dollar syndicated loan portfolios"
+        "description": "20+ institutional accounts managed with zero defect accuracy, resolving contract disputes and strengthening executive trust at Goldman Sachs"
       },
       {
         "number": "Top 5%",
@@ -28,12 +32,12 @@
       {
         "number": "$2M+",
         "label": "Opportunity Identified",
-        "description": "Sized and sold a business case to senior leadership at Vivint driving resource reallocation toward higher-return initiatives"
+        "description": "Sized and sold a $2M+ business case directly to C suite leadership at Vivint, securing executive buy in on resource reallocation"
       },
       {
         "number": "18mo",
         "label": "Field Representative",
-        "description": "Spanish-speaking volunteer across Nebraska, Iowa, and South Dakota — professional working proficiency maintained"
+        "description": "Built and deployed CRM pipelines across a 3 state territory, turning underperformance into consistent quota attainment"
       },
       {
         "number": "100+",
@@ -87,36 +91,36 @@
   ],
   "startStories": [
     {
-      "id": "territory",
-      "title": "The Territory Everyone Wrote Off",
-      "teaser": "I was assigned a territory where the key stakeholder had already said no to reps before me, and the numbers showed it.",
-      "body": "My job was to find people willing to join our organization. Cold calling strangers rarely worked, warm referrals did. Most members weren't reps like me, they were local families who met multiple times a week. In each area, one key stakeholder connected reps to those members. Mine had shut out every rep before me, and the territory's numbers had suffered for it.\n\nI didn't push. My companion and I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing pickup soccer. That was my opening. We organized a game. He came. We kept it going. He went from closed off to actively referring members and trusting us with his network.\n\nThat territory became one of the strongest in the district.\n\nWhat that taught me is a no isn't the end, it just means you haven't found the right angle yet. Trust can't be rushed. That's exactly what it takes with a physician who's already said no to reps before."
+      "id": "hcp-relationships",
+      "title": "Physician & Stakeholder Relationships",
+      "teaser": "Build trusted relationships with prescribers and clinical staff that create real access, from the front desk to the physician.",
+      "body": "At Goldman Sachs, I managed syndicated loan contracts and presented directly to institutional clients and internal stakeholders, where a single misread detail could cost the trust of the relationship. That built real executive presence: the ability to walk into a room, anticipate a decision maker's concerns, and hold their trust through a complex process.\n\nA psychiatric practice runs on the same principle at a different scale. The office manager, the nurse practitioner, and the physician all need something different from a rep who respects their time. I bring the same discipline I used with institutional clients to earning access with a prescriber: show up prepared, know the science cold, and never waste a visit."
     },
     {
-      "id": "goldman",
-      "title": "The Goldman Standard",
-      "teaser": "At Goldman I managed multi million dollar loan portfolios where one missed detail in a hundred page contract meant real money and real trust on the line.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran hundreds of pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
+      "id": "territory-planning",
+      "title": "Territory & Call Planning",
+      "teaser": "Build a call plan grounded in real research, then adapt it as the territory tells you what's actually working.",
+      "body": "During an 18 month volunteer representative role across Nebraska, Iowa, and South Dakota, my results were defined entirely by how many people I could convert into members of our organization. I inherited an underperforming territory and turned it into one of the strongest through territory research, stakeholder mapping, active listening for the real need, and an adaptive approach whenever the obvious path didn't work, a skill set that comes directly from my Gallup Strategic strength.\n\nThat same instinct is what I'd bring to a McKinney and North Texas psychiatry territory: research the provider landscape, map who influences the prescribing decision, build a call plan around real coverage and frequency, and keep adjusting it based on what each account is telling me."
     },
     {
-      "id": "trauma",
-      "title": "The Rooftop Trauma Night",
-      "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I'd never worked with before, and no time to think about it.",
-      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. It had already been an intense night. My mentor pulled me mid task and told me to follow two nurses immediately.\n\nWe ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and raced him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nWhat that night taught me is you don't rise to the occasion, you fall to your level of preparation and instinct. The team that trusts its training moves together without anyone having to think twice, whether that's a trauma bay or a physician's office."
+      "id": "sales-urgency",
+      "title": "Preparation, Then Decisive Action",
+      "teaser": "Prepare thoroughly before every call, then act with urgency once the opportunity is in front of you.",
+      "body": "As an EMT finishing in the top 5% of my class, I trained in emergency rooms alongside physicians. During one rotation, a doctor gave rapid instructions in the middle of an emergency surgery situation. With the nurses occupied, he told the three EMT students watching from the corner of the room to jump in and help. In a moment with zero margin for error, I was the only one who moved.\n\nThat's my Activator strength in practice: acting the instant the need is clear, but only because the preparation was already done. I bring that same instinct to a sales cycle: build the pre-call plan, know the objections before they come up, and close every conversation with a clear, logical next step instead of letting it drift."
     }
   ],
   "skills": [
     {
       "label": "Clinical",
-      "items": "Physician communication · Clinical fluency · Healthcare product expertise · Patient-facing experience · EMT certified"
+      "items": "Physician and prescriber engagement · Hospital and clinic systems navigation · High acuity clinical fluency · Patient-facing experience · EMT certified"
     },
     {
       "label": "Execution",
-      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
+      "items": "Territory ownership and call planning · Complex sales cycle management · CRM pipeline management · Forecasting and quota attainment · Data-driven decisions"
     },
     {
       "label": "Stakeholder",
-      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
+      "items": "Physician and C suite stakeholder management · Consultative, science-based selling · Cross-functional collaboration · Negotiation and closing · Trust building"
     },
     {
       "label": "Languages & Credentials",
@@ -128,54 +132,42 @@
       "company": "UT Dallas",
       "period": "Jun – Sep 2025",
       "title": "Emergency Medical Technician — Clinical Rotations",
-      "body": "Top 7% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
-      "bullets": [
-        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
-        "Maintained strict sterile and regulatory compliance during in-transit care",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
-      ]
+      "body": "Top 5% of class. Working alongside physicians in the ER, trauma bay, and in-transit care taught me to read a room fast, communicate clearly under pressure, and earn trust with people who have no time for hesitation. Assisting during a live emergency tracheotomy and stabilizing patients during a helipad to trauma bay handoff sharpened the same instinct a psychiatry territory demands: stay calm, act decisively, and never lose the thread of what the provider or patient in front of you actually needs.",
+      "bullets": []
     },
     {
       "company": "Goldman Sachs",
       "period": "Apr 2021 – Mar 2023",
       "title": "Global Markets Analyst",
-      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
-      "bullets": [
-        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
-        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
-        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues"
-      ]
+      "body": "Managing 20+ institutional relationships across multi-million dollar syndicated loan portfolios, in a 70+ hour week with zero room for error, built the executive presence and precision that a complex, multi stakeholder sales cycle demands. Independently catching a contract misinterpretation others missed, resolving it, and aligning internal leadership around the fix taught me how to hold a senior relationship together under pressure, not just maintain it.",
+      "bullets": []
     },
     {
       "company": "Vivint Solar",
       "period": "May 2019 – Apr 2020",
       "title": "Business Operations Analyst",
-      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
-      "bullets": [
-        "Diagnosed territory and operational gaps tied directly to P&L impact",
-        "Built forecasts in SQL, Snowflake, and Python aligned to board-level targets"
-      ]
+      "body": "Diagnosing territory level performance gaps and building executive forecasting models in SQL, Snowflake, and Python taught me how to turn raw data into a business case a C suite will actually act on. Sizing and selling a $2M+ opportunity to senior leadership takes the same skill set territory ownership and quota forecasting require: know the numbers cold, then make the case.",
+      "bullets": []
     },
     {
       "company": "CASA",
       "period": "Jan 2015 – Dec 2019",
       "title": "Executive Director (Volunteer) — BYU Chapter",
-      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
+      "body": "Leading a 5 person team overseeing 100+ volunteer advocates across a high stakes judicial environment built the cross functional coordination and stakeholder management skills required to keep a complex, multi party process moving toward the right outcome for everyone involved. Many of the children I advocated for were navigating serious mental health needs, which gave me an early, first hand understanding of what's at stake in psychiatric care.",
       "bullets": []
     },
     {
       "company": "Volunteer Mission Service",
       "period": "Feb 2014 – Aug 2015",
       "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
-      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
+      "body": "Inheriting an underperforming 3 state territory and building it into one of the strongest through stakeholder mapping, active listening, and a CRM pipeline I built myself is the same territory strategy playbook I'd bring to a McKinney and North Texas psychiatry territory: research the ground, find the real need, and adapt when the obvious approach doesn't work.",
       "bullets": []
     }
   ],
   "contact": {
     "title": "Let's Connect",
     "headline": "I'd love to hear from you.",
-    "tagline": "\"Solving for the person across from me.\"",
+    "tagline": "\"Built to close complex deals, one trusted relationship at a time.\"",
     "items": [
       {
         "label": "Email",
