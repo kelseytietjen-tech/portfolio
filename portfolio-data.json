@@ -1,16 +1,20 @@
 {
+  "resumeLink": {
+    "url": "Kelsey_Tietjen_Resume.pdf",
+    "label": "View Full Resume"
+  },
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
+    "eyebrow": "Pharmaceutical Sales Representative · DFW, TX",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "tagline": "Mental Health Advocate | Stigma Fighter | Patient-Centric",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
+    "title": "Why pharma, why now",
     "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "body": "I spent the first part of my career in institutional finance, most recently at Goldman Sachs, managing 20+ institutional relationships across multi-million dollar syndicated loan portfolios. The real skill there wasn't the numbers. It was earning the trust of time-strapped people who had every other option available to them, reading what each one actually needed, and knowing dense, jargon-heavy contracts well enough to solve real problems with them. In 2023, I stepped back to raise my two kids.\n\nIn 2025, I watched a stranger save someone's life during a medical emergency, and it pushed me to earn my EMT license. I finished in the top 5% of my cohort at UT Dallas. During clinicals I worked in the emergency department, on patient transfers, and in the ambulance, including administering medication under protocol, and completed training in pharmacology fundamentals. What stayed with me was how often a patient's outcome traced back to whether the right medication had reached them, and whether the provider treating them had the right information at the right moment. That's the part of the chain a rep owns.\n\nI've always been achievement-oriented and tenacious, and pharmaceutical sales is where those instincts and this clinical foundation actually converge. I know what I don't have: two years with a B2B outside sales title on my resume. What I do have is the underlying work that requirement screens for. As a full-time volunteer representative across Nebraska, Iowa, and South Dakota, I ran a three-state territory for 18 months with my own CRM pipeline, daily pre-call planning, post-call evaluations, and hard weekly targets. I built that territory from underperforming to one of the strongest in the region, and I did it by developing the community gatekeepers who could open doors a cold pitch never would. That is territory building, gatekeeper access, and rejection tolerance, learned the hard way rather than in a training program.\n\nI also bring two things most candidates coming out of a traditional B2B seat don't. I'm clinically fluent, so I can hold a real conversation with a physician and their staff on day one rather than spending six months learning to. And I'm bilingual in Spanish, which across DFW physician offices means I can build genuine rapport with front office staff and gatekeepers, the people who decide whether you get five minutes or none.\n\nI live in the DFW metro, my kids are in preschool with full-time childcare in place, and I'm looking for a territory where I can bring my hunger and grit. My approach is simple: know the product, know the territory, build real trusting relationships with the people in it, and keep pivoting until I find the right need and the right angle to close."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -18,185 +22,24 @@
       {
         "number": "20+",
         "label": "Client Relationships",
-        "description": "Institutional accounts managed at Goldman Sachs across multi-million dollar syndicated loan portfolios"
+        "description": "20+ institutional accounts managed with zero defect accuracy, resolving contract disputes and strengthening executive trust at Goldman Sachs"
       },
       {
         "number": "Top 5%",
         "label": "EMT Program",
-        "description": "UT Dallas EMT certification with hands-on clinical rotations in emergency, surgical, and in-transit care"
+        "description": "UT Dallas EMT certification with direct patient care in the ED, patient transfers, and ambulance, plus training in emergency, trauma, and in-transit care"
       },
       {
         "number": "$2M+",
         "label": "Opportunity Identified",
-        "description": "Sized and sold a business case to senior leadership at Vivint driving resource reallocation toward higher-return initiatives"
+        "description": "Sized and sold a $2M+ business case directly to C suite leadership at Vivint, securing executive buy in on resource reallocation"
       },
       {
         "number": "18mo",
         "label": "Field Representative",
-        "description": "Spanish-speaking volunteer across Nebraska, Iowa, and South Dakota — professional working proficiency maintained"
+        "description": "Built and deployed CRM pipelines across a 3 state territory, turning underperformance into consistent quota attainment"
       },
       {
         "number": "100+",
         "label": "Volunteer Advocates Led",
-        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
-      },
-      {
-        "number": "42K+",
-        "label": "ZIP Codes Analyzed",
-        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
-      }
-    ]
-  },
-  "recommendations": [
-    {
-      "id": "brock",
-      "label": "Stryker",
-      "name": "Brock Frazer",
-      "title": "Marketing Manager, Stryker",
-      "text": "She brings the kind of drive, curiosity, and relationship-building mindset that translates to medical sales success.",
-      "pdfFile": null,
-      "buttonText": null
-    },
-    {
-      "id": "spencer",
-      "label": "Stryker",
-      "name": "Spencer Curtis",
-      "title": "Product Manager, NPD, Stryker",
-      "text": "Kelsey has a unique drive, customer-first mindset and attention to detail that differentiates her from other candidates. She would perform with utmost accountability, integrity, and customer-centric mindset.",
-      "pdfFile": null,
-      "buttonText": null
-    },
-    {
-      "id": "adi",
-      "label": "EMT Instructor",
-      "name": "Aditya Kanakasabapathy",
-      "title": "EMT Instructor, University of Texas at Dallas",
-      "text": "She is capable of having a conversation about medical products with the relevant professionals on a really intelligent level, viewed through the patient care and clinical realities lens, which will facilitate her making a true connection with healthcare professionals.",
-      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
-      "buttonText": "View Full Letter"
-    },
-    {
-      "id": "justin",
-      "label": "iRhythm",
-      "name": "Justin Atchison",
-      "title": "Territory Manager, iRhythm Technologies",
-      "text": "I was immediately impressed by her communication skills, her genuine curiosity about the industry, and her potential as a sales professional. She asked thoughtful questions about the clinical side and showed real interest in how it impacts physicians and patients.",
-      "pdfFile": "Letter_of_Recommendation_Kelsey_Tietjen_iRhythm.pdf",
-      "buttonText": "View Full Letter"
-    }
-  ],
-  "startStories": [
-    {
-      "id": "territory",
-      "title": "The Territory Everyone Wrote Off",
-      "teaser": "I was assigned a territory where the key stakeholder had already said no to reps before me, and the numbers showed it.",
-      "body": "My job was to find people willing to join our organization. Cold calling strangers rarely worked, warm referrals did. Most members weren't reps like me, they were local families who met multiple times a week. In each area, one key stakeholder connected reps to those members. Mine had shut out every rep before me, and the territory's numbers had suffered for it.\n\nI didn't push. My companion and I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing pickup soccer. That was my opening. We organized a game. He came. We kept it going. He went from closed off to actively referring members and trusting us with his network.\n\nThat territory became one of the strongest in the district.\n\nWhat that taught me is a no isn't the end, it just means you haven't found the right angle yet. Trust can't be rushed. That's exactly what it takes with a physician who's already said no to reps before."
-    },
-    {
-      "id": "goldman",
-      "title": "The Goldman Standard",
-      "teaser": "At Goldman I managed multi million dollar loan portfolios where one missed detail in a hundred page contract meant real money and real trust on the line.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran hundreds of pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
-    },
-    {
-      "id": "trauma",
-      "title": "The Rooftop Trauma Night",
-      "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I'd never worked with before, and no time to think about it.",
-      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. It had already been an intense night. My mentor pulled me mid task and told me to follow two nurses immediately.\n\nWe ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and raced him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nWhat that night taught me is you don't rise to the occasion, you fall to your level of preparation and instinct. The team that trusts its training moves together without anyone having to think twice, whether that's a trauma bay or a physician's office."
-    }
-  ],
-  "skills": [
-    {
-      "label": "Clinical",
-      "items": "Physician communication · Clinical fluency · Healthcare product expertise · Patient-facing experience · EMT certified"
-    },
-    {
-      "label": "Execution",
-      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
-    },
-    {
-      "label": "Stakeholder",
-      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
-    },
-    {
-      "label": "Languages & Credentials",
-      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
-    }
-  ],
-  "experience": [
-    {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "Emergency Medical Technician — Clinical Rotations",
-      "body": "Top 7% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
-      "bullets": [
-        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
-        "Maintained strict sterile and regulatory compliance during in-transit care",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
-      ]
-    },
-    {
-      "company": "Goldman Sachs",
-      "period": "Apr 2021 – Mar 2023",
-      "title": "Global Markets Analyst",
-      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
-      "bullets": [
-        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
-        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
-        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues"
-      ]
-    },
-    {
-      "company": "Vivint Solar",
-      "period": "May 2019 – Apr 2020",
-      "title": "Business Operations Analyst",
-      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
-      "bullets": [
-        "Diagnosed territory and operational gaps tied directly to P&L impact",
-        "Built forecasts in SQL, Snowflake, and Python aligned to board-level targets"
-      ]
-    },
-    {
-      "company": "CASA",
-      "period": "Jan 2015 – Dec 2019",
-      "title": "Executive Director (Volunteer) — BYU Chapter",
-      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
-      "bullets": []
-    },
-    {
-      "company": "Volunteer Mission Service",
-      "period": "Feb 2014 – Aug 2015",
-      "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
-      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
-      "bullets": []
-    }
-  ],
-  "contact": {
-    "title": "Let's Connect",
-    "headline": "I'd love to hear from you.",
-    "tagline": "\"Solving for the person across from me.\"",
-    "items": [
-      {
-        "label": "Email",
-        "value": "kelseytietjen@gmail.com",
-        "href": "mailto:kelseytietjen@gmail.com"
-      },
-      {
-        "label": "Phone",
-        "value": "(385) 207-5272",
-        "href": "tel:3852075272"
-      },
-      {
-        "label": "LinkedIn",
-        "value": "linkedin.com/in/kelseytietjen",
-        "href": "https://www.linkedin.com/in/kelseytietjen"
-      },
-      {
-        "label": "Location",
-        "value": "Dallas-Fort Worth, Texas",
-        "href": null
-      }
-    ]
-  }
-}
+        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting
