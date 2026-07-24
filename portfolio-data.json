@@ -42,4 +42,177 @@
       {
         "number": "100+",
         "label": "Volunteer Advocates Led",
-        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting
+        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
+      },
+      {
+        "number": "42K+",
+        "label": "ZIP Codes Analyzed",
+        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "brock",
+      "label": "Stryker",
+      "name": "Brock Frazer",
+      "title": "Marketing Manager, Stryker",
+      "text": "She brings the kind of drive, curiosity, and relationship-building mindset that translates to medical sales success.",
+      "pdfFile": null,
+      "buttonText": null
+    },
+    {
+      "id": "spencer",
+      "label": "Stryker",
+      "name": "Spencer Curtis",
+      "title": "Product Manager, NPD, Stryker",
+      "text": "Kelsey has a unique drive, customer-first mindset and attention to detail that differentiates her from other candidates. She would perform with utmost accountability, integrity, and customer-centric mindset.",
+      "pdfFile": null,
+      "buttonText": null
+    },
+    {
+      "id": "adi",
+      "label": "EMT Instructor",
+      "name": "Aditya Kanakasabapathy",
+      "title": "EMT Instructor, University of Texas at Dallas",
+      "text": "She is capable of having a conversation about medical products with the relevant professionals on a really intelligent level, viewed through the patient care and clinical realities lens, which will facilitate her making a true connection with healthcare professionals.",
+      "pdfFile": "Kelsey_Tietjen_Letter_of_Recommendation.pdf",
+      "buttonText": "View Full Letter"
+    },
+    {
+      "id": "justin",
+      "label": "iRhythm",
+      "name": "Justin Atchison",
+      "title": "Territory Manager, iRhythm Technologies",
+      "text": "I was immediately impressed by her communication skills, her genuine curiosity about the industry, and her potential as a sales professional. She asked thoughtful questions about the clinical side and showed real interest in how it impacts physicians and patients.",
+      "pdfFile": "Letter_of_Recommendation_Kelsey_Tietjen_iRhythm.pdf",
+      "buttonText": "View Full Letter"
+    }
+  ],
+  "startStories": [
+    {
+      "id": "sales-performance-kpis",
+      "title": "Sales Performance & Hitting the Number",
+      "teaser": "Setting the targets, then hitting them, under real pressure.",
+      "body": "At Vivint, I wasn't in the field, I was setting the targets the field reps had to hit. I built the executive forecasting models and diagnosed the performance gaps that became the strategic goals for the team, then presented a business case to senior leadership that secured a $2M+ revenue expansion opportunity. That's the metric-setting side of a sales number: understanding where it should come from before anyone chases it.\n\nAt Goldman Sachs, hitting the number meant something more literal. I completed 10 to 20 complex transactions a week with zero-defect accuracy, in a 70+ hour workweek with no room for error. That's the discipline of consistently meeting hard output targets under real pressure, the same discipline it takes to hit a quota month after month."
+    },
+    {
+      "id": "pre-call-post-call",
+      "title": "Pre-Call Planning & Post-Call Evaluation",
+      "teaser": "How I built a call planning discipline from scratch in a three-state territory.",
+      "body": "As a volunteer representative across Nebraska, Iowa, and South Dakota, I built this process from scratch. Before every visit, I wrote a specific pre-call plan objective. After every visit, I ran a post-call evaluation, tracked through a CRM pipeline, capturing the objections and concerns I heard so I could handle them better next time. That discipline turned an underperforming territory into one of the strongest territories in the region.\n\nAt Goldman Sachs, the same instinct showed up differently. When a senior client pushed back on a contract term, I found the misread myself, got internal leadership aligned, and closed the objection out before it became a lost account. Prepare for the objection, then close with a clear next step, works the same whether the stakes are a contract or a prescribing decision."
+    },
+    {
+      "id": "trusted-relationships",
+      "title": "Trusted Relationships & Win-Win Agreements",
+      "teaser": "What I learned from the one gatekeeper everyone said not to bother with.",
+      "body": "The clearest example of this is a community leader I worked with as a volunteer representative, the gatekeeper to an entire network of prospects. He hadn't worked with a single missionary in years, and everyone before me said not to bother. Instead of pushing him directly, I built a relationship with his wife over weekly lunches until I learned he missed playing soccer with a group he'd lost touch with. I organized a recurring soccer event and told him all he had to do was show up. He did, and over time he went from ignoring us completely to mobilizing his own network on our behalf, and eventually inviting us to celebrate the Fourth of July with his family, something no missionary before me had ever been invited to. Resistance is usually just information about what someone actually values.\n\nAt Goldman Sachs, I managed 20+ institutional relationships with senior decision makers who had every option available to them and no obligation to stay loyal. Relationship-first account management, reading what each one needed and delivering it, is what kept them."
+    },
+    {
+      "id": "call-planning-coverage",
+      "title": "Call Planning & Territory Coverage",
+      "teaser": "Deciding who gets called on, how often, and why.",
+      "body": "Across a 3-state mission territory, I built a repeatable cadence of visits and referrals instead of relying on cold outreach, the same coverage-and-frequency thinking a call plan requires.\n\nAt 1-800 Contacts, I built a nationwide marketing heat map across 42,000+ U.S. ZIP codes to identify exactly where spend and coverage should be concentrated for maximum reach, the analytical backbone of deciding who gets called on, and how often."
+    },
+    {
+      "id": "market-clinical-intelligence",
+      "title": "Market & Clinical Intelligence",
+      "teaser": "Reading a territory with data, and reading a clinical room with training.",
+      "body": "At Vivint, I diagnosed territory-level performance gaps and built executive forecasting models in technical SQL, Snowflake, and Python to understand exactly where the market was moving and why.\n\nAt 1-800 Contacts, I didn't just build the market intelligence, I shared it. After building the ZIP code targeting framework, I personally trained the Analytic Team on how to use it, the same alignment this role asks for between field insight and the broader team.\n\nAnd on the clinical side, my EMT training in the emergency department, on patient transfers, and in the ambulance, plus coursework in pharmacology fundamentals, is where my clinical and product fluency for physician office conversations starts."
+    },
+    {
+      "id": "speakers-advocates",
+      "title": "Developing Advocates & Referral Networks",
+      "teaser": "Finding the person whose voice already carries weight, and earning it on their terms.",
+      "body": "During my 18 months as a Spanish-speaking volunteer representative, each area had an appointed community leader who was essentially the gateway between local members and our work. Without his engagement, we were cut off from the exact network our prospects needed to join. Mine hadn't worked with a single missionary in years, and everyone who came before me said not to even bother.\n\nSo instead of pushing him directly, I built a relationship with his wife first: weekly lunches, genuine friendship, listening for anything that told me who he actually was. She eventually mentioned he missed playing soccer with a group, so I organized a community soccer event and told him all he had to do was show up. He came, and we made it recurring. Over time he went from ignoring us completely to making referrals and mobilizing his entire network, and he eventually invited us to celebrate the Fourth of July with his whole family, something every missionary before me had called unimaginable. That's the motion this work takes: find the person whose voice already carries weight, develop them on their own terms, and let their credibility open doors a cold pitch never could.\n\nAt Goldman Sachs, I served as the face of the firm's brand to senior financial decision-makers, executing white-glove standards specifically to differentiate a company's value proposition from competitors, the brand-differentiation half of the same skill."
+    }
+  ],
+  "skills": [
+    {
+      "label": "Clinical",
+      "items": "Physician and prescriber engagement · Hospital and clinic systems navigation · Direct patient care across ER, field, and transport · High acuity clinical fluency · EMT certified"
+    },
+    {
+      "label": "Execution",
+      "items": "Target territory sheet & targeted account management · Territory ownership and call planning · Brand strategy execution · Matrix-environment collaboration · Complex sales cycle management · CRM pipeline management · Forecasting and quota attainment · Data-driven decisions"
+    },
+    {
+      "label": "Stakeholder",
+      "items": "Physician and C suite stakeholder management · Patient-centered focus · Pre-call planning and post-call evaluation · Market intelligence and competitive landscape · Consultative selling of complex information · Cross-functional collaboration · Negotiation and closing · Trust building"
+    },
+    {
+      "label": "Languages & Credentials",
+      "items": "Spanish — professional working proficiency · Licensed EMT (NREMT) · BLS Certified (AHA) · FEMA Certified · B.S. Communications, Minor in Finance — Brigham Young University"
+    }
+  ],
+  "experience": [
+    {
+      "company": "University of Texas at Dallas",
+      "period": "Jun 2025 – Sep 2025",
+      "title": "Licensed Emergency Medical Technician",
+      "body": "Top 5% of cohort, delivering hands-on clinical support across the emergency department, trauma bay, ambulance, and in-transit care.\n\nI provided direct patient care in the ED, on patient transfers, and in the ambulance, including administering medication under protocol, and completed training in pharmacology fundamentals, the exact clinical fluency and patient-centered focus a pharma rep needs. Assisting an ER physician during a high-acuity emergency tracheotomy, and supporting emergency air transport intake from rooftop helipad arrival through trauma bay admission, taught me to stay calm and execute under real pressure while working alongside physicians, nurses, EMTs, firefighters, and trauma teams, the same matrix-environment collaboration a pharma rep needs across a prescriber's care team.",
+      "bullets": []
+    },
+    {
+      "company": "Goldman Sachs",
+      "period": "Apr 2021 – Mar 2023",
+      "title": "Global Markets Analyst — Client Relationships & Syndicated Loan Operations",
+      "body": "Managed 20+ institutional relationships across multi-million dollar syndicated loan portfolios, completing 10 to 20 complex transactions weekly with zero-defect accuracy in a 70+ hour workweek.\n\nThe real work wasn't the transactions, it was making a busy client's day easier: reading what they actually needed and solving it before they had to ask twice. When one pushed back on a contract term, I found the misread myself and got internal leadership aligned to keep the account, the same objection handling and calls to action a rep needs to close every sales call. Getting fluent in dense, legal-jargon-filled contracts well enough to solve real problems with them is the same skill it takes to get fluent in dense clinical and scientific language fast: mechanism of action, payer language, competitive data, and making it land for the person across the desk.",
+      "bullets": []
+    },
+    {
+      "company": "Vivint",
+      "period": "May 2019 – Apr 2020",
+      "title": "Business Operations Analyst",
+      "body": "Diagnosed territory-level performance gaps and built executive forecasting models in technical SQL, Snowflake, and Python to translate complex data into clear, board-aligned growth strategy.\n\nPresenting a C-suite business case that secured a $2M+ revenue expansion opportunity is the same market intelligence and business acumen this role needs from a rep who can read a territory's competitive landscape and turn that insight into strategy that actually gets executed in the field, not just planned on paper.",
+      "bullets": []
+    },
+    {
+      "company": "1-800 Contacts",
+      "period": "May 2017 – Sep 2017",
+      "title": "Financial Analyst Intern",
+      "body": "Built a nationwide marketing performance heat map across 42,000+ U.S. ZIP codes to identify underperforming spend, market segments, and high-potential growth territories, then trained the Analytic Team on the framework I built.\n\nI taught myself SQL from scratch to build it, the same way I'd teach myself the technical and scientific language of a therapeutic area: unfamiliar to fluent, fast, and useful enough to share with the team the way AbbVie expects reps to feed field intelligence back to their brand and sales manager.",
+      "bullets": []
+    },
+    {
+      "company": "CASA",
+      "period": "Jan 2016 – Dec 2019",
+      "title": "Executive Director (Volunteer) — BYU Chapter",
+      "body": "Presided over a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children in a high-stakes judicial environment.\n\nMany of the children I advocated for were navigating serious mental health needs, which gave me an early, first-hand understanding of what's at stake in psychiatric care. Building trusted relationships with judges, attorneys, families, and multidisciplinary stakeholders through emotionally intelligent communication is the same patient-centered, matrix-environment stakeholder management a psychiatry rep needs to operate credibly across a prescriber's full care team.",
+      "bullets": []
+    },
+    {
+      "company": "Spanish-Speaking Service Mission",
+      "period": "Feb 2014 – Aug 2015",
+      "title": "Full-Time Volunteer Representative — Nebraska, Iowa & South Dakota",
+      "body": "Grew membership across a 3-state territory by identifying and developing influential community advocates who referred and influenced others, reducing reliance on cold outreach.\n\nI went in with classroom Spanish and came out fluent, using it every day for 18 months with hundreds of families and individuals across Nebraska, Iowa, and South Dakota, proof I can pick up a new language, technical or otherwise, and actually put it to work in the field. Creating pre-call plan objectives and executing post-call evaluations, tracked through a CRM pipeline, is the same call planning discipline this role requires to optimize coverage and frequency to key customers, and onboarding and mentoring a new representative while consistently hitting daily and weekly targets is the coachability hiring managers look for in a rep who can build referral-driven access from scratch."
+    }
+  ],
+  "contact": {
+    "title": "Let's Connect",
+    "headline": "I'd love to hear from you.",
+    "tagline": "\"Fighting for better mental health care, one relationship at a time.\"",
+    "items": [
+      {
+        "label": "Email",
+        "value": "kelseytietjen@gmail.com",
+        "href": "mailto:kelseytietjen@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "(385) 207-5272",
+        "href": "tel:3852075272"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/kelseytietjen",
+        "href": "https://www.linkedin.com/in/kelseytietjen"
+      },
+      {
+        "label": "Location",
+        "value": "Dallas, TX",
+        "href": null
+      }
+    ]
+  }
+}
