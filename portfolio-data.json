@@ -1,16 +1,20 @@
 {
+  "resumeLink": {
+    "url": "Kelsey_Tietjen_Resume_Alora.pdf",
+    "label": "View Full Resume"
+  },
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
+    "eyebrow": "Specialty Territory Manager · Primary Care, Endocrinology & Women's Health",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "tagline": "Territory Builder | Clinically Fluent | Relationship Driven",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
+    "title": "Why this territory, why now",
     "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "body": "I spent the first part of my career in institutional finance, most recently at Goldman Sachs, managing 20+ client relationships across multi-million dollar accounts. The real skill there wasn't the numbers. It was earning the trust of busy, guarded decision makers, reading what each one actually needed, and staying fluent enough in dense material to solve real problems with them. In 2023, I stepped back to raise my two kids.\n\nIn 2025, I watched a stranger save someone's life during a medical emergency, and it pushed me to earn my EMT license. I finished in the top 5% of my cohort at UT Dallas. During clinicals I worked in the emergency department, on patient transfers, and in the ambulance, and completed coursework in pharmacology fundamentals. What stayed with me was how often a patient's outcome traced back to whether the right treatment reached them, and whether the provider treating them had the right information at the right moment. That is the part of the chain a territory manager owns.\n\nI know what my resume does not have: a title that reads B2B outside sales. What it does have is the underlying work that requirement is meant to prove. As a full time volunteer representative across Nebraska, Iowa, and South Dakota, I ran a three state territory for 18 months with my own CRM pipeline, a written plan before every visit, a follow up review after every one, and hard weekly targets. I grew that territory almost entirely through referrals, not a warm list, by earning the trust of local advocates who opened doors a cold visit never would. That is territory planning, gatekeeper access, and rejection tolerance, learned the hard way instead of in a training program, and it sits alongside the account ownership I practiced every day managing 20+ relationships at Goldman Sachs.\n\nI also bring two things a lot of candidates coming out of a traditional B2B seat don't. I am clinically fluent, so I can hold a real conversation with an endocrinologist, an OBGYN, or a primary care office on day one instead of spending months learning the vocabulary, and that same clinical grounding is where my comfort with prior authorization and pharmacy pull through starts. And I'm bilingual in Spanish, which across DFW physician offices means genuine rapport with the front office staff who decide whether you get five minutes or none.\n\nI live in the DFW metro, my kids are in preschool with full time childcare in place, and I'm looking for a territory where I can put that grit to work for a company that, like Alora, is willing to go where it's needed."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -18,32 +22,32 @@
       {
         "number": "20+",
         "label": "Client Relationships",
-        "description": "Institutional accounts managed at Goldman Sachs across multi-million dollar syndicated loan portfolios"
+        "description": "20+ institutional accounts managed with zero defect accuracy, resolving contract disputes and strengthening executive trust at Goldman Sachs"
       },
       {
         "number": "Top 5%",
         "label": "EMT Program",
-        "description": "UT Dallas EMT certification with hands-on clinical rotations in emergency, surgical, and in-transit care"
+        "description": "UT Dallas EMT certification with direct patient care in the ED, patient transfers, and ambulance, plus training in pharmacology fundamentals"
       },
       {
         "number": "$2M+",
-        "label": "Opportunity Identified",
-        "description": "Sized and sold a business case to senior leadership at Vivint driving resource reallocation toward higher-return initiatives"
+        "label": "Business Case Won",
+        "description": "Sized and sold a $2M+ business case directly to C-suite leadership at Vivint, securing executive buy in on resource reallocation"
       },
       {
         "number": "18mo",
-        "label": "Field Representative",
-        "description": "Spanish-speaking volunteer across Nebraska, Iowa, and South Dakota — professional working proficiency maintained"
+        "label": "Territory Built From Scratch",
+        "description": "Built and ran a CRM backed, referral driven territory across 3 states, turning underperformance into consistent target attainment"
       },
       {
         "number": "100+",
         "label": "Volunteer Advocates Led",
-        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
+        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court involved children"
       },
       {
         "number": "42K+",
         "label": "ZIP Codes Analyzed",
-        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
+        "description": "National marketing heat map built at 1-800 Contacts, exposing inefficient spend and identifying growth markets"
       }
     ]
   },
@@ -87,95 +91,108 @@
   ],
   "startStories": [
     {
-      "id": "territory",
-      "title": "The Territory Everyone Wrote Off",
-      "teaser": "I was assigned a territory where the key stakeholder had already said no to reps before me, and the numbers showed it.",
-      "body": "My job was to find people willing to join our organization. Cold calling strangers rarely worked, warm referrals did. Most members weren't reps like me, they were local families who met multiple times a week. In each area, one key stakeholder connected reps to those members. Mine had shut out every rep before me, and the territory's numbers had suffered for it.\n\nI didn't push. My companion and I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing pickup soccer. That was my opening. We organized a game. He came. We kept it going. He went from closed off to actively referring members and trusting us with his network.\n\nThat territory became one of the strongest in the district.\n\nWhat that taught me is a no isn't the end, it just means you haven't found the right angle yet. Trust can't be rushed. That's exactly what it takes with a physician who's already said no to reps before."
+      "id": "territory-business-plan",
+      "title": "Building a Territory Business Plan",
+      "teaser": "Deciding who to call on, how often, and why, then hitting the number.",
+      "body": "At Vivint, I wasn't in the field, I was setting the targets the field reps had to hit. I diagnosed the performance gaps and built the forecasting models that became a $2M+ business case for senior leadership. That is the planning side of a territory number: understanding where it should come from before anyone chases it.\n\nAt Goldman Sachs, hitting the number meant something more literal: 10 to 20 complex transactions a week with zero defect accuracy, in a 70+ hour work week with no room for error. That is the same discipline it takes to consistently hit a quota month after month across a physician panel."
     },
     {
-      "id": "goldman",
-      "title": "The Goldman Standard",
-      "teaser": "At Goldman I managed multi million dollar loan portfolios where one missed detail in a hundred page contract meant real money and real trust on the line.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran hundreds of pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
+      "id": "pre-call-post-call",
+      "title": "Pre-Call Planning & Follow Through",
+      "teaser": "How I built a call planning habit from scratch in a three state territory.",
+      "body": "As a volunteer representative across Nebraska, Iowa, and South Dakota, I built this process myself. Before every visit I wrote a specific objective. After every visit I ran a follow up review, tracked through a CRM pipeline, capturing the concerns I heard so I could handle them better next time. That habit turned an underperforming territory into one of the strongest in the region.\n\nAt Goldman Sachs, the same instinct showed up differently. When a senior client pushed back on a contract term, I found the issue myself, got internal leadership aligned, and closed it out before it became a lost account. Prepare for the objection, then close with a clear next step, works the same whether the stakes are a contract or a prescribing decision."
     },
     {
-      "id": "trauma",
-      "title": "The Rooftop Trauma Night",
-      "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I'd never worked with before, and no time to think about it.",
-      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. It had already been an intense night. My mentor pulled me mid task and told me to follow two nurses immediately.\n\nWe ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and raced him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nWhat that night taught me is you don't rise to the occasion, you fall to your level of preparation and instinct. The team that trusts its training moves together without anyone having to think twice, whether that's a trauma bay or a physician's office."
+      "id": "trusted-relationships",
+      "title": "Trusted Relationships With Gatekeepers",
+      "teaser": "What I learned from the one gatekeeper everyone said not to bother with.",
+      "body": "The clearest example is a community leader I worked with as a volunteer representative, the gatekeeper to an entire network of prospects. He hadn't worked with anyone from our group in years, and everyone before me said not to bother. Instead of pushing him directly, I built a relationship with his wife over weekly lunches until I learned he missed playing soccer with a group he'd lost touch with. I organized a recurring soccer event and told him all he had to do was show up. He did, and over time he went from ignoring us completely to mobilizing his own network on our behalf. Resistance is usually just information about what someone actually values, which is as true for a front office gatekeeper as it is for a mission contact.\n\nAt Goldman Sachs, I managed 20+ relationships with decision makers who had every option available to them and no obligation to stay. Relationship first account management, reading what each one needed and delivering it, is what kept them."
+    },
+    {
+      "id": "clinical-fluency",
+      "title": "Clinical Fluency in the Room",
+      "teaser": "What EMT training taught me about talking with physicians and their staff.",
+      "body": "My EMT training put me in the emergency department, on patient transfers, and in the ambulance, working daily alongside physicians, nurses, and trauma teams under real pressure, plus coursework in pharmacology fundamentals. Assisting an ER physician during a high acuity emergency procedure, and supporting patients through the trauma bay while following compliance and documentation standards, taught me to stay calm and execute under pressure while working across a full care team.\n\nThat is the same comfort a territory manager needs walking into an endocrinologist's or OBGYN's office: enough clinical grounding to have a real conversation on day one, and enough respect for the process to understand where a prior authorization or a pull through step fits into a patient actually getting their medication."
+    },
+    {
+      "id": "referral-networks",
+      "title": "Developing Advocates & Referral Networks",
+      "teaser": "Finding the person whose voice already carries weight, and earning it on their terms.",
+      "body": "During my 18 months as a volunteer representative, each area had a community leader who was essentially the gateway between local members and our work. Without his engagement we were cut off from the exact network our prospects needed. Mine hadn't worked with anyone from our group in years, and everyone before me said not to bother.\n\nSo instead of pushing him directly, I built a relationship with his wife first, weekly lunches, genuine friendship, listening for anything that told me who he actually was. She eventually mentioned he missed playing soccer, so I organized a community soccer event and told him all he had to do was show up. He came, we made it recurring, and over time he went from ignoring us completely to making referrals and mobilizing his entire network. That is the motion this work takes: find the person whose voice already carries weight, develop them on their own terms, and let their credibility open doors a cold visit never could."
+    },
+    {
+      "id": "data-driven-territory",
+      "title": "Reading a Territory With Data",
+      "teaser": "Using data to find where the effort should actually go.",
+      "body": "At Vivint, I diagnosed territory level performance gaps and built executive forecasting models in SQL, Snowflake, and Python to understand exactly where the market was moving and why.\n\nAt 1-800 Contacts, I built a nationwide marketing heat map across 42,000+ U.S. ZIP codes to identify underperforming spend and high potential growth areas, then personally trained the Analytics team on how to use it. That is the same coverage and frequency thinking a territory business plan requires, and the same habit of sharing what I find rather than sitting on it."
     }
   ],
   "skills": [
     {
       "label": "Clinical",
-      "items": "Physician communication · Clinical fluency · Healthcare product expertise · Patient-facing experience · EMT certified"
+      "items": "Physician, endocrinologist, and OBGYN engagement · Hospital and clinic systems navigation · Direct patient care across ER, transfers, and transport · Prior authorization & pharmacy pull through awareness · EMT certified"
     },
     {
       "label": "Execution",
-      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
+      "items": "Territory business planning · Call planning and coverage · Compliance minded selling · Complex sales cycle management · CRM pipeline management · Forecasting and target attainment · Data driven decisions"
     },
     {
       "label": "Stakeholder",
-      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
+      "items": "Physician and office staff relationship management · Patient centered focus · Pre-call planning and post-call evaluation · Consultative, value based selling · Objection handling · Negotiation and closing · Trust building"
     },
     {
       "label": "Languages & Credentials",
-      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
+      "items": "Spanish, professional working proficiency · Licensed EMT (NREMT) · BLS Certified (AHA) · B.S. Communications, Minor in Finance, Brigham Young University · Valid Texas driver's license"
     }
   ],
   "experience": [
     {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "Emergency Medical Technician — Clinical Rotations",
-      "body": "Top 7% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
-      "bullets": [
-        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
-        "Maintained strict sterile and regulatory compliance during in-transit care",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
-      ]
-    },
-    {
-      "company": "Goldman Sachs",
-      "period": "Apr 2021 – Mar 2023",
-      "title": "Global Markets Analyst",
-      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
-      "bullets": [
-        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
-        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
-        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues"
-      ]
-    },
-    {
-      "company": "Vivint Solar",
-      "period": "May 2019 – Apr 2020",
-      "title": "Business Operations Analyst",
-      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
-      "bullets": [
-        "Diagnosed territory and operational gaps tied directly to P&L impact",
-        "Built forecasts in SQL, Snowflake, and Python aligned to board-level targets"
-      ]
-    },
-    {
-      "company": "CASA",
-      "period": "Jan 2015 – Dec 2019",
-      "title": "Executive Director (Volunteer) — BYU Chapter",
-      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
+      "company": "University of Texas at Dallas",
+      "period": "Jun 2025 to Sep 2025",
+      "title": "Licensed Emergency Medical Technician",
+      "body": "Top 5% of cohort, delivering hands on clinical support across the emergency department, trauma bay, ambulance, and in transit care.\n\nI provided direct patient care in the ED, on patient transfers, and in the ambulance, and completed coursework in pharmacology fundamentals, the clinical fluency a territory manager calling on endocrinologists, OBGYNs, and primary care offices needs. Assisting an ER physician during a high acuity emergency procedure, and supporting patients through the trauma bay while following compliance and documentation standards, taught me to stay calm and execute under real pressure while working across a full care team.",
       "bullets": []
     },
     {
-      "company": "Volunteer Mission Service",
-      "period": "Feb 2014 – Aug 2015",
-      "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
-      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
+      "company": "Goldman Sachs",
+      "period": "Apr 2021 to Mar 2023",
+      "title": "Global Markets Analyst, Client Relationships & Loan Operations",
+      "body": "Managed 20+ client relationships across multi-million dollar accounts, completing 10 to 20 complex transactions weekly with zero defect accuracy in a 70+ hour work week.\n\nThe real work wasn't the transactions, it was making a busy client's day easier: reading what they actually needed and solving it before they had to ask twice. When one pushed back on a contract term, I found the issue myself and got internal leadership aligned to keep the account, the same objection handling a territory manager needs to close every call. Getting fluent in dense, jargon filled contracts well enough to solve real problems with them is the same skill it takes to get fluent in clinical and scientific language fast, and make it land for the person across the desk.",
+      "bullets": []
+    },
+    {
+      "company": "Spanish-Speaking Service Mission",
+      "period": "Feb 2014 to Aug 2015",
+      "title": "Full-Time Volunteer Territory Representative, Nebraska, Iowa & South Dakota",
+      "body": "Grew participation across a 3 state territory by identifying and developing influential local advocates who referred and influenced others, reducing reliance on cold outreach.\n\nCreating a plan objective before every visit and a follow up review after every visit, tracked through a CRM pipeline, is the same call planning discipline this role requires to optimize coverage and frequency to key customers. Onboarding and mentoring a new representative while consistently hitting daily and weekly targets is the coachability hiring managers look for in someone who can build referral driven access from scratch, without a traditional B2B sales title attached to the work.",
+      "bullets": []
+    },
+    {
+      "company": "Vivint",
+      "period": "May 2019 to Apr 2020",
+      "title": "Business Operations Analyst",
+      "body": "Diagnosed territory level performance gaps and built executive forecasting models in SQL, Snowflake, and Python to translate complex data into clear, board aligned growth strategy.\n\nPresenting a C-suite business case that secured a $2M+ revenue expansion opportunity is the same market intelligence and business acumen this role needs from a territory manager who can read a competitive landscape and turn that insight into a plan that actually gets executed in the field.",
+      "bullets": []
+    },
+    {
+      "company": "1-800 Contacts",
+      "period": "May 2017 to Sep 2017",
+      "title": "Financial Analyst Intern",
+      "body": "Built a nationwide marketing performance heat map across 42,000+ U.S. ZIP codes to identify underperforming spend, market segments, and high potential growth territories, then trained the Analytics team on the framework I built.\n\nI taught myself SQL from scratch to build it, the same way I would teach myself the technical language of a therapeutic area: unfamiliar to useful, fast, and worth sharing with the team.",
+      "bullets": []
+    },
+    {
+      "company": "CASA",
+      "period": "Jan 2016 to Dec 2019",
+      "title": "Executive Director (Volunteer), BYU Chapter",
+      "body": "Presided over a 5 person leadership team overseeing 100+ volunteer advocates supporting court involved children in a high stakes judicial environment.\n\nBuilding trusted relationships with judges, attorneys, families, and multidisciplinary stakeholders through clear, emotionally intelligent communication is the same patient centered stakeholder management a territory manager needs to operate credibly across a provider's full office.",
       "bullets": []
     }
   ],
   "contact": {
     "title": "Let's Connect",
     "headline": "I'd love to hear from you.",
-    "tagline": "\"Solving for the person across from me.\"",
+    "tagline": "Building territories one relationship at a time.",
     "items": [
       {
         "label": "Email",
@@ -194,7 +211,7 @@
       },
       {
         "label": "Location",
-        "value": "Dallas-Fort Worth, Texas",
+        "value": "Dallas, TX",
         "href": null
       }
     ]
