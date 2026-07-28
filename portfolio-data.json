@@ -1,49 +1,53 @@
 {
+  "resumeLink": {
+    "url": "Kelsey_Tietjen_Resume.pdf",
+    "label": "View Full Resume"
+  },
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
+    "eyebrow": "Institutional & Specialty Pharmaceutical Sales Consultant · DFW, TX",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "tagline": "Institutional Relationships. Clinically Grounded. Built for Launch.",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
+    "title": "Why institutional pharma sales, why now",
     "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "body": "I spent the first part of my career in institutional finance, most recently at Goldman Sachs, managing 20+ institutional relationships across multi-million dollar syndicated loan portfolios. The real skill there wasn't the transactions. It was learning to navigate accounts where the decision never rested with one person: I had to earn trust across multiple stakeholders with different priorities and get them aligned before anything moved forward. In 2023, I stepped back to raise my two kids.\n\nIn 2025, I watched a stranger save someone's life during a medical emergency, and it pushed me to earn my EMT license. I finished in the top 5% of my cohort at UT Dallas, working inside a hospital system across the emergency department, patient transfers, and ambulance care, and completing training in pharmacology fundamentals. What stayed with me was how often a patient's outcome traced back to whether the right treatment reached them in time, and whether everyone around that patient, from the ER physician to the receiving team, had the right information to act fast. In stroke care especially, that window is everything.\n\nI know what I don't have on paper: a title that says I've sold directly into a hospital or health system. What I do have is proof of the underlying work that title is meant to demonstrate. At Goldman, I managed complex institutional accounts where getting to yes meant aligning finance, legal, and operations stakeholders around a single outcome, not unlike building consensus across a P&T committee. At Vivint, I built and presented the executive forecasting and competitive analysis that won a $2M+ business case directly to C-suite leadership. And as a full-time volunteer representative running my own three-state territory, I built it from underperforming to one of the strongest in the region through daily pre-call planning, tracked outreach, and consistently hitting hard weekly targets, with zero formal sales title attached to any of it.\n\nI'm also clinically grounded in a way most candidates coming from a traditional sales background aren't. I've stood in the emergency department during high-acuity care, I've met the credentialing and safety standards a hospital system requires of anyone inside it, and I can hold a real conversation about disease state and patient impact from day one. And I'm bilingual in Spanish, which across DFW health systems means genuine rapport with the staff who often decide how much time a physician has for you.\n\nI live in the DFW metro, my kids are in preschool with full-time childcare in place, and I'm ready to build a territory around this launch. My approach is simple: know the science, know the stakeholders in the room, build the relationships that hold up under a real decision cycle, and keep pushing until the right information reaches the right person in time to matter."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
     "items": [
       {
         "number": "20+",
-        "label": "Client Relationships",
-        "description": "Institutional accounts managed at Goldman Sachs across multi-million dollar syndicated loan portfolios"
+        "label": "Institutional Accounts",
+        "description": "20+ multi-million dollar institutional relationships managed at Goldman Sachs, aligning multiple internal and client stakeholders to reach a decision"
       },
       {
         "number": "Top 5%",
         "label": "EMT Program",
-        "description": "UT Dallas EMT certification with hands-on clinical rotations in emergency, surgical, and in-transit care"
+        "description": "UT Dallas EMT certification with direct patient care inside a hospital system: emergency department, patient transfers, and ambulance, meeting full credentialing and safety compliance standards"
       },
       {
         "number": "$2M+",
-        "label": "Opportunity Identified",
-        "description": "Sized and sold a business case to senior leadership at Vivint driving resource reallocation toward higher-return initiatives"
+        "label": "Opportunity Won",
+        "description": "Built and presented a competitive analysis and business case directly to C-suite leadership at Vivint, securing a $2M+ revenue opportunity"
       },
       {
         "number": "18mo",
-        "label": "Field Representative",
-        "description": "Spanish-speaking volunteer across Nebraska, Iowa, and South Dakota — professional working proficiency maintained"
+        "label": "Territory Built Solo",
+        "description": "Built a three-state territory business plan from the ground up with no formal sales title, tracked through CRM pipelines and disciplined pre-call planning"
       },
       {
         "number": "100+",
-        "label": "Volunteer Advocates Led",
-        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
+        "label": "Stakeholders Led",
+        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team coordinating 100+ volunteer advocates across judges, attorneys, and families"
       },
       {
         "number": "42K+",
-        "label": "ZIP Codes Analyzed",
-        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
+        "label": "Markets Analyzed",
+        "description": "National competitive and market landscape analysis built across 42,000+ U.S. ZIP codes to guide territory and resource decisions"
       }
     ]
   },
@@ -87,95 +91,108 @@
   ],
   "startStories": [
     {
-      "id": "territory",
-      "title": "The Territory Everyone Wrote Off",
-      "teaser": "I was assigned a territory where the key stakeholder had already said no to reps before me, and the numbers showed it.",
-      "body": "My job was to find people willing to join our organization. Cold calling strangers rarely worked, warm referrals did. Most members weren't reps like me, they were local families who met multiple times a week. In each area, one key stakeholder connected reps to those members. Mine had shut out every rep before me, and the territory's numbers had suffered for it.\n\nI didn't push. My companion and I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing pickup soccer. That was my opening. We organized a game. He came. We kept it going. He went from closed off to actively referring members and trusting us with his network.\n\nThat territory became one of the strongest in the district.\n\nWhat that taught me is a no isn't the end, it just means you haven't found the right angle yet. Trust can't be rushed. That's exactly what it takes with a physician who's already said no to reps before."
+      "id": "multi-stakeholder-access",
+      "title": "Navigating Multi-Stakeholder Decisions",
+      "teaser": "What it takes to get a room full of different priorities to yes.",
+      "body": "At Goldman Sachs, a senior client pushed back on a contract term over a genuine misunderstanding. Getting that account back on track meant finding the misread myself, then aligning internal leadership, legal, and the client's own team around one resolution before it became a lost relationship. No single person in that decision had the full picture, and no single conversation would have fixed it. That is the same work of building consensus across a group with different priorities and different definitions of risk, whether the room is a finance committee or a hospital's own decision structure."
     },
     {
-      "id": "goldman",
-      "title": "The Goldman Standard",
-      "teaser": "At Goldman I managed multi million dollar loan portfolios where one missed detail in a hundred page contract meant real money and real trust on the line.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran hundreds of pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
+      "id": "c-suite-business-case",
+      "title": "Winning at the C-Suite Level",
+      "teaser": "Building the case, then defending it in the room.",
+      "body": "At Vivint, I wasn't in the field. I was building the executive forecasting models and competitive market analysis that told the field where the opportunity actually was. I took that analysis directly to C-suite leadership and secured a $2M+ revenue expansion opportunity, defending the numbers in the room, not just handing over a slide deck. Institutional selling lives or dies on whether the person across the table trusts your data as much as they trust you."
     },
     {
-      "id": "trauma",
-      "title": "The Rooftop Trauma Night",
-      "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I'd never worked with before, and no time to think about it.",
-      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. It had already been an intense night. My mentor pulled me mid task and told me to follow two nurses immediately.\n\nWe ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and raced him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nWhat that night taught me is you don't rise to the occasion, you fall to your level of preparation and instinct. The team that trusts its training moves together without anyone having to think twice, whether that's a trauma bay or a physician's office."
+      "id": "territory-built-from-zero",
+      "title": "Building a Territory With No Playbook",
+      "teaser": "Eighteen months, three states, and a CRM pipeline I built myself.",
+      "body": "As a full-time volunteer representative across Nebraska, Iowa, and South Dakota, I ran a three-state territory with no formal sales title attached to it. Every visit started with a written pre-call objective. Every visit ended with a post-call evaluation, tracked through my own CRM pipeline, so I could handle the next objection better than the last one. That discipline turned an underperforming territory into one of the strongest in the region, and it is the same discipline a launch territory needs from day one."
+    },
+    {
+      "id": "inside-the-hospital-system",
+      "title": "Earning Access Inside the Hospital System",
+      "teaser": "Meeting the credentialing bar, then earning the trust that comes after it.",
+      "body": "My EMT training put me inside an actual hospital system: the emergency department, patient transfers, and ambulance care, working alongside ER physicians, nurses, and trauma teams under full credentialing and safety compliance standards. Assisting during a high-acuity emergency procedure taught me to stay composed and useful under real pressure, inside the exact kind of environment where a rep has to earn the right to be in the room, not just show up with a badge."
+    },
+    {
+      "id": "earning-the-hardest-gatekeeper",
+      "title": "Earning the Hardest Gatekeeper",
+      "teaser": "The one contact everyone told me not to bother with.",
+      "body": "One community leader I needed access through hadn't engaged with anyone from our group in years, and everyone before me said not to bother. Instead of pushing directly, I built a relationship with his wife first, learned he missed playing soccer with a group he'd lost touch with, and organized a recurring game and told him all he had to do was show up. He did, and over time he went from ignoring us completely to opening his entire network to us. Resistance is usually just information about what someone actually values, and that applies as much to a Head of Pharmacy as it does to a skeptical gatekeeper."
+    },
+    {
+      "id": "market-and-competitive-intelligence",
+      "title": "Reading the Competitive Landscape",
+      "teaser": "Turning raw market data into a plan the field can actually use.",
+      "body": "At 1-800 Contacts, I built a nationwide competitive and market analysis across 42,000+ U.S. ZIP codes to identify where spend and coverage should be concentrated, then personally trained the Analytic Team on how to use it. At Vivint, I took that same instinct further, diagnosing territory-level performance gaps with SQL, Snowflake, and Python and turning them into forecasting models leadership could act on. That is the analytical rigor behind a territory business plan: know the landscape before you walk in the door."
     }
   ],
   "skills": [
     {
-      "label": "Clinical",
-      "items": "Physician communication · Clinical fluency · Healthcare product expertise · Patient-facing experience · EMT certified"
+      "label": "Clinical & Institutional",
+      "items": "Direct patient care inside a hospital system (ED, transfers, ambulance) · Credentialing and safety compliance · Disease state and pharmacology fundamentals · Physician and care-team collaboration · EMT certified"
     },
     {
-      "label": "Execution",
-      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
+      "label": "Strategic & Analytical",
+      "items": "Territory business planning · Competitive landscape and market analysis · CRM pipeline management · Forecasting and quota attainment · Data-driven decision making (SQL, Snowflake, Python)"
     },
     {
-      "label": "Stakeholder",
-      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
+      "label": "Stakeholder & Access",
+      "items": "C-suite and senior stakeholder management · Multi-stakeholder consensus building · Gatekeeper and front-office rapport · Pre-call planning and post-call evaluation · Objection handling · Consultative communication"
     },
     {
       "label": "Languages & Credentials",
-      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
+      "items": "Spanish, professional working proficiency · Licensed EMT (NREMT) · BLS Certified (AHA) · FEMA Certified · Valid Texas driver's license, clean driving record · B.S. Communications, Minor in Finance, Brigham Young University"
     }
   ],
   "experience": [
     {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "Emergency Medical Technician — Clinical Rotations",
-      "body": "Top 7% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
-      "bullets": [
-        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
-        "Maintained strict sterile and regulatory compliance during in-transit care",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
-      ]
+      "company": "University of Texas at Dallas",
+      "period": "Jun 2025 – Sep 2025",
+      "title": "Licensed Emergency Medical Technician",
+      "body": "Top 5% of cohort, delivering hands-on clinical support inside a hospital system across the emergency department, trauma bay, ambulance, and in-transit care.\n\nI worked directly with physicians, nurses, and trauma teams under full credentialing and safety compliance standards, including a high-acuity emergency procedure where staying composed under pressure mattered as much as any protocol. I completed training in pharmacology fundamentals, giving me a real foundation for disease-state and treatment conversations from day one.",
+      "bullets": []
     },
     {
       "company": "Goldman Sachs",
       "period": "Apr 2021 – Mar 2023",
-      "title": "Global Markets Analyst",
-      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
-      "bullets": [
-        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
-        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
-        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues"
-      ]
-    },
-    {
-      "company": "Vivint Solar",
-      "period": "May 2019 – Apr 2020",
-      "title": "Business Operations Analyst",
-      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
-      "bullets": [
-        "Diagnosed territory and operational gaps tied directly to P&L impact",
-        "Built forecasts in SQL, Snowflake, and Python aligned to board-level targets"
-      ]
-    },
-    {
-      "company": "CASA",
-      "period": "Jan 2015 – Dec 2019",
-      "title": "Executive Director (Volunteer) — BYU Chapter",
-      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
+      "title": "Global Markets Analyst — Client Relationships & Syndicated Loan Operations",
+      "body": "Managed 20+ institutional relationships across multi-million dollar syndicated loan portfolios, completing 10 to 20 complex transactions weekly with zero-defect accuracy in a 70+ hour workweek.\n\nThe real work was navigating accounts where the decision never rested with one person. When a senior client pushed back on a contract term, I found the misread myself and aligned internal leadership and the client's team to keep the relationship intact, the same multi-stakeholder consensus building a rep needs across a hospital's own decision structure.",
       "bullets": []
     },
     {
-      "company": "Volunteer Mission Service",
+      "company": "Vivint",
+      "period": "May 2019 – Apr 2020",
+      "title": "Business Operations Analyst",
+      "body": "Diagnosed territory-level performance gaps and built executive forecasting models in SQL, Snowflake, and Python to translate complex data into board-aligned growth strategy.\n\nI took that analysis directly to C-suite leadership and secured a $2M+ revenue expansion opportunity, the same competitive and market analysis a territory business plan requires before a launch even starts.",
+      "bullets": []
+    },
+    {
+      "company": "1-800 Contacts",
+      "period": "May 2017 – Sep 2017",
+      "title": "Financial Analyst Intern",
+      "body": "Built a nationwide competitive and market analysis across 42,000+ U.S. ZIP codes to identify underperforming spend, market segments, and high-potential growth territories, then trained the Analytic Team on the framework I built.\n\nI taught myself SQL from scratch to build it, the same way I would teach myself the science behind a therapeutic area: unfamiliar to fluent, fast, and useful enough to bring back to the team.",
+      "bullets": []
+    },
+    {
+      "company": "CASA",
+      "period": "Jan 2016 – Dec 2019",
+      "title": "Executive Director (Volunteer), BYU Chapter",
+      "body": "Presided over a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children in a high-stakes judicial environment.\n\nMany of the children I advocated for were navigating serious medical and behavioral needs, giving me an early, first-hand understanding of what is at stake when care doesn't reach someone. I built trusted relationships with judges, attorneys, families, and multidisciplinary stakeholders, the same patient-centered, cross-functional stakeholder management a rep needs across a full care team.",
+      "bullets": []
+    },
+    {
+      "company": "Spanish-Speaking Service Mission",
       "period": "Feb 2014 – Aug 2015",
-      "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
-      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
+      "title": "Full-Time Volunteer Representative, Nebraska, Iowa & South Dakota",
+      "body": "Built a three-state territory from the ground up by identifying and developing influential community advocates, reducing reliance on cold outreach.\n\nI went in with classroom Spanish and came out fluent, using it every day for 18 months across hundreds of families and individuals. Daily pre-call planning and post-call evaluation, tracked through a CRM pipeline, is the same call discipline this role requires to optimize coverage across a territory, and onboarding a new representative while consistently hitting weekly targets is the coachability hiring managers look for in someone building access from scratch.",
       "bullets": []
     }
   ],
   "contact": {
     "title": "Let's Connect",
     "headline": "I'd love to hear from you.",
-    "tagline": "\"Solving for the person across from me.\"",
+    "tagline": "Building institutional relationships that hold up under a real decision cycle.",
     "items": [
       {
         "label": "Email",
@@ -194,7 +211,7 @@
       },
       {
         "label": "Location",
-        "value": "Dallas-Fort Worth, Texas",
+        "value": "Dallas, TX",
         "href": null
       }
     ]
