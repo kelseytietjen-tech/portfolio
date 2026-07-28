@@ -87,22 +87,46 @@
   ],
   "startStories": [
     {
-      "id": "territory",
-      "title": "The Territory Everyone Wrote Off",
-      "teaser": "I was assigned a territory where the key stakeholder had already said no before I ever showed up, and the numbers proved it.",
-      "body": "My job was to find people willing to join our group. Cold calling strangers rarely worked. Warm introductions did. In each area, one key local contact connected us to the people we needed to reach. Mine had shut out everyone before me, and the territory's numbers showed it.\n\nI did not push. I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing soccer. That was my opening. We organized a game, he came, and we kept it going. He went from closed off to actively introducing us to his whole network.\n\nA no is not the end. It just means you have not found the right way in yet, and that trust cannot be rushed. That is exactly what it takes with a physician who has already turned away every rep before you."
+      "id": "decisionmaker",
+      "jdLine": "Penetration of large accounts and identifying key decision makers",
+      "title": "Finding the Key Decision Maker",
+      "teaser": "The account had already said no to everyone before me, and the numbers showed it, until I figured out who actually held the door open.",
+      "body": "My job was to find people willing to join our group. In each area, one local contact controlled access to everyone else. Mine had shut out every rep before me, and the territory's numbers proved it.\n\nI did not push. I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing soccer. That was my opening. We organized a game, he came, and we kept it going. He went from closed off to actively introducing us to his whole network.\n\nPenetrating a large account rarely starts with the person whose name is on the door. It starts with finding whoever actually controls access, and earning it before you ask for anything."
     },
     {
-      "id": "goldman",
-      "title": "The Goldman Standard",
-      "teaser": "At Goldman I managed multi million dollar loan portfolios where one missed detail buried in a hundred page contract meant real money and real trust on the line.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar loan accounts. The contracts behind those deals ran hundreds of pages of dense language, and a single detail buried at one point could not be missed. I learned to read them front to back so I caught discrepancies before they ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience.\n\nAccuracy and warmth are not a tradeoff. A physician's office expects the same thing from a rep: someone who is never wrong on the details and values their time as much as their own."
+      "id": "customerbase",
+      "jdLine": "Creative thought process in developing a customer base",
+      "title": "Building a Customer Base From a Spreadsheet",
+      "teaser": "Nobody told me which ZIP codes to target, so I built the map myself out of 42,000 of them.",
+      "body": "At 1-800 Contacts I was handed a national marketing budget problem with no roadmap. I built a performance heat map across more than 42,000 U.S. ZIP codes, layering spend, conversion, and demographic data to find where the company was paying for reach it was not getting and where it was leaving growth on the table.\n\nThen I trained the Analytics team on the framework so it did not live only in my head.\n\nDeveloping a customer base creatively means going past the list you are handed and building your own view of where the real opportunity sits, then making the case for it with data, not a hunch."
     },
     {
-      "id": "trauma",
-      "title": "The Rooftop Trauma Night",
+      "id": "territoryplan",
+      "jdLine": "Create territory plan including goals and resource allocation",
+      "title": "Building the Business Case for the Territory",
+      "teaser": "I saw a $2M gap in how resources were being allocated across territories, so I built the plan and took it to the people who could act on it.",
+      "body": "At Vivint I noticed the way resources were split across territories was not matching where the real revenue opportunity actually was. I built the forecasting models myself in SQL, Snowflake, and Python, sized the gap at over $2M, and brought the business case directly to senior leadership.\n\nThey acted on it, and resources moved toward the territories that could actually use them.\n\nA territory plan is not a form you fill out once. It is a living case for where your goals and your resources should actually go, backed by data you went and got yourself."
+    },
+    {
+      "id": "clinicalpapers",
+      "jdLine": "Scientific understanding of clinical papers",
+      "title": "Reading the Dense Material Closely Enough to Explain It",
+      "teaser": "A missed detail buried on page eighty of a loan contract could cost a client real money, so I learned to read the whole thing, then explain it in plain English.",
+      "body": "I managed institutional clients across multi million dollar loan accounts at Goldman Sachs. The contracts behind those deals ran hundreds of pages of dense legal language, and a single detail buried at one point could not be missed. I read them front to back so I could catch a discrepancy before it ever reached a client, then explained it in plain terms, not legal speak, because their trust in me depended on them actually understanding what I told them.\n\nA clinical paper asks for the same muscle. Read it closely enough that you could walk a physician through the findings yourself, not just repeat the abstract."
+    },
+    {
+      "id": "businesspartner",
+      "jdLine": "Teaming with customers as a business partner, utilizing consultative skills",
+      "title": "Teaming With People Who Did Not Report to Me",
+      "teaser": "As Executive Director of a 100 plus person volunteer organization, every judge, attorney, and family I worked with was a stakeholder I had to earn, not manage.",
+      "body": "As Executive Director of my university's CASA chapter, I led a 5 person leadership team overseeing more than 100 volunteer advocates supporting court involved children. None of the judges, attorneys, or families I coordinated with answered to me. Every relationship had to be built on trust and clear communication, in a setting where a misstep had real consequences for a kid.\n\nTeaming with a customer as a business partner works the same way. Nobody on the other side of the table reports to you. You earn the seat by being useful, consistent, and honest, every time."
+    },
+    {
+      "id": "standards",
+      "jdLine": "Demonstrate high ethical and professional standards at all times",
+      "title": "Falling to the Level of Your Preparation",
       "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I had never worked with before, and no time to think about it.",
-      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. My mentor pulled me mid task and told me to follow two nurses immediately. We ran to the rooftop helipad to receive an emergency air transport, learning the protocol on the way up, then raced the patient into the trauma bay.\n\nThe surgeon barked a command to cut the patient's clothes off. I stepped forward and started cutting while he performed what I later identified as an emergency tracheotomy. A couple of other students in the room had frozen. The nurses told them to follow my lead.\n\nYou do not rise to the occasion, you fall to your level of preparation. A team that trusts its training moves together without anyone having to think twice, whether that is a trauma bay or a physician's office."
+      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. My mentor pulled me mid task and told me to follow two nurses immediately. We ran to the rooftop helipad to receive an emergency air transport, learning the protocol on the way up, then raced the patient into the trauma bay.\n\nThe surgeon barked a command to cut the patient's clothes off. I stepped forward and started cutting while he performed what I later identified as an emergency tracheotomy. A couple of other students in the room had frozen. The nurses told them to follow my lead.\n\nYou do not rise to the occasion, you fall to your level of preparation. High standards are not something you claim, they are what shows up automatically when it counts."
     }
   ],
   "skills": [
