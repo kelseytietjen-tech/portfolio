@@ -1,49 +1,53 @@
 {
+  "resumeLink": {
+    "url": "Kelsey_Tietjen_Resume.pdf",
+    "label": "View Full Resume"
+  },
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · DFW",
+    "eyebrow": "Pharmaceutical Sales Representative · DFW, TX",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across missions, boardrooms, and trauma bays.",
+    "tagline": "Territory Builder | Clinically Credentialed | Relationship-Driven",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
+    "title": "Why pharma, why now",
     "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint Solar, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "body": "I spent the first part of my career in institutional finance, most recently at Goldman Sachs, managing a book of up to 20 multi-million-dollar corporate lending relationships. The real skill there wasn't the numbers. It was earning the trust of time-strapped people who had every other option available to them, reading what each one actually needed, and knowing dense, jargon-heavy contracts well enough to solve real problems with them. I held 100% retention across that book with zero escalations. In 2023, I stepped back for a planned break centered on family caregiving.\n\nDuring that break I earned my national EMT licensure through UT Dallas, finishing in the top 5% of my cohort. Across emergency department and pre-hospital rotations I provided direct patient care to more than 150 patients, including trauma, respiratory distress, and other high-acuity cases, and completed coursework in pharmacology fundamentals. What stayed with me was how often a patient's outcome traced back to whether the right medication reached them, and whether the provider treating them had the right information at the right moment. That's the part of the chain a representative owns.\n\nI know what I don't have: two years with a B2B outside sales title on my resume. What I do have is the underlying work that requirement screens for. As a full-time volunteer representative across Nebraska, Iowa, and South Dakota, I ran a three-state territory for 18 months against weekly performance goals, with a structured plan of action, daily pre-call planning, post-call evaluation, and disciplined CRM pipeline management. More than half of my new commitments came through referrals rather than cold outreach, because I invested in the community gatekeepers who could open doors a cold pitch never would. That is territory building, gatekeeper access, and rejection tolerance, learned in the field rather than in a classroom.\n\nI also bring two things most candidates from a traditional B2B seat don't. I hold a clinical credential, so I can hold a real conversation with a physician and their care team on day one rather than spending six months learning how. And I speak Spanish at a professional working level, which across DFW physician offices means real rapport with the front office staff and gatekeepers who decide whether you get five minutes or none.\n\nI live in the DFW metro and I'm looking for a territory where I can bring analytical rigor and persistence. My approach is simple: know the product, know the territory, build real trust with the people in it, and keep working the angle until I find the right need and the right moment to close."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
     "items": [
       {
-        "number": "20+",
-        "label": "Client Relationships",
-        "description": "Institutional accounts managed at Goldman Sachs across multi-million dollar syndicated loan portfolios"
+        "number": "100%",
+        "label": "Account Retention",
+        "description": "Held 100% retention across a key account book of up to 20 multi-million-dollar corporate lending relationships at Goldman Sachs, with zero escalations"
       },
       {
         "number": "Top 5%",
-        "label": "EMT Program",
-        "description": "UT Dallas EMT certification with hands-on clinical rotations in emergency, surgical, and in-transit care"
+        "label": "EMT Cohort",
+        "description": "National EMT licensure (NREMT) through UT Dallas, with direct patient care to 150+ patients across emergency department and pre-hospital rotations"
       },
       {
-        "number": "$2M+",
+        "number": "$2M",
         "label": "Opportunity Identified",
-        "description": "Sized and sold a business case to senior leadership at Vivint driving resource reallocation toward higher-return initiatives"
+        "description": "Identified 8 operational inefficiencies at Vivint, uncovering a $2M revenue opportunity that informed executive resource allocation and business planning"
       },
       {
-        "number": "18mo",
-        "label": "Field Representative",
-        "description": "Spanish-speaking volunteer across Nebraska, Iowa, and South Dakota — professional working proficiency maintained"
+        "number": "18 mo",
+        "label": "Three-State Territory",
+        "description": "Ran a Nebraska, Iowa, and South Dakota territory against weekly performance goals, with more than 50% of new commitments generated through referrals rather than cold outreach"
       },
       {
         "number": "100+",
         "label": "Volunteer Advocates Led",
-        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
+        "description": "As Executive Director of the BYU CASA chapter, directed a 5-member executive team overseeing 100+ volunteer advocates supporting court-involved children"
       },
       {
-        "number": "42K+",
+        "number": "41K+",
         "label": "ZIP Codes Analyzed",
-        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
+        "description": "Built a nationwide brand marketing performance heat map at 1-800 Contacts, enabling leadership to evaluate advertising spend against acquisition and regional market trends"
       }
     ]
   },
@@ -87,95 +91,108 @@
   ],
   "startStories": [
     {
-      "id": "territory",
-      "title": "The Territory Everyone Wrote Off",
-      "teaser": "I was assigned a territory where the key stakeholder had already said no to reps before me, and the numbers showed it.",
-      "body": "My job was to find people willing to join our organization. Cold calling strangers rarely worked, warm referrals did. Most members weren't reps like me, they were local families who met multiple times a week. In each area, one key stakeholder connected reps to those members. Mine had shut out every rep before me, and the territory's numbers had suffered for it.\n\nI didn't push. My companion and I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing pickup soccer. That was my opening. We organized a game. He came. We kept it going. He went from closed off to actively referring members and trusting us with his network.\n\nThat territory became one of the strongest in the district.\n\nWhat that taught me is a no isn't the end, it just means you haven't found the right angle yet. Trust can't be rushed. That's exactly what it takes with a physician who's already said no to reps before."
+      "id": "territory-business-planning",
+      "title": "Territory Business Planning & Hitting the Number",
+      "teaser": "Building the plan, then executing against it under real pressure.",
+      "body": "Across a three-state territory in Nebraska, Iowa, and South Dakota, I worked a structured plan of action against weekly performance goals, and hit them for 12 consecutive weeks while onboarding and mentoring a new representative. Coverage wasn't improvised. It was planned, tracked, and evaluated.\n\nAt Vivint I sat on the other side of that number. I built the executive dashboards the COO and six department leaders used to monitor KPIs, quota attainment, and sales goal performance tied to sold volume and installation capacity, with findings presented in C-suite quarterly earnings calls. Understanding where a number should come from before anyone chases it is the analytical half of territory planning.\n\nAt Goldman Sachs, hitting the number was literal: approximately 20 complex lending transactions a week with exceptional accuracy and no room for error. That is the discipline of meeting hard output targets consistently, which is the same discipline a quota takes month after month."
     },
     {
-      "id": "goldman",
-      "title": "The Goldman Standard",
-      "teaser": "At Goldman I managed multi million dollar loan portfolios where one missed detail in a hundred page contract meant real money and real trust on the line.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran hundreds of pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
+      "id": "pre-call-post-call",
+      "title": "Pre-Call Planning & Post-Call Evaluation",
+      "teaser": "A call planning discipline built from scratch in a three-state territory.",
+      "body": "As a full-time volunteer representative, I built this process myself. Before every visit I set a specific pre-call objective. After every visit I ran a post-call evaluation, tracked through a CRM pipeline, capturing the objections and concerns I heard so I could handle them better the next time. That discipline is why more than half of my new commitments came through referrals rather than cold outreach.\n\nAt Goldman Sachs the same instinct showed up differently. When a client pushed back on a contract term, I found the misread myself, got internal leadership aligned, and resolved it before it became an escalation. Across the full account book I closed out inquiries on loan terms, interest rates, and payment structures with zero escalations. Prepare for the objection, then close with a clear next step, works the same whether the stakes are a contract or a prescribing decision."
     },
     {
-      "id": "trauma",
-      "title": "The Rooftop Trauma Night",
-      "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I'd never worked with before, and no time to think about it.",
-      "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. It had already been an intense night. My mentor pulled me mid task and told me to follow two nurses immediately.\n\nWe ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and raced him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nWhat that night taught me is you don't rise to the occasion, you fall to your level of preparation and instinct. The team that trusts its training moves together without anyone having to think twice, whether that's a trauma bay or a physician's office."
+      "id": "trusted-relationships-advocates",
+      "title": "Trusted Relationships & Developing Advocates",
+      "teaser": "What I learned from the one gatekeeper everyone said not to bother with.",
+      "body": "Each area I worked had an influential community leader who was effectively the gateway to an entire network. Mine hadn't worked with a representative in years, and everyone before me said not to bother.\n\nSo instead of pushing him directly, I built a relationship with his wife first: weekly lunches, genuine friendship, listening for anything that told me who he actually was. She eventually mentioned he missed playing soccer with a group he'd lost touch with. I organized a recurring soccer event and told him all he had to do was show up. He did. Over time he went from ignoring us entirely to making referrals and mobilizing his own network, and eventually invited us to spend the Fourth of July with his family. Resistance is usually just information about what someone actually values. That's the motion this work takes: find the person whose voice already carries weight, develop them on their own terms, and let their credibility open doors a cold pitch never could.\n\nAt Goldman Sachs I held 100% retention across a key account book of up to 20 relationships with senior decision makers who had every option available to them and no obligation to stay. White-glove service, reading what each one needed and delivering it before they asked twice, is what kept them."
+    },
+    {
+      "id": "healthcare-delivery-system",
+      "title": "Navigating the Healthcare Delivery System",
+      "teaser": "Learning the hierarchy from inside it, not from a training deck.",
+      "body": "Across emergency department and pre-hospital rotations I provided direct patient care to more than 150 patients, including trauma, respiratory distress, and other high-acuity cases. I supported care coordination with physicians and clinical nursing staff across patient handoffs and medication administration, and documented patient care records throughout.\n\nI also assisted an ER physician during an emergency tracheotomy, which taught me to stay composed and execute in a fast-paced clinical environment alongside a full care team. Understanding the physician hierarchy, the clinical nursing staff, and the workflow of a care setting is not something I'd need six months to learn. I've worked inside it.\n\nThat foundation extends to access. I understand prior authorization, reimbursement and coding, primary care referral pathways, and HIPAA obligations, which is the practical side of whether a therapy actually reaches the patient it was written for."
+    },
+    {
+      "id": "market-clinical-intelligence",
+      "title": "Market Intelligence & Business Analytics",
+      "teaser": "Reading a territory with data, then sharing what you find.",
+      "body": "At 1-800 Contacts I built a nationwide brand marketing performance heat map across 41,000+ U.S. ZIP codes, enabling leadership to evaluate advertising spend against customer acquisition and regional market trends at the territory level. I also initiated an independent market analysis across all 50 states outside my assigned responsibilities, introducing a data visualization approach the team adopted, and trained the 10-person analytics team on the tools behind it.\n\nAt Vivint I analyzed operational and field performance data using SQL and business intelligence tools, learning both on the job well enough to deliver executive-level reporting within nine days of onboarding. I identified 8 operational inefficiencies and uncovered a $2M revenue opportunity that informed executive resource allocation and business planning.\n\nReading local and regional trends, turning them into a plan, and feeding what you learn back to the wider team is the same loop a territory needs."
+    },
+    {
+      "id": "compliance-collaboration",
+      "title": "Compliance, Administration & Cross-Functional Collaboration",
+      "teaser": "The unglamorous half of the job, done properly.",
+      "body": "At Goldman Sachs I interpreted 100 to 250+ page legal loan agreements to enable accurate billing, contract and regulatory compliance, and timely resolution of client inquiries, and processed roughly 20 complex transactions weekly while maintaining compliance with internal controls. Regulated environments, documented processes, and administrative work completed on time are not a burden I'd be adjusting to. They're the environment I came from.\n\nAs an EMT I worked under HIPAA obligations and clinical documentation standards, and as Executive Director of the BYU CASA chapter I drove certification completion across a 100+ advocate roster, increasing the share of active, fully certified advocates.\n\nCollaboration shows up throughout: mentoring an intern and two team members at Goldman Sachs, onboarding a new representative in the field, training a 10-person analytics team, and coordinating with judges, attorneys, families, and community partners at CASA. Working across a matrix to deliver one consistent customer experience is a habit, not a new skill."
     }
   ],
   "skills": [
     {
       "label": "Clinical",
-      "items": "Physician communication · Clinical fluency · Healthcare product expertise · Patient-facing experience · EMT certified"
+      "items": "Direct patient care across emergency department and pre-hospital settings · Airway and respiratory assessment · COPD and asthma pathophysiology · Pharmacology fundamentals · Physician, nursing, and HCP collaboration · Healthcare delivery systems and clinical workflow · Care coordination and primary care referrals · Clinical documentation and patient care records · Prior authorization, reimbursement and coding · HIPAA compliance"
     },
     {
       "label": "Execution",
-      "items": "Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management"
+      "items": "Territory business and activity planning · Key account management · Pre-call planning and call execution · Customer targeting · CRM pipeline management · Quota and goal attainment · Business analytics and KPI reporting · Budget management · Regulatory compliance, policies and procedures"
     },
     {
       "label": "Stakeholder",
-      "items": "Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building"
+      "items": "Consultative selling · Building relationships with HCPs and key stakeholders · Influencing decision makers · Objection handling · Clinical and executive presentation delivery · Customer interaction, retention, and customer experience · Cross-functional collaboration · Training and development programs · Needs assessment"
     },
     {
       "label": "Languages & Credentials",
-      "items": "Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified"
+      "items": "Spanish, professional working proficiency · Licensed EMT (NREMT) · BLS Certified (AHA) · FEMA Emergency and Disaster Response Protocols · B.S. Communications, Minor in Finance, Brigham Young University"
     }
   ],
   "experience": [
     {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "Emergency Medical Technician — Clinical Rotations",
-      "body": "Top 7% of class. Hands-on clinical experience across emergency, surgical, and in-transit care environments.",
-      "bullets": [
-        "Assisted an ER physician during an emergency tracheotomy under extreme pressure",
-        "Maintained strict sterile and regulatory compliance during in-transit care",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Facilitated patient handoffs with ER physicians, nurses, and trauma teams"
-      ]
+      "company": "Clinical Training & Family Caregiving",
+      "period": "Mar 2023 – Present",
+      "title": "Licensed Emergency Medical Technician (NREMT) | University of Texas at Dallas",
+      "body": "Earned national EMT licensure through UT Dallas, ranking in the top 5% of cohort, and provided direct patient care to 150+ patients across emergency department and pre-hospital rotations, including trauma, respiratory distress, and other high-acuity cases.\n\nI supported care coordination with physicians and clinical nursing staff across patient handoffs and medication administration, and performed rapid-response airway support alongside an ER physician during an emergency tracheotomy. Navigating the healthcare delivery system firsthand, the physician hierarchy, the nursing staff, the workflow of a care setting, is the clinical fluency a representative needs to be useful in a physician's office on day one rather than after six months of ramp.\n\nDuring the same period I served as one of three Outreach Co-Chairs for a school community of 88 students and 42 families, and maintained a professional network pipeline in CRM across 100+ contacts while building toward an intentional transition into pharmaceutical sales.",
+      "bullets": []
     },
     {
       "company": "Goldman Sachs",
       "period": "Apr 2021 – Mar 2023",
-      "title": "Global Markets Analyst",
-      "body": "Managed 20+ institutional client relationships across multi-million dollar syndicated loan portfolios.",
-      "bullets": [
-        "Operated in a 70+ hour-per-week environment, delivering 10–20 complex deals weekly with zero-defect execution",
-        "Served as the trusted point of contact for senior decision-makers during high-stakes escalations",
-        "Developed deep product expertise through legal contract research, enabling resolution of complex client issues"
-      ]
-    },
-    {
-      "company": "Vivint Solar",
-      "period": "May 2019 – Apr 2020",
-      "title": "Business Operations Analyst",
-      "body": "Identified and sized a $2M+ opportunity, built and sold the business case to senior leadership.",
-      "bullets": [
-        "Diagnosed territory and operational gaps tied directly to P&L impact",
-        "Built forecasts in SQL, Snowflake, and Python aligned to board-level targets"
-      ]
-    },
-    {
-      "company": "CASA",
-      "period": "Jan 2015 – Dec 2019",
-      "title": "Executive Director (Volunteer) — BYU Chapter",
-      "body": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children.",
+      "title": "Global Markets Analyst | Client Relationships & Account Management",
+      "body": "Managed a key account book of up to 20 multi-million-dollar corporate lending relationships, maintaining 100% retention through white-glove service and resolving inquiries on loan terms, interest rates, and payment structures with zero escalations.\n\nThe real work wasn't the transactions, it was making a busy client's day easier: reading what they actually needed and solving it before they had to ask twice. Getting fluent in dense, jargon-filled legal contracts well enough to solve real problems with them is the same skill it takes to get fluent in clinical and scientific language fast, then make it land for the person across the desk. I also processed approximately 20 complex lending transactions weekly with exceptional accuracy, ensuring timely execution and compliance with internal controls, and mentored 1 intern and 2 team members.",
       "bullets": []
     },
     {
-      "company": "Volunteer Mission Service",
+      "company": "Vivint",
+      "period": "May 2019 – Apr 2020",
+      "title": "Business Operations Analyst",
+      "body": "Analyzed operational and field performance data using SQL and business intelligence tools to build executive dashboards and strategic recommendations that supported C-suite decision-making, delivering executive-level reporting within nine days of onboarding after learning both on the job.\n\nThe dashboards I built were used by the COO and six department leaders to monitor KPIs, quota attainment, and sales goal performance tied to sold volume and installation capacity, with findings presented in C-suite quarterly earnings calls. I identified 8 operational inefficiencies through data analysis, uncovering a $2M revenue opportunity that informed executive resource allocation and business planning. Reading performance data and turning it into a plan leadership will actually execute is the same business acumen a territory needs.",
+      "bullets": []
+    },
+    {
+      "company": "1-800 Contacts",
+      "period": "May 2017 – Sep 2017",
+      "title": "Financial Analyst Intern",
+      "body": "Built a nationwide brand marketing performance heat map across 41,000+ U.S. ZIP codes, enabling leadership to evaluate advertising spend against customer acquisition and regional market trends at the territory level.\n\nI also initiated an independent market analysis across all 50 states outside my assigned responsibilities, introducing a data visualization approach the team adopted for knowledge sharing, then trained the 10-person analytics team on the tools behind it. Finding the insight is half the job. Feeding it back to the team, the way a representative feeds field intelligence to a brand and sales manager, is the other half.",
+      "bullets": []
+    },
+    {
+      "company": "CASA",
+      "period": "Jan 2016 – Dec 2019",
+      "title": "Executive Director (Volunteer) | BYU Chapter",
+      "body": "Directed a 5-member executive team overseeing 100+ volunteer advocates supporting court-involved children, and drove certification completion across the advocate roster, increasing the share of active, fully certified advocates.\n\nEstablishing collaborative relationships with judges, attorneys, families, and community partners taught me to operate credibly across a group of stakeholders with different priorities and no obligation to agree with me. That is the same multidisciplinary stakeholder management a representative needs across a prescriber's full care team.",
+      "bullets": []
+    },
+    {
+      "company": "Spanish-Speaking Service Mission",
       "period": "Feb 2014 – Aug 2015",
-      "title": "Spanish-Speaking Representative — Nebraska, Iowa & South Dakota",
-      "body": "Managed a Spanish-speaking territory across 3 states. Built and maintained a pipeline tracking system increasing referral growth and reducing cold prospecting. Onboarded and trained an incoming representative while maintaining performance targets.",
+      "title": "Full-Time Service Representative (Volunteer) | Nebraska, Iowa & South Dakota",
+      "body": "Expanded membership across a three-state territory, with more than 50% of new commitments generated through referrals rather than cold outreach, by identifying and developing influential community advocates who opened doors a cold pitch never would.\n\nI executed a structured plan of action with pre-call planning and post-call evaluation, ensuring regular and consistent territory coverage through disciplined CRM pipeline management, and mentored and onboarded a new representative while meeting weekly performance goals for 12 consecutive weeks. This is where I learned coverage, frequency, referral-driven access, and rejection tolerance, in the field rather than in a training program.",
       "bullets": []
     }
   ],
   "contact": {
     "title": "Let's Connect",
     "headline": "I'd love to hear from you.",
-    "tagline": "\"Solving for the person across from me.\"",
+    "tagline": "Building territories one relationship at a time.",
     "items": [
       {
         "label": "Email",
@@ -194,7 +211,7 @@
       },
       {
         "label": "Location",
-        "value": "Dallas-Fort Worth, Texas",
+        "value": "Dallas, TX",
         "href": null
       }
     ]
