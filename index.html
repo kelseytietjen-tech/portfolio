@@ -233,6 +233,7 @@
   <div class="container">
     <p class="section-label">Experience</p>
     <h2>Where I've been. What I built.</h2>
+    <div class="cta-row" id="exp-resume-cta" style="margin-bottom: 1rem;"></div>
     <div class="exp-list" id="exp-list"></div>
   </div>
 </section>
@@ -289,21 +290,12 @@ fetch('portfolio-data.json')
       const cta = document.getElementById('hero-cta');
       if (cta) {
         cta.innerHTML = '';
-        if (resumeLink && resumeLink.url) {
-          const a0 = document.createElement('a');
-          a0.href = resumeLink.url;
-          a0.target = '_blank';
-          a0.rel = 'noopener';
-          a0.className = 'btn-primary';
-          a0.textContent = resumeLink.label || 'View Full Resume';
-          cta.appendChild(a0);
-        }
         if (hero.linkedinUrl) {
           const a1 = document.createElement('a');
           a1.href = hero.linkedinUrl;
           a1.target = '_blank';
           a1.rel = 'noopener';
-          a1.className = 'btn-secondary';
+          a1.className = 'btn-primary';
           a1.textContent = 'View LinkedIn';
           cta.appendChild(a1);
         }
@@ -315,6 +307,18 @@ fetch('portfolio-data.json')
           cta.appendChild(a2);
         }
       }
+    }
+
+    // RESUME BUTTON — placed under the Experience section heading
+    const expCta = document.getElementById('exp-resume-cta');
+    if (expCta && resumeLink && resumeLink.url) {
+      const a0 = document.createElement('a');
+      a0.href = resumeLink.url;
+      a0.target = '_blank';
+      a0.rel = 'noopener';
+      a0.className = 'btn-primary';
+      a0.textContent = resumeLink.label || 'View Full Resume';
+      expCta.appendChild(a0);
     }
 
     // NARRATIVE
