@@ -3,21 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kelsey Tietjen | Medical Sales</title>
+<title>Kelsey Tietjen | Pharmaceutical Sales</title>
+<meta name="description" content="Goldman Sachs alum, licensed EMT (NREMT), and pharmaceutical sales candidate in Dallas-Fort Worth.">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://kelseytietjen.pages.dev">
-<meta property="og:title" content="Kelsey Tietjen | Medical Sales">
-<meta property="og:description" content="Goldman Sachs alum, licensed EMT, and medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
+<meta property="og:url" content="https://respiratorypharma.kelseytietjen.pages.dev">
+<meta property="og:title" content="Kelsey Tietjen | Pharmaceutical Sales">
+<meta property="og:description" content="Goldman Sachs alum, licensed EMT (NREMT), and pharmaceutical sales candidate in Dallas-Fort Worth. Clinical credentials, three-state territory experience, and a 100% account retention record.">
 <meta property="og:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kelsey Tietjen | Medical Sales">
-<meta name="twitter:description" content="Goldman Sachs alum, licensed EMT, and medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
+<meta name="twitter:title" content="Kelsey Tietjen | Pharmaceutical Sales">
+<meta name="twitter:description" content="Goldman Sachs alum, licensed EMT (NREMT), and pharmaceutical sales candidate in Dallas-Fort Worth. Clinical credentials, three-state territory experience, and a 100% account retention record.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -35,6 +36,7 @@
   }
   html { scroll-behavior: smooth; }
   body { font-family: 'DM Sans', sans-serif; background: var(--warm-white); color: var(--charcoal); font-size: 15px; line-height: 1.7; }
+  body.modal-open { overflow: hidden; }
   .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; }
   .hero-left { background: var(--charcoal); display: flex; align-items: center; justify-content: center; padding: 4rem; position: relative; }
   .hero-left::after { content: ''; position: absolute; top: 0; right: -1px; width: 60px; height: 100%; background: var(--warm-white); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
@@ -86,8 +88,9 @@
   .stories-section h2 { color: var(--warm-white); }
   .stories-section .section-label { color: var(--accent-light); }
   .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.08); }
-  .story-card { background: #232320; padding: 2.25rem; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; }
-  .story-card:hover { background: #2B2B27; }
+  .story-card { background: #232320; padding: 2.25rem; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; text-align: left; border: none; font-family: inherit; width: 100%; }
+  .story-card:hover, .story-card:focus-visible { background: #2B2B27; outline: none; }
+  .story-card:focus-visible { box-shadow: inset 0 0 0 2px var(--accent-light); }
   .story-card-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--warm-white); margin-bottom: 1rem; line-height: 1.25; }
   .story-card-teaser { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.75; flex-grow: 1; margin-bottom: 1.5rem; }
   .story-card-cta { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-light); }
@@ -114,6 +117,8 @@
   .exp-period { font-size: 12px; color: var(--light); }
   .exp-title { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; margin-bottom: 0.75rem; color: var(--charcoal); }
   .exp-body { font-size: 14px; color: var(--mid); line-height: 1.75; }
+  .exp-body p { margin-bottom: 1rem; }
+  .exp-body p:last-child { margin-bottom: 0; }
   .exp-bullets { margin-top: 0.75rem; padding-left: 1rem; }
   .exp-bullets li { font-size: 13px; color: var(--mid); margin-bottom: 0.4rem; line-height: 1.6; }
   .contact-section { background: var(--charcoal); color: var(--warm-white); padding: 5rem 0; }
@@ -146,6 +151,10 @@
   }
   .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
   .fade-in.visible { opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .fade-in { opacity: 1; transform: none; transition: none; }
+  }
   .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 2rem 1rem; }
   .modal.show { display: flex; align-items: center; justify-content: center; }
   .modal-content { background-color: var(--warm-white); padding: 2rem; width: 95vw; max-width: 1200px; height: 90vh; overflow-y: auto; position: relative; }
@@ -247,10 +256,22 @@
 </section>
 
 <script>
+// Escape HTML so stray characters in the JSON can never break the page layout.
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+// Turn a "\n\n"-separated string into real paragraphs.
+function paras(text) {
+  return String(text || '').split('\n\n').filter(p => p.trim())
+    .map(p => '<p>' + esc(p.trim()) + '</p>').join('');
+}
+
 fetch('portfolio-data.json')
   .then(r => r.json())
   .then(data => {
-    const { hero, narrative, credentials, experience, recommendations, contact, skills, startStories } = data;
+    const { hero, narrative, credentials, experience, recommendations, contact, skills, startStories, resumeLink } = data;
 
     // HERO
     if (hero) {
@@ -259,7 +280,7 @@ fetch('portfolio-data.json')
 
       const nameWrap = document.getElementById('hero-name-wrap');
       if (nameWrap && hero.name) {
-        nameWrap.innerHTML = hero.name + '<br><em>' + (hero.nameEmphasis || '') + '</em>';
+        nameWrap.innerHTML = esc(hero.name) + '<br><em>' + esc(hero.nameEmphasis || '') + '</em>';
       }
 
       const tagline = document.getElementById('hero-tagline');
@@ -268,11 +289,21 @@ fetch('portfolio-data.json')
       const cta = document.getElementById('hero-cta');
       if (cta) {
         cta.innerHTML = '';
+        if (resumeLink && resumeLink.url) {
+          const a0 = document.createElement('a');
+          a0.href = resumeLink.url;
+          a0.target = '_blank';
+          a0.rel = 'noopener';
+          a0.className = 'btn-primary';
+          a0.textContent = resumeLink.label || 'View Full Resume';
+          cta.appendChild(a0);
+        }
         if (hero.linkedinUrl) {
           const a1 = document.createElement('a');
           a1.href = hero.linkedinUrl;
           a1.target = '_blank';
-          a1.className = 'btn-primary';
+          a1.rel = 'noopener';
+          a1.className = 'btn-secondary';
           a1.textContent = 'View LinkedIn';
           cta.appendChild(a1);
         }
@@ -293,7 +324,6 @@ fetch('portfolio-data.json')
 
       const body = document.getElementById('narrative-body');
       if (body && narrative.body) {
-        const paras = narrative.body.split('\n\n').filter(p => p.trim());
         body.innerHTML = '';
         if (narrative.highlight) {
           const hi = document.createElement('p');
@@ -301,11 +331,7 @@ fetch('portfolio-data.json')
           hi.textContent = narrative.highlight;
           body.appendChild(hi);
         }
-        paras.forEach(p => {
-          const el = document.createElement('p');
-          el.textContent = p.trim();
-          body.appendChild(el);
-        });
+        body.insertAdjacentHTML('beforeend', paras(narrative.body));
       }
     }
 
@@ -321,9 +347,9 @@ fetch('portfolio-data.json')
           const div = document.createElement('div');
           div.className = 'cred-item fade-in';
           div.innerHTML = `
-            <div class="cred-number">${item.number || ''}</div>
-            <div class="cred-label">${item.label || ''}</div>
-            <div class="cred-desc">${item.description || ''}</div>
+            <div class="cred-number">${esc(item.number)}</div>
+            <div class="cred-label">${esc(item.label)}</div>
+            <div class="cred-desc">${esc(item.description)}</div>
           `;
           grid.appendChild(div);
         });
@@ -344,8 +370,8 @@ fetch('portfolio-data.json')
         const content = document.createElement('div');
         content.className = 'rec-card-content';
         content.innerHTML = `
-          <div class="rec-quote">"${rec.text || ''}"</div>
-          <div class="rec-attribution">— ${rec.name || ''}, ${rec.title || ''}</div>
+          <div class="rec-quote">"${esc(rec.text)}"</div>
+          <div class="rec-attribution">${esc(rec.name)}, ${esc(rec.title)}</div>
         `;
         card.appendChild(content);
 
@@ -356,22 +382,28 @@ fetch('portfolio-data.json')
           const btn = document.createElement('button');
           btn.className = 'btn-view-letter-small';
           btn.textContent = rec.buttonText || 'View Full Letter';
-          btn.onclick = () => document.getElementById(modalId).classList.add('show');
+          btn.onclick = () => {
+            document.getElementById(modalId).classList.add('show');
+            document.body.classList.add('modal-open');
+          };
           btns.appendChild(btn);
           card.appendChild(btns);
 
-          // Build modal
           const modal = document.createElement('div');
           modal.id = modalId;
           modal.className = 'modal';
           modal.innerHTML = `
             <div class="modal-content">
               <span class="modal-close">&times;</span>
-              <iframe src="${rec.pdfFile}" width="100%" height="100%" style="border:none;border-radius:4px;"></iframe>
+              <iframe src="${esc(rec.pdfFile)}" title="Letter of recommendation" width="100%" height="100%" style="border:none;border-radius:4px;"></iframe>
             </div>
           `;
-          modal.querySelector('.modal-close').onclick = () => modal.classList.remove('show');
-          modal.onclick = (e) => { if (e.target === modal) modal.classList.remove('show'); };
+          const closeIt = () => {
+            modal.classList.remove('show');
+            document.body.classList.remove('modal-open');
+          };
+          modal.querySelector('.modal-close').onclick = closeIt;
+          modal.onclick = (e) => { if (e.target === modal) closeIt(); };
           if (modals) modals.appendChild(modal);
         }
 
@@ -389,54 +421,57 @@ fetch('portfolio-data.json')
       startStories.forEach((story, i) => {
         const modalId = 'story-modal-' + (story.id || i);
 
-        const card = document.createElement('div');
+        const card = document.createElement('button');
+        card.type = 'button';
         card.className = 'story-card fade-in';
         card.innerHTML = `
-          <div class="story-card-title">${story.title || ''}</div>
-          <div class="story-card-teaser">${story.teaser || ''}</div>
+          <div class="story-card-title">${esc(story.title)}</div>
+          <div class="story-card-teaser">${esc(story.teaser)}</div>
           <div class="story-card-cta">Read More...</div>
         `;
-        card.onclick = () => document.getElementById(modalId).classList.add('show');
+        card.onclick = () => {
+          document.getElementById(modalId).classList.add('show');
+          document.body.classList.add('modal-open');
+        };
         if (grid) grid.appendChild(card);
-
-        const bodyParas = (story.body || '').split('\n\n').filter(p => p.trim());
-        const bodyHTML = bodyParas.map(p => `<p>${p.trim()}</p>`).join('');
 
         const modal = document.createElement('div');
         modal.id = modalId;
         modal.className = 'story-modal';
         modal.innerHTML = `
           <div class="story-modal-inner">
-            <button class="story-modal-back">&#8592; Back</button>
-            <h3 class="story-modal-title">${story.title || ''}</h3>
-            <div class="story-modal-body">${bodyHTML}</div>
+            <button class="story-modal-back" type="button">&#8592; Back</button>
+            <h3 class="story-modal-title">${esc(story.title)}</h3>
+            <div class="story-modal-body">${paras(story.body)}</div>
           </div>
         `;
-        modal.querySelector('.story-modal-back').onclick = () => modal.classList.remove('show');
+        modal.querySelector('.story-modal-back').onclick = () => {
+          modal.classList.remove('show');
+          document.body.classList.remove('modal-open');
+          card.focus();
+        };
         if (modals) modals.appendChild(modal);
       });
     }
 
+    // Close any open modal with Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      document.querySelectorAll('.modal.show, .story-modal.show')
+        .forEach(m => m.classList.remove('show'));
+      document.body.classList.remove('modal-open');
+    });
+
     // SKILLS
     const skillsGrid = document.getElementById('skills-grid');
-    if (skillsGrid) {
+    if (skillsGrid && skills && skills.length) {
       skillsGrid.innerHTML = '';
-
-      const skillItems = (skills && skills.length)
-        ? skills
-        : [
-            { label: 'Clinical', items: 'Physician communication · Clinical fluency · Oncology familiarity · Patient-facing experience · EMT certified' },
-            { label: 'Execution', items: 'Territory ownership · High-pressure performance · Technical mastery · Data-driven decisions · CRM management' },
-            { label: 'Stakeholder', items: 'Executive engagement · Client management · Cross-functional coordination · Consultative selling · Trust building' },
-            { label: 'Languages & Credentials', items: 'Spanish — professional working proficiency, 18-month immersive deployment · Licensed EMT · BLS Certified · FEMA Certified' }
-          ];
-
-      skillItems.forEach(s => {
+      skills.forEach(s => {
         const card = document.createElement('div');
         card.className = 'skill-card fade-in';
         card.innerHTML = `
-          <div class="skill-label">${s.label || ''}</div>
-          <div class="skill-items">${s.items || ''}</div>
+          <div class="skill-label">${esc(s.label)}</div>
+          <div class="skill-items">${esc(s.items)}</div>
         `;
         skillsGrid.appendChild(card);
       });
@@ -454,18 +489,18 @@ fetch('portfolio-data.json')
           let bulletsHTML = '';
           if (job.bullets && job.bullets.length) {
             bulletsHTML = '<ul class="exp-bullets">' +
-              job.bullets.map(b => `<li>${b}</li>`).join('') +
+              job.bullets.map(b => `<li>${esc(b)}</li>`).join('') +
               '</ul>';
           }
 
           item.innerHTML = `
             <div class="exp-meta">
-              <div class="exp-company">${job.company || ''}</div>
-              <div class="exp-period">${job.period || ''}</div>
+              <div class="exp-company">${esc(job.company)}</div>
+              <div class="exp-period">${esc(job.period)}</div>
             </div>
             <div>
-              <div class="exp-title">${job.title || ''}</div>
-              <div class="exp-body">${job.body || ''}</div>
+              <div class="exp-title">${esc(job.title)}</div>
+              <div class="exp-body">${paras(job.body)}</div>
               ${bulletsHTML}
             </div>
           `;
@@ -476,8 +511,8 @@ fetch('portfolio-data.json')
 
     // CONTACT
     if (contact) {
-      const label = document.getElementById('contact-section-label');
-      if (label) label.textContent = contact.title || "Let's Connect";
+      const sectionLabel = document.getElementById('contact-section-label');
+      if (sectionLabel) sectionLabel.textContent = contact.title || "Let's Connect";
 
       const headline = document.getElementById('contact-headline');
       if (headline) headline.textContent = contact.headline || "I'd love to hear from you.";
@@ -500,7 +535,7 @@ fetch('portfolio-data.json')
             const a = document.createElement('a');
             a.href = item.href;
             a.className = 'contact-item-value';
-            if (item.href.startsWith('http')) a.target = '_blank';
+            if (item.href.startsWith('http')) { a.target = '_blank'; a.rel = 'noopener'; }
             a.textContent = item.value || '';
             div.appendChild(a);
           } else {
@@ -524,7 +559,10 @@ fetch('portfolio-data.json')
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
   })
-  .catch(err => console.error('Failed to load portfolio-data.json:', err));
+  .catch(err => {
+    console.error('Failed to load portfolio-data.json:', err);
+    document.querySelectorAll('.fade-in').forEach(el => el.classList.add('visible'));
+  });
 </script>
 </body>
 </html>
