@@ -1,11 +1,13 @@
 {
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
+    "eyebrow": "Territory Manager, Endoscopy · Goldman Sachs Alum · Licensed EMT · Bilingual · Fort Worth",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
     "tagline": "Built across missions, boardrooms, and trauma bays.",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
-    "email": "kelseytietjen@gmail.com"
+    "email": "kelseytietjen@gmail.com",
+    "resumeUrl": "Kelsey_Tietjen_Resume.pdf",
+    "resumeLabel": "Download Resume"
   },
   "narrative": {
     "title": "Why Kelsey?",
@@ -28,7 +30,7 @@
       {
         "number": "$2M",
         "label": "Revenue Opportunity",
-        "description": "Sized and sold a business case to senior leadership at Vivint that redirected executive resource allocation"
+        "description": "Sized a business case and presented it to senior leadership at Vivint, redirecting executive resource allocation"
       },
       {
         "number": "50%+",
@@ -87,8 +89,8 @@
   ],
   "startStories": [
     {
-      "id": "consultative",
-      "title": "Consultative Selling and Account Retention",
+      "id": "retention",
+      "title": "Account Retention and Client Trust",
       "teaser": "At Goldman Sachs I held a book of roughly 20 multi-million dollar lending accounts at 100% retention with zero escalations.",
       "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran 100 to 250 pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions. I kept every account in my book and never had a single issue escalate.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
     },
@@ -102,7 +104,7 @@
       "id": "business",
       "title": "Business Acumen and Data-Driven Insight",
       "teaser": "I found a $2M revenue opportunity nobody assigned me at Vivint, and built a national marketing heat map across 41,000 ZIP codes at 1-800 Contacts.",
-      "body": "I joined Vivint without knowing SQL or the business intelligence tools the team ran on. I learned both and delivered executive-level reporting within 9 days of starting. The dashboards I built were used by the COO and 6 department leaders, and the numbers in them were presented on C-suite quarterly earnings calls.\n\nOnce I was in the data every day I started noticing patterns nobody had asked me to look for. I identified 7 to 8 operational inefficiencies across field and operations performance. Together they added up to roughly $2M in revenue opportunity. I built the case, sized it, presented it to senior leadership, and they reallocated resources based on it.\n\nEarlier, as a financial analyst intern at 1-800 Contacts, my assignment was recurring executive reporting. The reports were accurate but they did not show leadership where advertising money was actually working. I built a nationwide marketing performance heat map covering more than 41,000 U.S. ZIP codes so spend could be seen against customer acquisition geographically. It exposed inefficient spend and identified markets worth growing. I then ran an independent 50-state analysis outside my assigned responsibilities using a visualization approach the team had not used before, and they adopted it.\n\nA territory is a data set. Most reps report on theirs. I have spent my career finding the thing inside the numbers that nobody asked about, sizing it, and getting decision makers to act on it."
+      "body": "I joined Vivint without knowing SQL or the business intelligence tools the team ran on. I learned both and delivered executive-level reporting within 9 days of starting. The dashboards I built were used by the COO and 6 department leaders, and the numbers in them were presented on C-suite quarterly earnings calls.\n\nOnce I was in the data every day I started noticing patterns nobody had asked me to look for. I identified 7 to 8 operational inefficiencies across field and operations performance. Together they added up to roughly $2M in revenue opportunity. I built the case, sized it, presented it to senior leadership, and they reallocated resources based on it.\n\nEarlier, as a financial analyst intern at 1-800 Contacts, my assignment was recurring executive reporting for a direct-to-consumer medical device retailer. The reports were accurate but they did not show leadership where advertising money was actually working. I built a nationwide marketing performance heat map covering more than 41,000 U.S. ZIP codes so spend could be seen against customer acquisition geographically. It exposed inefficient spend and identified markets worth growing. I then ran an independent 50-state analysis outside my assigned responsibilities using a visualization approach the team had not used before, and they adopted it.\n\nA territory is a data set. Most reps report on theirs. I have spent my career finding the thing inside the numbers that nobody asked about, sizing it, and getting decision makers to act on it."
     },
     {
       "id": "territory",
@@ -126,15 +128,15 @@
   "skills": [
     {
       "label": "Sales & Customer Engagement",
-      "items": "Consultative selling · Territory management · Account management · Objection handling · Executive presentations"
+      "items": "Territory management · Account management · Market development · Prospecting · Cold calling · Customer feedback · Objection handling · Quota attainment · Executive presentations"
     },
     {
       "label": "Clinical & Healthcare",
-      "items": "Emergency medical care · Pharmacology fundamentals · Physician collaboration · Patient education · Patient access and reimbursement"
+      "items": "Emergency medical care · Anatomy and physiology · Gastrointestinal and abdominal assessment · Clinical knowledge · Clinical excellence · Physician collaboration · Patient education · Patient access and reimbursement"
     },
     {
       "label": "Business Acumen & Analysis",
-      "items": "Financial analysis · Contract interpretation · Market analysis · KPI reporting · Process improvement"
+      "items": "Financial analysis · Business planning · Forecasting and pipeline management · Contract interpretation · Market analysis · KPI reporting · Process improvement"
     },
     {
       "label": "Languages & Credentials",
@@ -143,12 +145,23 @@
   ],
   "experience": [
     {
+      "company": "Meadowbrook School",
+      "period": "Jul 2026 – Present",
+      "title": "PK3 Outreach Co-Chair",
+      "body": "One of three Outreach Co-Chairs supporting 42 PK3 families within an 88-student school community, owning programming end to end.",
+      "bullets": [
+        "Independently launched the fall soccer program, polling interest, coordinating parent communications, recruiting and preparing 4 coaches, and securing league approval to field 2 teams of 12 despite the standard 8-player limit",
+        "Controlled end-to-end program logistics, including league coordination, team communications, budgeting, payment collection, and program administration",
+        "Expanded programming beyond soccer by coordinating an art class through December"
+      ]
+    },
+    {
       "company": "UT Dallas",
       "period": "Jun – Sep 2025",
       "title": "EMT Program & Clinical Training",
       "body": "Completed the EMT program in the top 5% of the cohort, with clinical rotations across emergency, surgical, and in-transit care.",
       "bullets": [
-        "Assisted an ER physician during a high-acuity emergency tracheotomy under extreme pressure",
+        "Supported an ER physician during a high-acuity emergency surgical airway procedure under extreme pressure",
         "Built trusted relationships with physicians and clinical staff, earning responsibility beyond typical student expectations",
         "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
         "Collaborated with physicians, nurses, EMTs, firefighters, and trauma teams on stabilization, transport, and handoff"
@@ -167,22 +180,22 @@
       "company": "Goldman Sachs",
       "period": "Apr 2021 – Mar 2023",
       "title": "Global Markets Analyst — Client Relationships & Syndicated Loan Operations",
-      "body": "Managed a book of roughly 20 multi-million dollar corporate lending accounts as the trusted relationship partner for senior decision-makers.",
+      "body": "Managed a book of roughly 20 multi-million dollar corporate lending accounts as the trusted, customer-focused relationship partner for senior decision-makers.",
       "bullets": [
         "Held 100% account retention with zero escalations across the book through white-glove service",
-        "Interpreted 100 to 250+ page legal loan agreements, enabling accurate billing, contract compliance, and fast resolution of client inquiries",
+        "Interpreted 100 to 250+ page legal loan agreements, enabling accurate billing, contract compliance, and timely client response",
         "Processed roughly 20 complex lending transactions weekly with exceptional accuracy",
         "Mentored 1 intern and 2 underperforming teammates through individualized coaching",
-        "Earned a performance-based bonus for consistent service quality and operational accuracy"
+        "Earned a performance-based bonus for consistently strong service quality and operational accuracy"
       ]
     },
     {
       "company": "Vivint",
       "period": "May 2019 – Apr 2020",
       "title": "Business Operations Analyst",
-      "body": "Analyzed operational and field performance data in SQL and business intelligence tools to build executive dashboards and strategic recommendations for C-suite decision-making.",
+      "body": "Analyzed operational and field selling performance data in SQL and business intelligence tools to build executive dashboards and strategic recommendations for C-suite decision-making.",
       "bullets": [
-        "Delivered executive-level reporting within 9 days of onboarding after learning SQL and BI tools from scratch",
+        "Delivered leadership reporting within 9 days of onboarding after learning SQL and BI tools from scratch",
         "Built dashboards used by the COO and 6 department leaders and presented in C-suite quarterly earnings calls",
         "Identified 7 to 8 operational inefficiencies, uncovering a $2M revenue opportunity that influenced executive resource allocation"
       ]
@@ -201,22 +214,22 @@
       "company": "1-800 Contacts",
       "period": "May – Sep 2017",
       "title": "Financial Analyst Intern",
-      "body": "Prepared recurring financial reports and performance analyses for executive leadership.",
+      "body": "Prepared recurring financial reports and product performance analyses for executive leadership at a direct-to-consumer medical device retailer.",
       "bullets": [
-        "Developed a nationwide marketing performance heat map across 41,000+ U.S. ZIP codes, enabling leadership to evaluate advertising spend against customer acquisition trends",
+        "Created a nationwide marketing performance heat map across 41,000+ U.S. ZIP codes, enabling leadership to evaluate advertising spend against customer acquisition trends",
         "Initiated an independent 50-state market analysis outside assigned responsibilities, introducing a visualization approach the team adopted",
         "Trained the 10-person analytics team on newly introduced Excel visualization tools"
       ]
     },
     {
-      "company": "Volunteer Service",
+      "company": "LDS Spanish-Speaking Territory",
       "period": "Feb 2014 – Aug 2015",
-      "title": "Service Representative — Spanish-Speaking Territory, Nebraska, Iowa & South Dakota",
+      "title": "Volunteer Service Representative — Nebraska, Iowa & South Dakota",
       "body": "Built a Spanish-speaking territory across three states, expanding membership primarily through referral rather than cold outreach.",
       "bullets": [
         "More than 50% of new commitments came through referrals",
-        "Rolled out strategic pre-call plans and post-call evaluations with disciplined CRM pipeline management",
-        "Mentored and onboarded a new representative while meeting weekly performance goals for 12 consecutive weeks"
+        "Rolled out strategic pre-call plans and thorough post-call evaluations with disciplined CRM pipeline management",
+        "Mentored and onboarded a new representative while consistently meeting weekly goals for 12 consecutive weeks"
       ]
     }
   ],
@@ -242,7 +255,7 @@
       },
       {
         "label": "Location",
-        "value": "Dallas-Fort Worth, Texas",
+        "value": "Fort Worth & Dallas-Fort Worth, Texas",
         "href": null
       }
     ]
