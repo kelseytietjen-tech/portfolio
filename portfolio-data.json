@@ -8,9 +8,9 @@
     "email": "kelseytietjen@gmail.com"
   },
   "narrative": {
-    "title": "How do you just make things happen?",
-    "highlight": "",
-    "body": "People have asked me my whole life how I just make things happen. I never had a good answer until recently.\n\nAs a Spanish speaking missionary across three states, I inherited the territory everyone before me had written off. I built it into our most productive account through one relationship that unlocked everything. A corporate career that took me from Vivint, where I identified a $2M opportunity and sold it to senior leadership, to Goldman Sachs, where my hiring manager called my interview one of the best he had ever seen. Most recently, finishing my EMT program in the top 5% of my class and finding myself in emergency rooms and trauma bays executing under pressure alongside physicians.\n\nDifferent rooms. Same instinct. Read the person. Understand what they need. Earn their trust. Find a way to close the gap. That is what I have been doing my entire life. In medical sales it just finally has a name."
+    "title": "The short version.",
+    "highlight": "I take complicated information and make it usable for the person across from me.",
+    "body": "That has been the job in every role I have held. A bank, an operations team, and an emergency room all ask for the same thing in different vocabulary.\n\nAt Goldman Sachs it meant reading 100 to 250 page loan agreements and giving clients a plain answer instead of a legal summary. At Vivint it meant finding a $2M gap inside operational data and building the case that moved executive resources toward it. In the ER it meant standing next to a physician during an emergency tracheotomy and knowing what came next without being told.\n\nThe other half of the job is trust. I do not push. I figure out what someone actually needs, I show up consistently, and I earn the right to ask. That is how a Spanish-speaking territory that previous reps had written off became one where more than half of new commitments came through referrals instead of cold outreach.\n\nAnalysis, clinical knowledge, and relationship building usually sit in three different people. I have spent my career using all three at once. Medical sales is the role that asks for all three."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -36,14 +36,14 @@
         "description": "Share of new commitments earned through referrals rather than cold outreach across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota"
       },
       {
+        "number": "9 Days",
+        "label": "To Executive Reporting",
+        "description": "Time it took to learn SQL and business intelligence tools from scratch at Vivint and deliver reporting used by the COO and 6 department leaders"
+      },
+      {
         "number": "100+",
         "label": "Volunteer Advocates Led",
         "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
-      },
-      {
-        "number": "41K+",
-        "label": "ZIP Codes Analyzed",
-        "description": "National marketing heat map built at 1-800 Contacts exposing inefficient spend and identifying growth markets"
       }
     ]
   },
@@ -103,6 +103,24 @@
       "title": "The Rooftop Trauma Night",
       "teaser": "Three months into my EMT program, an emergency air transport put me in a trauma bay with a team I'd never worked with before, and no time to think about it.",
       "body": "I was three months into my EMT program, about 2am during a 12 hour overnight shift. It had already been an intense night. My mentor pulled me mid task and told me to follow two nurses immediately.\n\nWe ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and raced him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nWhat that night taught me is you don't rise to the occasion, you fall to your level of preparation and instinct. The team that trusts its training moves together without anyone having to think twice, whether that's a trauma bay or a physician's office."
+    },
+    {
+      "id": "twomillion",
+      "title": "The $2M Nobody Asked Me To Find",
+      "teaser": "I was hired to build reports. I ended up sizing a $2M revenue opportunity and selling it to people several levels above me.",
+      "body": "I joined Vivint without knowing SQL or the business intelligence tools the team ran on. I learned both and delivered executive-level reporting within 9 days of starting.\n\nThe dashboards I built were used by the COO and 6 department leaders, and the numbers in them were presented on C-suite quarterly earnings calls. Once I was in the data every day, I started noticing patterns nobody had asked me to look for. I identified 7 to 8 operational inefficiencies across field and operations performance.\n\nTogether they added up to roughly $2M in revenue opportunity. I built the case, sized it, and presented it to senior leadership. They reallocated resources based on it.\n\nNobody assigned that project. Finding it required understanding the business well enough to know what normal looked like, and then being willing to bring a problem to executives who had not asked about it. That is the difference between a rep who reports on a territory and one who fixes it."
+    },
+    {
+      "id": "heatmap",
+      "title": "41,000 ZIP Codes",
+      "teaser": "As an intern I built a national marketing heat map, then ran a 50-state analysis nobody assigned me.",
+      "body": "My job at 1-800 Contacts was recurring financial reporting for executive leadership. The reports were accurate, but they did not show leadership where their advertising money was actually working.\n\nI built a nationwide marketing performance heat map covering more than 41,000 U.S. ZIP codes, so leadership could see advertising spend against customer acquisition geographically instead of in a spreadsheet. It exposed inefficient spend and highlighted markets worth growing.\n\nOutside my assigned responsibilities I then ran an independent market analysis across all 50 states using a visualization approach the team had not used before. The team adopted it, and I trained all 10 analysts on the Excel tools behind it.\n\nData only matters when the person receiving it can see the decision inside it. Territory data works the same way. Numbers in a spreadsheet do not change behavior. A clear picture of where the opportunity actually is does."
+    },
+    {
+      "id": "casa",
+      "title": "100 Advocates, One Certification Gap",
+      "teaser": "I led a volunteer organization of 100+ child advocates where the problem was not recruiting people, it was getting them certified and active.",
+      "body": "As Executive Director of the BYU chapter of CASA, I directed a 5-member executive team overseeing more than 100 volunteer advocates supporting children involved in the court system.\n\nThe roster looked healthy on paper. The issue was that a meaningful share of advocates never finished certification, which meant they could not be assigned to a child. I focused the leadership team on completion rather than recruitment and drove up the share of active, fully certified advocates across the roster.\n\nThe role also meant working directly with judges, attorneys, families, and community partners, each with different priorities and no obligation to make my job easier.\n\nHeadcount is not performance and activity is not results. The number that matters is the one tied to the outcome, and getting there usually means coaching people through the step they have been avoiding."
     }
   ],
   "skills": [
