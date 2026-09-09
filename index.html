@@ -8,7 +8,7 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://kelseytietjen.pages.dev">
+<meta property="og:url" content="https://medtronic.kelseytietjen.pages.dev">
 <meta property="og:title" content="Kelsey Tietjen | Territory Manager, Endoscopy">
 <meta property="og:description" content="Goldman Sachs alum, licensed EMT, and bilingual medical sales professional in Fort Worth and DFW. Built across missions, boardrooms, and trauma bays.">
 <meta property="og:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
@@ -211,6 +211,9 @@
 
   /* ---------- EXPERIENCE ---------- */
   .experience-section { background: var(--white); }
+  .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+  .section-head h2 { margin-bottom: 0; }
+  .section-head-cta { padding-bottom: 4px; flex-shrink: 0; }
   .exp-list { margin-top: 3rem; }
   .exp-item { display: grid; grid-template-columns: 210px 1fr; gap: 3rem; padding: 2.5rem 0; border-top: 1px solid var(--line); }
   .exp-item:last-child { border-bottom: 1px solid var(--line); }
@@ -271,6 +274,7 @@
     .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
     .container { padding: 0 1.5rem; }
     section { padding: 4rem 0; }
+    .section-head { align-items: flex-start; gap: 1.25rem; }
     .rec-grid { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr; }
     .story-modal-inner { padding: 3rem 1.5rem 4rem; }
@@ -348,7 +352,10 @@
 <section class="experience-section">
   <div class="container">
     <p class="section-label">Experience</p>
-    <h2>Where I've been. What I built.</h2>
+    <div class="section-head">
+      <h2>Where I've been. What I built.</h2>
+      <div class="section-head-cta" id="exp-resume-cta"></div>
+    </div>
     <div class="exp-list" id="exp-list"></div>
   </div>
 </section>
@@ -390,25 +397,27 @@ fetch('portfolio-data.json')
       const tagline = document.getElementById('hero-tagline');
       if (tagline) tagline.textContent = hero.tagline || '';
 
+      const resumeCta = document.getElementById('exp-resume-cta');
+      if (resumeCta && hero.resumeUrl) {
+        const r = document.createElement('a');
+        r.href = hero.resumeUrl;
+        r.target = '_blank';
+        r.rel = 'noopener';
+        r.setAttribute('download', '');
+        r.className = 'btn-primary';
+        r.textContent = hero.resumeLabel || 'Download Resume';
+        resumeCta.appendChild(r);
+      }
+
       const cta = document.getElementById('hero-cta');
       if (cta) {
         cta.innerHTML = '';
-        if (hero.resumeUrl) {
-          const a0 = document.createElement('a');
-          a0.href = hero.resumeUrl;
-          a0.target = '_blank';
-          a0.rel = 'noopener';
-          a0.setAttribute('download', '');
-          a0.className = 'btn-primary';
-          a0.textContent = hero.resumeLabel || 'Download Resume';
-          cta.appendChild(a0);
-        }
         if (hero.linkedinUrl) {
           const a1 = document.createElement('a');
           a1.href = hero.linkedinUrl;
           a1.target = '_blank';
           a1.rel = 'noopener';
-          a1.className = 'btn-secondary';
+          a1.className = 'btn-primary';
           a1.textContent = 'View LinkedIn';
           cta.appendChild(a1);
         }
