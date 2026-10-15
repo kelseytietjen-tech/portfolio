@@ -224,6 +224,7 @@
   <div class="container">
     <p class="section-label">Experience</p>
     <h2>Where I've been. What I built.</h2>
+    <div class="cta-row" id="exp-resume"></div>
     <div class="exp-list" id="exp-list"></div>
   </div>
 </section>
@@ -282,14 +283,6 @@ fetch('portfolio-data.json')
           a2.className = 'btn-secondary';
           a2.textContent = 'Get in Touch';
           cta.appendChild(a2);
-        }
-        if (hero.resumeFile) {
-          const a3 = document.createElement('a');
-          a3.href = hero.resumeFile;
-          a3.target = '_blank';
-          a3.className = 'btn-secondary';
-          a3.textContent = 'View Resume';
-          cta.appendChild(a3);
         }
       }
     }
@@ -448,6 +441,17 @@ fetch('portfolio-data.json')
         `;
         skillsGrid.appendChild(card);
       });
+    }
+
+    // RESUME BUTTON (Experience section)
+    const expResume = document.getElementById('exp-resume');
+    if (expResume && hero && hero.resumeFile) {
+      const r = document.createElement('a');
+      r.href = hero.resumeFile;
+      r.target = '_blank';
+      r.className = 'btn-secondary';
+      r.textContent = 'View Resume';
+      expResume.appendChild(r);
     }
 
     // EXPERIENCE
