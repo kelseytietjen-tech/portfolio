@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kelsey Tietjen | Medical Sales</title>
+<title>Kelsey Tietjen | Pharmaceutical &amp; Medical Sales</title>
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://kelseytietjen.pages.dev">
-<meta property="og:title" content="Kelsey Tietjen | Medical Sales">
+<meta property="og:title" content="Kelsey Tietjen | Pharmaceutical &amp; Medical Sales">
 <meta property="og:description" content="Goldman Sachs alum, licensed EMT, and bilingual medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
 <meta property="og:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
 <meta property="og:image:width" content="1200">
@@ -16,7 +16,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kelsey Tietjen | Medical Sales">
+<meta name="twitter:title" content="Kelsey Tietjen | Pharmaceutical &amp; Medical Sales">
 <meta name="twitter:description" content="Goldman Sachs alum, licensed EMT, and bilingual medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
 
@@ -283,6 +283,14 @@ fetch('portfolio-data.json')
           a2.textContent = 'Get in Touch';
           cta.appendChild(a2);
         }
+        if (hero.resumeFile) {
+          const a3 = document.createElement('a');
+          a3.href = hero.resumeFile;
+          a3.target = '_blank';
+          a3.className = 'btn-secondary';
+          a3.textContent = 'View Resume';
+          cta.appendChild(a3);
+        }
       }
     }
 
@@ -500,7 +508,7 @@ fetch('portfolio-data.json')
             const a = document.createElement('a');
             a.href = item.href;
             a.className = 'contact-item-value';
-            if (item.href.startsWith('http')) a.target = '_blank';
+            if (item.href.startsWith('http') || item.href.endsWith('.pdf')) a.target = '_blank';
             a.textContent = item.value || '';
             div.appendChild(a);
           } else {
