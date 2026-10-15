@@ -1,16 +1,17 @@
 {
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
+    "eyebrow": "Pharmaceutical & Medical Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
     "tagline": "Built across missions, boardrooms, and trauma bays.",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
-    "email": "kelseytietjen@gmail.com"
+    "email": "kelseytietjen@gmail.com",
+    "resumeFile": "Kelsey_Tietjen_Resume_Oct2026.pdf"
   },
   "narrative": {
     "title": "Why Kelsey?",
-    "highlight": "",
-    "body": "I have always been drawn to work where preparation, purpose, and people intersect. My career has given me a unique perspective on how decisions are made, from analyzing complex financial information to learning how to respond calmly and effectively in moments that matter most. Those experiences have shaped the way I approach healthcare: I am naturally curious, highly driven, and motivated by the opportunity to take something complicated and make it meaningful to the person standing in front of me.\n\nWhat ultimately draws me to healthcare and medical sales is the human side of the work. Behind every number, treatment decision, or business objective is a physician trying to provide the best care, a healthcare organization trying to solve a difficult problem, or a patient whose life may be changed by the right decision. I want to be the person who earns the trust to help move those decisions forward. I bring analytical discipline and a strong business mindset, but I lead with empathy, preparation, and genuine service. I want to build relationships that last beyond a single conversation and become someone my customers know they can rely on.\n\nI am ambitious, but my ambition has never been simply about achieving the next title or number. I want to build a career I can be proud of, one where I am constantly learning, surrounded by people who challenge me, and able to see the tangible impact of my work. I bring the persistence of someone who does not give up easily, the confidence to walk into a room and contribute, and the humility to listen before assuming I have the answer. For me, success means becoming the kind of partner people trust when the decision matters."
+    "highlight": "Healthcare sales depends on trust, clinical credibility, and follow-through. I built client trust managing institutional accounts at Goldman Sachs, earned clinical credibility training in the ER as a licensed EMT, and showed follow-through in bilingual territory outreach.",
+    "body": "My career started in client relationship management and business development. My longstanding interest in medicine led me to earn my EMT license, where training in the field and ER alongside clinicians gave me firsthand insight into clinical practice and the potential for advances in life sciences and medical technology to transform treatment. That experience clarified how I wanted to make an impact in healthcare by helping bring innovative therapies and devices to more patients through partnerships with the physicians who make treatment decisions.\n\nAlthough I have not held a pharmaceutical or medical device sales title, I bring a proven track record of building client relationships, generating business, and retaining high-value accounts, alongside firsthand healthcare experience. At Goldman Sachs, I managed approximately 20 multi-million-dollar accounts, maintaining 100% client retention while navigating complex client needs. Through 18 months of volunteer Spanish-language territory outreach, I developed skills in prospecting, objection handling, and persuasive communication, generating more than 50% of new commitments through referrals. My EMT training strengthened my clinical understanding and experience collaborating with healthcare professionals, preparing me to communicate clinical information effectively, engage physicians, and drive measurable territory growth.\n\nLicensed EMT (NREMT), BLS, and FEMA certified.\n\nIf you recruit, hire, or work in sales, I would love to connect. Building relationships is the part of this work I enjoy most.\n\nGallup Strengths: Competition | Focus | Significance | Strategic | Activator"
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -41,9 +42,9 @@
         "description": "Time it took to learn SQL and business intelligence tools from scratch at Vivint and deliver reporting used by the COO and 6 department leaders"
       },
       {
-        "number": "100+",
-        "label": "Volunteer Advocates Led",
-        "description": "As Executive Director of the BYU CASA chapter, led a 5-person leadership team overseeing 100+ volunteer advocates supporting court-involved children"
+        "number": "13",
+        "label": "Families Through Referral",
+        "description": "Clients acquired at Kelsey Tietjen Consulting entirely through referrals, without paid marketing or outbound prospecting"
       }
     ]
   },
@@ -88,92 +89,94 @@
   "startStories": [
     {
       "id": "consultative",
-      "title": "Consultative Selling and Account Retention",
-      "teaser": "At Goldman Sachs I held a book of roughly 20 multi-million dollar lending accounts at 100% retention with zero escalations.",
-      "body": "I managed a portfolio of institutional clients across multi million dollar syndicated loan accounts. The contracts behind those loans ran 100 to 250 pages of dense legal language, and a rate change buried at one specific point in the contract could not be missed. I learned to read those contracts front to back so I'd catch a discrepancy before it ever reached a client.\n\nWhen clients had questions I answered in plain terms, not legal speak, because their trust in me depended on actually understanding what I told them. I kept every deadline I gave a client, including working from a plane on Christmas Eve once, because the commitment mattered more than the inconvenience. When teammates were out I picked up their accounts too, so no client ever felt a gap in service.\n\nI was the face of Goldman to those clients. That meant white glove service and 100% accuracy at the same time, no exceptions. I kept every account in my book and never had a single issue escalate.\n\nThat role taught me accuracy and warmth aren't a tradeoff. A client has to trust you're never wrong on the details and that you value their time as much as your own deadlines. That's exactly what a physician expects from a rep."
+      "title": "Account Management and Client Retention",
+      "teaser": "At Goldman Sachs I managed about 20 multi-million-dollar lending accounts and kept every one of them, with zero escalations.",
+      "body": "At Goldman Sachs I managed about 20 multi-million-dollar corporate lending accounts. The contracts ran 100 to 250+ pages, and I read every one front to back so I'd catch a problem before the client did. If I gave a client a deadline, I met it, even when that meant working from a plane on Christmas Eve. When teammates were out, I covered their accounts too.\n\nIn sales terms, that's account management and customer retention. I kept 100% of my book with zero escalations by knowing the details cold, communicating complex terms clearly, and following through every time. That's how I'll build trust with physicians and protect the accounts in my territory."
     },
     {
       "id": "clinical",
       "title": "Clinical Credibility",
-      "teaser": "I finished my EMT program in the top 5% of my class and spent my rotations in emergency, surgical, and in-transit care.",
-      "body": "I did not come to medical sales from a classroom. I finished the UT Dallas EMT program in the top 5% of my cohort and did clinical rotations in emergency, surgical, and in-transit environments, which is where the training stopped being theoretical.\n\nOne night I was three months in, about 2am during a 12 hour overnight shift. My mentor pulled me mid task and told me to follow two nurses immediately. We ran to the rooftop helipad to receive an emergency air transport. The nurses taught me the protocol on the way up. We received the patient and moved him through the hospital into the trauma bay.\n\nThe surgeon came in. A couple of EMT students were in the room. He barked a command to cut the patient's clothes off with shears. I stepped forward immediately and started cutting while the surgeon performed what I later identified as an emergency tracheotomy. The nurses looked over their shoulders and told the other students who had frozen to follow my lead.\n\nThat kind of experience is why I can hold a real conversation with a physician about clinical realities instead of reciting a detail aid. I know what a bad night looks like on their side of the desk, I know how a handoff actually works, and I know what it costs them when a product adds a step.\n\nYou do not rise to the occasion. You fall to your level of preparation. That is true in a trauma bay and it is true walking into an office where you have eight minutes."
+      "teaser": "I finished my UT Dallas EMT program in the top 5% of my class and trained alongside physicians, nurses, and trauma teams.",
+      "body": "I finished the UT Dallas EMT program in the top 5% of my cohort. One night around 2am, I was sent to the helipad with two nurses to receive an air ambulance patient. When we got him to the trauma bay, the physician called for someone to cut his clothes off. I stepped in while he performed an emergency tracheotomy, and the nurses told the other students to follow my lead.\n\nThat's where my clinical credibility comes from. I understand clinical workflows and patient handoffs, and I know what happens when a product adds a step. With that background I can hold a real conversation with a physician, communicate clinical value, and position a product around patient outcomes."
     },
     {
       "id": "business",
       "title": "Business Acumen and Data-Driven Insight",
-      "teaser": "I found a $2M revenue opportunity nobody assigned me at Vivint, and built a national marketing heat map across 41,000 ZIP codes at 1-800 Contacts.",
-      "body": "I joined Vivint without knowing SQL or the business intelligence tools the team ran on. I learned both and delivered executive-level reporting within 9 days of starting. The dashboards I built were used by the COO and 6 department leaders, and the numbers in them were presented on C-suite quarterly earnings calls.\n\nOnce I was in the data every day I started noticing patterns nobody had asked me to look for. I identified 7 to 8 operational inefficiencies across field and operations performance. Together they added up to roughly $2M in revenue opportunity. I built the case, sized it, presented it to senior leadership, and they reallocated resources based on it.\n\nEarlier, as a financial analyst intern at 1-800 Contacts, my assignment was recurring executive reporting. The reports were accurate but they did not show leadership where advertising money was actually working. I built a nationwide marketing performance heat map covering more than 41,000 U.S. ZIP codes so spend could be seen against customer acquisition geographically. It exposed inefficient spend and identified markets worth growing. I then ran an independent 50-state analysis outside my assigned responsibilities using a visualization approach the team had not used before, and they adopted it.\n\nA territory is a data set. Most reps report on theirs. I have spent my career finding the thing inside the numbers that nobody asked about, sizing it, and getting decision makers to act on it."
+      "teaser": "At Vivint I found seven operational inefficiencies that added up to a $2 million revenue opportunity.",
+      "body": "I started at Vivint without knowing SQL and was delivering executive reporting in nine days. Once I was in the data every day, I noticed things nobody had asked me to look for. I found seven operational inefficiencies that added up to a $2 million revenue opportunity, built the business case, and presented it to senior leadership. They used it to reallocate resources.\n\nFor a territory, that means market analysis and KPI tracking. I'll know my numbers, spot growth opportunities in my accounts, and bring my manager and customers a clear business case."
     },
     {
       "id": "territory",
-      "title": "Territory Building and Bilingual Reach",
-      "teaser": "I inherited a Spanish-speaking territory across three states that previous reps had written off, and built it into one of the strongest in the district.",
-      "body": "My job was to find people willing to join our organization. Cold calling strangers rarely worked, warm referrals did. Most members weren't reps like me, they were local families who met multiple times a week. In each area, one key stakeholder connected reps to those members. Mine had shut out every rep before me, and the territory's numbers had suffered for it.\n\nI didn't push. My companion and I got to know his wife first, no agenda, just showing up over time. Eventually she mentioned he missed playing pickup soccer. That was my opening. We organized a game. He came. We kept it going. He went from closed off to actively referring members and trusting us with his network.\n\nThat territory became one of the strongest in the district. More than half of our new commitments came through referrals rather than cold outreach.\n\nWhat that taught me is a no isn't the end, it just means you haven't found the right angle yet. Trust can't be rushed. That's exactly what it takes with a physician who's already said no to reps before."
+      "title": "Territory Outreach and Bilingual Communication",
+      "teaser": "In a Spanish-speaking territory across Nebraska, Iowa, and South Dakota, more than half of my new commitments came from referrals.",
+      "body": "For 18 months I did volunteer outreach in a Spanish-speaking territory across Nebraska, Iowa, and South Dakota. One community leader controlled access to local families, and he had shut out every representative before me. I didn't push. I got to know his wife first, learned he missed playing soccer, and organized a pickup game. Over time he became my best source of referrals.\n\nThat's prospecting and objection handling with a hard-to-reach stakeholder. I used pre-call planning and post-call reviews, hit my assigned quotas, and generated more than 50% of new commitments through referrals. I'll use the same approach with physicians who have already turned other reps away."
     },
     {
       "id": "leadership",
-      "title": "Leadership, Coaching, and Training",
-      "teaser": "I have led 100+ volunteer advocates, coached underperforming teammates at Goldman, and trained a 10-person analytics team on tools I introduced.",
-      "body": "As Executive Director of the BYU chapter of CASA, I directed a 5-member executive team overseeing more than 100 volunteer advocates supporting children involved in the court system. The roster looked healthy on paper, but a meaningful share of advocates never finished certification, which meant they could not be assigned to a child. I focused the leadership team on completion rather than recruitment and drove up the share of active, fully certified advocates. The role also meant working directly with judges, attorneys, families, and community partners, each with different priorities and no obligation to make my job easier.\n\nAt Goldman Sachs I mentored an intern and two underperforming teammates through individualized coaching. Coaching someone who is struggling is different from managing someone who is not. It requires figuring out whether the gap is knowledge, confidence, or process before you try to fix anything.\n\nAt 1-800 Contacts I trained the full 10-person analytics team on Excel visualization tools I had introduced, which meant teaching people who had been there longer than me without making it feel that way.\n\nIn every one of those, the work was the same. Find the actual constraint, coach the person through the step they have been avoiding, and measure the outcome instead of the activity."
+      "title": "Coaching and Onboarding",
+      "teaser": "I mentored an intern and two struggling teammates at Goldman Sachs, and trained a new representative while we hit our goals 12 weeks in a row.",
+      "body": "At Goldman Sachs I mentored an intern and two teammates who were struggling. With each one, I figured out whether the gap was knowledge, confidence, or process before I tried to fix anything. As a volunteer representative, I onboarded a new rep, and we met our weekly goals 12 weeks in a row while I trained her.\n\nIn a sales role, that carries over to training office staff on a new product, working cross-functionally, and eventually helping onboard new reps on my team. I measure success by results, not activity."
     },
     {
       "id": "ownership",
-      "title": "End-to-End Program Ownership",
-      "teaser": "I built a school soccer program from nothing, and when demand outran the roster cap I restructured it instead of turning families away.",
-      "body": "As PK3 Outreach Co-Chair at Meadowbrook School, I own a program end to end. That means recruiting, logistics, communication with families, coordination with the school, and the results.\n\nI built a soccer program from the ground up. Registration outran the league's roster limit almost immediately. Rather than cutting families, I restructured the program into two full teams of 12 so every child who signed up got to play, and coordinated the scheduling, staffing, and communication that made two teams workable instead of one.\n\nRunning outreach for the grade also means being the person families actually talk to. Participation depends on whether people trust the person asking.\n\nNobody hands you a playbook for a program that does not exist yet. You define what success looks like, build the thing, adjust when reality does not match the plan, and stay accountable for the outcome. That is what owning a territory is."
+      "title": "Referral-Based Business Development",
+      "teaser": "I built a paid private school admissions consulting practice to 13 families, all through referrals.",
+      "body": "In 2023 I started a consulting practice helping Dallas families with private school admissions. I set my own pricing and built every consultation around the family's needs. All 13 families came through referrals, with no paid marketing or cold outreach. Several came back for a younger child, and one student I worked with was admitted to a school with a 15% acceptance rate.\n\nThat's business development from zero. I ran needs assessments, delivered results, and earned repeat business and referrals. That's the same way I'll grow a territory."
     }
   ],
   "skills": [
     {
-      "label": "Sales & Customer Engagement",
-      "items": "Consultative selling · Territory management · Account management · Objection handling · Executive presentations"
+      "label": "Sales & Account Management",
+      "items": "Territory management · Quota attainment · Account management · Prospecting · Consultative selling · Objection handling · Business development · Customer retention · Needs assessment · Executive presentations"
     },
     {
-      "label": "Clinical & Healthcare",
-      "items": "Emergency medical care · Pharmacology fundamentals · Physician collaboration · Patient education · Patient access and reimbursement"
+      "label": "Clinical & Healthcare Knowledge",
+      "items": "Emergency medical care · Patient care · Pharmacology fundamentals · Medical terminology · Physician collaboration · Patient education · Prior authorization · Reimbursement & coding knowledge"
     },
     {
-      "label": "Business Acumen & Analysis",
-      "items": "Financial analysis · Contract interpretation · Market analysis · KPI reporting · Process improvement"
+      "label": "Communication & Business",
+      "items": "Spanish · Training & coaching · Cross-functional collaboration · Client education · Business analysis · Market analysis · Data analysis · KPI reporting · Forecasting · Process improvement"
     },
     {
-      "label": "Languages & Credentials",
-      "items": "Bilingual, English and Spanish · Licensed EMT (NREMT) · BLS Certified · FEMA Certified"
+      "label": "Credentials & Strengths",
+      "items": "Licensed EMT (NREMT) · Basic Life Support (BLS), American Heart Association · FEMA Emergency and Disaster Response Protocols · Gallup Strengths: Competition, Focus, Significance, Strategic, Activator"
     }
   ],
   "experience": [
     {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "EMT Program & Clinical Training",
-      "body": "Completed the EMT program in the top 5% of the cohort, with clinical rotations across emergency, surgical, and in-transit care.",
+      "company": "Kelsey Tietjen Consulting",
+      "period": "Mar 2023 – Present",
+      "title": "Independent Consultant, Private School Admissions & Early Childhood Development",
+      "body": "Provided individualized private school admissions guidance to Dallas-area families through a paid, referral-based consulting practice.",
       "bullets": [
-        "Assisted an ER physician during a high-acuity emergency tracheotomy under extreme pressure",
-        "Built trusted relationships with physicians and clinical staff, earning responsibility beyond typical student expectations",
-        "Stabilized a patient during transfer from an air ambulance to the ER during an active medical emergency",
-        "Collaborated with physicians, nurses, EMTs, firefighters, and trauma teams on stabilization, transport, and handoff"
+        "Acquired 13 families entirely through referrals, without paid marketing or outbound prospecting.",
+        "Set pricing for individualized, 45-minute consultations tailored to families' private school admissions needs.",
+        "Earned repeat business from families seeking guidance for additional children or subsequent school transitions.",
+        "Helped a child gain admission to a Dallas private school with a 15% acceptance rate through individualized admissions guidance."
       ]
     },
     {
-      "company": "Independent Projects & Family Care",
-      "period": "Apr 2023 – May 2025",
-      "title": "Curriculum Design & Full-Time Caregiving",
-      "body": "Managed full-time family caregiving responsibilities while pursuing independent projects and professional development.",
+      "company": "UT Dallas",
+      "period": "Jun – Sep 2025",
+      "title": "EMT Program & Clinical Training",
+      "body": "",
       "bullets": [
-        "Designed and delivered a 3-year early-childhood curriculum spanning cognitive, social, physical, and emotional development, writing original lesson plans and assessing progress against weekly benchmarks"
+        "Ranked in the top 5% of the EMT cohort and earned national EMT licensure.",
+        "Collaborated with physicians, nurses, EMTs, and emergency response teams in clinical and trauma settings.",
+        "Supported an ER physician during a high-acuity emergency tracheotomy under clinical supervision, demonstrating composure and effective teamwork in a time-sensitive environment."
       ]
     },
     {
       "company": "Goldman Sachs",
       "period": "Apr 2021 – Mar 2023",
-      "title": "Global Markets Analyst — Client Relationships & Syndicated Loan Operations",
-      "body": "Managed a book of roughly 20 multi-million dollar corporate lending accounts as the trusted relationship partner for senior decision-makers.",
+      "title": "Global Markets Analyst, Client Relationships & Syndicated Lending",
+      "body": "Managed a portfolio of high-value corporate lending accounts, serving as a trusted relationship partner and translating complex financial products, contractual terms, and account requirements into clear client guidance.",
       "bullets": [
-        "Held 100% account retention with zero escalations across the book through white-glove service",
-        "Interpreted 100 to 250+ page legal loan agreements, enabling accurate billing, contract compliance, and fast resolution of client inquiries",
-        "Processed roughly 20 complex lending transactions weekly with exceptional accuracy",
-        "Mentored 1 intern and 2 underperforming teammates through individualized coaching",
-        "Earned a performance-based bonus for consistent service quality and operational accuracy"
+        "Managed approximately 20 multi-million-dollar corporate lending accounts, maintaining 100% client retention through high-touch relationship management.",
+        "Resolved complex client inquiries involving loan terms, interest rates, and payment structures, achieving zero escalations across the portfolio.",
+        "Interpreted complex legal agreements spanning 100 to 250+ pages, communicating contractual requirements clearly and supporting timely resolution of client needs.",
+        "Mentored one intern and two underperforming team members through individualized coaching and performance support.",
+        "Received a performance-based bonus in recognition of client service quality and operational accuracy."
       ]
     },
     {
@@ -182,41 +185,21 @@
       "title": "Business Operations Analyst",
       "body": "Analyzed operational and field performance data in SQL and business intelligence tools to build executive dashboards and strategic recommendations for C-suite decision-making.",
       "bullets": [
-        "Delivered executive-level reporting within 9 days of onboarding after learning SQL and BI tools from scratch",
-        "Built dashboards used by the COO and 6 department leaders and presented in C-suite quarterly earnings calls",
-        "Identified 7 to 8 operational inefficiencies, uncovering a $2M revenue opportunity that influenced executive resource allocation"
+        "Identified seven operational inefficiencies through performance analysis, uncovering a $2 million revenue opportunity that informed executive resource allocation.",
+        "Developed executive dashboards used by the COO and six department leaders to monitor KPIs and guide business decisions.",
+        "Delivered executive reporting within nine days of onboarding after rapidly learning SQL and business intelligence tools."
       ]
     },
     {
-      "company": "CASA",
-      "period": "Jan 2016 – Dec 2019",
-      "title": "Volunteer Executive Director — BYU Chapter",
-      "body": "Directed a 5-member executive team overseeing 100+ volunteer advocates supporting court-involved children.",
-      "bullets": [
-        "Established working relationships with judges, attorneys, families, and community partners",
-        "Drove certification completion across the 100+ advocate roster, increasing the share of active, fully certified advocates"
-      ]
-    },
-    {
-      "company": "1-800 Contacts",
-      "period": "May – Sep 2017",
-      "title": "Financial Analyst Intern",
-      "body": "Prepared recurring financial reports and performance analyses for executive leadership.",
-      "bullets": [
-        "Developed a nationwide marketing performance heat map across 41,000+ U.S. ZIP codes, enabling leadership to evaluate advertising spend against customer acquisition trends",
-        "Initiated an independent 50-state market analysis outside assigned responsibilities, introducing a visualization approach the team adopted",
-        "Trained the 10-person analytics team on newly introduced Excel visualization tools"
-      ]
-    },
-    {
-      "company": "Volunteer Service",
+      "company": "Spanish-Speaking Territory",
       "period": "Feb 2014 – Aug 2015",
-      "title": "Service Representative — Spanish-Speaking Territory, Nebraska, Iowa & South Dakota",
+      "title": "Volunteer Service Representative, Nebraska, Iowa & South Dakota",
       "body": "Built a Spanish-speaking territory across three states, expanding membership primarily through referral rather than cold outreach.",
       "bullets": [
-        "More than 50% of new commitments came through referrals",
-        "Rolled out strategic pre-call plans and post-call evaluations with disciplined CRM pipeline management",
-        "Mentored and onboarded a new representative while meeting weekly performance goals for 12 consecutive weeks"
+        "Generated more than 50% of new commitments through referrals, demonstrating relationship-based prospecting and trust-building.",
+        "Achieved assigned performance quotas through structured territory outreach, consultative conversations, and consistent follow-up.",
+        "Addressed objections, adapted messaging to individual needs, and used pre-call planning and post-call evaluations to improve outreach effectiveness.",
+        "Mentored and onboarded a new representative while meeting weekly performance goals for 12 consecutive weeks."
       ]
     }
   ],
@@ -239,6 +222,11 @@
         "label": "LinkedIn",
         "value": "linkedin.com/in/kelseytietjen",
         "href": "https://www.linkedin.com/in/kelseytietjen"
+      },
+      {
+        "label": "Resume",
+        "value": "Download PDF",
+        "href": "Kelsey_Tietjen_Resume_Oct2026.pdf"
       },
       {
         "label": "Location",
