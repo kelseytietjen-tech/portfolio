@@ -3,10 +3,10 @@
     "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across account management, territory outreach, and clinical credibility"
+    "tagline": "Built across account management, territory outreach, and clinical credibility",
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com",
-    "resumeFile": "Kelsey_Tietjen_Resume_Oct2026.pdf"
+    "resumeFile": "Kelsey_Tietjen_Resume.pdf"
   },
   "narrative": {
     "title": "Why Kelsey?",
@@ -226,7 +226,7 @@
       {
         "label": "Resume",
         "value": "Download PDF",
-        "href": "Kelsey_Tietjen_Resume_Oct2026.pdf"
+        "href": "Kelsey_Tietjen_Resume.pdf"
       },
       {
         "label": "Location",
