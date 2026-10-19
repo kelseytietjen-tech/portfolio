@@ -12,7 +12,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 <style>
   /* Layout: black hero and story band, one gold band for mindset, cool-gray and white bands for proof. Stryker gold is the only accent. */
   :root {
@@ -50,21 +50,26 @@
   .dark .section-label { color: var(--gold); }
   .dark .lede { color: var(--on-dark-muted); }
 
-  /* HERO */
-  .hero { background: var(--ink); color: var(--on-dark); padding-block: 0; }
-  .hero-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 4rem; align-items: center; padding-block: 5rem; }
-  .hero-photo-wrap { position: relative; max-width: 380px; width: 100%; justify-self: center; }
-  .hero-photo-wrap::before { content: ''; position: absolute; inset: 18px -18px -18px 18px; background: var(--gold); }
-  .hero-photo { position: relative; display: block; width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; }
-  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.25rem; }
-  h1 { font-size: clamp(3rem, 7vw, 5.25rem); font-weight: 800; line-height: 0.98; letter-spacing: -0.02em; margin-bottom: 1.25rem; }
-  h1 .em { color: var(--gold); display: block; }
-  .hero-tagline { font-size: 1.05rem; font-weight: 500; color: var(--on-dark-muted); max-width: 62ch; margin-bottom: 2rem; }
-  .hero-pills:empty { display: none; }
-  .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.25rem; }
-  .pill { font-size: 12px; font-weight: 600; letter-spacing: 0.04em; padding: 6px 12px; border: 1px solid var(--on-dark-line); color: var(--on-dark); background: var(--panel); }
-  .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
   .btn { display: inline-block; padding: 13px 24px; font-family: var(--display); font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; border: 2px solid transparent; transition: background 0.2s, color 0.2s, border-color 0.2s; cursor: pointer; }
+  /* HERO: black photo panel with a slanted edge, white text panel, matching the main site's layout */
+  .hero { background: var(--white); color: var(--text); padding-block: 0; display: grid; grid-template-columns: 1fr 1fr; min-height: 640px; }
+  .hero-left { min-width: 0; background: var(--ink); position: relative; display: flex; align-items: center; justify-content: center; padding: 4rem 5rem 4rem max(24px, env(safe-area-inset-left, 0px)); }
+  .hero-left::after { content: ''; position: absolute; top: 0; right: -1px; width: 70px; height: 100%; background: var(--white); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
+  .hero-photo { position: relative; display: block; width: 100%; max-width: 420px; aspect-ratio: 4/5; object-fit: cover; object-position: top; }
+  .hero-right { min-width: 0; display: flex; flex-direction: column; justify-content: center; padding: 4rem max(24px, env(safe-area-inset-right, 0px)) 4rem 4rem; }
+  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 1.25rem; }
+  h1 { font-size: clamp(3rem, 6vw, 5rem); font-weight: 800; line-height: 1; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 1.25rem; }
+  h1 .em { color: var(--gold); display: block; font-style: italic; font-weight: 700; }
+  .hero-strengths { font-family: var(--display); font-size: clamp(1.25rem, 2.2vw, 1.75rem); font-weight: 400; line-height: 1.55; color: #47506A; max-width: 24ch; }
+  .hero-strengths .sep { color: #9AA1B2; }
+  .hero-rule { width: 64px; height: 2px; background: var(--gold); margin-block: 2.5rem; }
+  .hero-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+  .hero-cta .btn { min-width: 230px; text-align: center; padding: 16px 28px; font-family: var(--body); font-size: 14px; font-weight: 500; letter-spacing: 0.1em; }
+  .btn-black { background: var(--ink); color: var(--white); border-color: var(--ink); }
+  .btn-black:hover { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+  .btn-outline { background: var(--white); color: var(--ink); border-color: var(--ink); }
+  .btn-outline:hover { background: var(--ink); color: var(--white); }
+  .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
   .btn-gold { background: var(--gold); color: var(--ink); }
   .btn-gold:hover { background: var(--white); }
   .btn-ghost { border-color: var(--on-dark); color: var(--on-dark); }
@@ -168,8 +173,12 @@
 
   @media (max-width: 860px) {
     section { padding-block: 4rem; }
-    .hero-grid { grid-template-columns: 1fr; gap: 3rem; padding-block: 3rem 4rem; }
-    .hero-photo-wrap { max-width: 280px; justify-self: start; }
+    .hero { grid-template-columns: 1fr; min-height: 0; }
+    .hero-left { padding: 2.5rem max(24px, env(safe-area-inset-right, 0px)) 2.5rem max(24px, env(safe-area-inset-left, 0px)); }
+    .hero-left::after { display: none; }
+    .hero-photo { max-width: 300px; }
+    .hero-right { padding: 2.5rem max(24px, env(safe-area-inset-right, 0px)) 3.5rem max(24px, env(safe-area-inset-left, 0px)); }
+    .hero-rule { margin-block: 2rem; }
     .narrative-grid, .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
     .narrative-sticky { position: static; }
     .stories-grid, .mindset-grid, .cred-grid, .rec-grid, .skills-grid { grid-template-columns: 1fr; }
@@ -184,15 +193,13 @@
 <body>
 
 <section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-photo-wrap"><img src="headshot.jpg" alt="Kelsey Tietjen" class="hero-photo"></div>
-    <div>
-      <p class="eyebrow" id="hero-eyebrow"></p>
-      <h1 id="hero-name"></h1>
-      <p class="hero-tagline" id="hero-tagline"></p>
-      <div class="hero-pills" id="hero-pills"></div>
-      <div class="cta-row" id="hero-cta"></div>
-    </div>
+  <div class="hero-left"><img src="headshot.jpg" alt="Kelsey Tietjen" class="hero-photo"></div>
+  <div class="hero-right">
+    <p class="eyebrow" id="hero-eyebrow"></p>
+    <h1 id="hero-name"></h1>
+    <p class="hero-strengths" id="hero-strengths"></p>
+    <div class="hero-rule"></div>
+    <div class="hero-cta" id="hero-cta"></div>
   </div>
 </section>
 
@@ -292,12 +299,10 @@ fetch('portfolio-data.json').then(r => r.json()).then(d => {
   // HERO
   document.getElementById('hero-eyebrow').textContent = hero.eyebrow || '';
   document.getElementById('hero-name').innerHTML = `${hero.name}<span class="em">${hero.nameEmphasis || ''}</span>`;
-  document.getElementById('hero-tagline').textContent = hero.tagline || '';
-  const pills = document.getElementById('hero-pills');
-  (hero.pills || []).forEach(p => pills.appendChild(el('span', 'pill', p)));
+  document.getElementById('hero-strengths').innerHTML = (hero.strengths || []).map(s => `<span>${s}</span>`).join(' <span class="sep">|</span> ');
   const cta = document.getElementById('hero-cta');
-  if (hero.email) { const a = el('a', 'btn btn-gold', 'Get in Touch'); a.href = 'mailto:' + hero.email; cta.appendChild(a); }
-  if (hero.linkedinUrl) { const a = el('a', 'btn btn-ghost', 'LinkedIn'); a.href = hero.linkedinUrl; a.target = '_blank'; a.rel = 'noopener'; cta.appendChild(a); }
+  if (hero.linkedinUrl) { const a = el('a', 'btn btn-black', 'View LinkedIn'); a.href = hero.linkedinUrl; a.target = '_blank'; a.rel = 'noopener'; cta.appendChild(a); }
+  if (hero.email) { const a = el('a', 'btn btn-outline', 'Get in Touch'); a.href = 'mailto:' + hero.email; cta.appendChild(a); }
 
   // NARRATIVE
   document.getElementById('narrative-title').textContent = narrative.title || '';
