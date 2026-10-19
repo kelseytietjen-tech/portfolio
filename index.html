@@ -2,207 +2,228 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kelsey Tietjen | Pharmaceutical &amp; Medical Sales</title>
-
-<!-- Open Graph -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Kelsey Tietjen for Stryker</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://kelseytietjen.pages.dev">
-<meta property="og:title" content="Kelsey Tietjen | Pharmaceutical &amp; Medical Sales">
-<meta property="og:description" content="Goldman Sachs alum, licensed EMT, and bilingual medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
+<meta property="og:title" content="Kelsey Tietjen | Stryker Emergency Care, Fire/EMS Sales">
+<meta property="og:description" content="Licensed EMT, Goldman Sachs alum, and founder of a referral-built consulting practice in Dallas-Fort Worth.">
 <meta property="og:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kelsey Tietjen | Pharmaceutical &amp; Medical Sales">
-<meta name="twitter:description" content="Goldman Sachs alum, licensed EMT, and bilingual medical sales professional in Dallas-Fort Worth. Built across missions, boardrooms, and trauma bays.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/kelseytietjen-tech/portfolio/main/og-image-v2.png">
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  /* Layout: black hero and story band, one gold band for mindset, cool-gray and white bands for proof. Stryker gold is the only accent. */
   :root {
-    --cream: #F7F4EF;
-    --warm-white: #FDFBF8;
-    --charcoal: #1C1C1A;
-    --mid: #5C5A56;
-    --light: #9C9A96;
-    --accent: #8B6F4E;
-    --accent-light: #C4A882;
-    --border: #E8E4DC;
+    --ink: #0A0A0A;
+    --panel: #151515;
+    --panel-hi: #1F1F1F;
+    --gold: #FFB500;
+    --gold-deep: #E09E00;
+    --paper: #F0F1F4;
+    --white: #FFFFFF;
+    --text: #1A1B1F;
+    --muted: #5B5E67;
+    --line: #DCDEE4;
+    --on-dark: #FFFFFF;
+    --on-dark-muted: rgba(255,255,255,0.68);
+    --on-dark-line: rgba(255,255,255,0.12);
+    --display: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+    --body: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+    color-scheme: light;
   }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
-  body { font-family: 'DM Sans', sans-serif; background: var(--warm-white); color: var(--charcoal); font-size: 15px; line-height: 1.7; }
-  .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; }
-  .hero-left { background: var(--charcoal); display: flex; align-items: center; justify-content: center; padding: 4rem; position: relative; }
-  .hero-left::after { content: ''; position: absolute; top: 0; right: -1px; width: 60px; height: 100%; background: var(--warm-white); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
-  .hero-photo { width: 100%; max-width: 380px; aspect-ratio: 3/4; object-fit: cover; object-position: top; filter: grayscale(20%) contrast(1.05); }
-  .hero-right { display: flex; flex-direction: column; justify-content: center; padding: 5rem 4rem 5rem 5rem; background: var(--warm-white); }
-  .eyebrow { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; }
-  h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.05; color: var(--charcoal); margin-bottom: 0.5rem; }
-  h1 em { font-style: italic; color: var(--accent); }
-  .hero-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--mid); margin-bottom: 2rem; font-weight: 300; }
-  .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.5rem; }
-  .pill { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 14px; border: 1px solid var(--border); color: var(--mid); background: var(--cream); }
-  .cta-row { display: flex; gap: 1rem; flex-wrap: wrap; }
-  .btn-primary { display: inline-block; background: var(--charcoal); color: var(--warm-white); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
-  .btn-primary:hover { background: var(--accent); }
-  .btn-secondary { display: inline-block; border: 1px solid var(--charcoal); color: var(--charcoal); padding: 12px 28px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
-  .btn-secondary:hover { background: var(--charcoal); color: var(--warm-white); }
-  section { padding: 6rem 0; }
-  .container { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
-  .section-label { font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
-  h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 300; line-height: 1.2; margin-bottom: 2rem; }
-  .narrative-section { background: var(--cream); }
+  body { font-family: var(--body); background: var(--white); color: var(--text); font-size: 16px; line-height: 1.7; }
+  img { max-width: 100%; }
+  [hidden] { display: none !important; }
+  h1, h2, h3 { font-family: var(--display); text-wrap: balance; }
+  a:focus-visible, button:focus-visible, .story-card:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+  section { padding-block: 6rem; }
+  .container { max-width: 1140px; margin: 0 auto; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
+  .section-label { font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 1rem; }
+  h2 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.01em; margin-bottom: 1rem; max-width: 22ch; }
+  .lede { color: var(--muted); max-width: 62ch; }
+  .dark { background: var(--ink); color: var(--on-dark); }
+  .dark .section-label { color: var(--gold); }
+  .dark .lede { color: var(--on-dark-muted); }
+
+  /* HERO */
+  .hero { background: var(--ink); color: var(--on-dark); padding-block: 0; }
+  .hero-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 4rem; align-items: center; padding-block: 5rem; }
+  .hero-photo-wrap { position: relative; max-width: 380px; width: 100%; justify-self: center; }
+  .hero-photo-wrap::before { content: ''; position: absolute; inset: 18px -18px -18px 18px; background: var(--gold); }
+  .hero-photo { position: relative; display: block; width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top; }
+  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.25rem; }
+  h1 { font-size: clamp(3rem, 7vw, 5.25rem); font-weight: 800; line-height: 0.98; letter-spacing: -0.02em; margin-bottom: 1.25rem; }
+  h1 .em { color: var(--gold); display: block; }
+  .hero-tagline { font-size: 1.15rem; color: var(--on-dark-muted); max-width: 46ch; margin-bottom: 1.75rem; }
+  .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.25rem; }
+  .pill { font-size: 12px; font-weight: 600; letter-spacing: 0.04em; padding: 6px 12px; border: 1px solid var(--on-dark-line); color: var(--on-dark); background: var(--panel); }
+  .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 13px 24px; font-family: var(--display); font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; border: 2px solid transparent; transition: background 0.2s, color 0.2s, border-color 0.2s; cursor: pointer; }
+  .btn-gold { background: var(--gold); color: var(--ink); }
+  .btn-gold:hover { background: var(--white); }
+  .btn-ghost { border-color: var(--on-dark); color: var(--on-dark); }
+  .btn-ghost:hover { background: var(--on-dark); color: var(--ink); }
+  .btn-dark { background: var(--ink); color: var(--white); }
+  .btn-dark:hover { background: var(--gold); color: var(--ink); }
+
+  /* NARRATIVE */
+  .narrative { background: var(--paper); }
   .narrative-grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 4rem; align-items: start; }
-  .narrative-sticky { position: sticky; top: 4rem; }
-  .narrative-body p { color: var(--mid); margin-bottom: 1.5rem; font-size: 15px; line-height: 1.85; }
+  .narrative-sticky { position: sticky; top: 3rem; }
+  .rule { width: 56px; height: 4px; background: var(--gold); margin-top: 1.5rem; }
+  .highlight-text { font-family: var(--display); font-size: 1.3rem; font-weight: 500; line-height: 1.5; color: var(--text); margin-bottom: 1.5rem; }
+  .narrative-body p { color: var(--muted); margin-bottom: 1.25rem; max-width: 66ch; }
   .narrative-body p:last-child { margin-bottom: 0; }
-  .highlight-text { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-style: italic; color: var(--charcoal); line-height: 1.5; margin-bottom: 1.5rem; }
-  .credentials { background: var(--charcoal); color: var(--warm-white); }
-  .credentials h2 { color: var(--warm-white); }
-  .credentials .section-label { color: var(--accent-light); }
-  .cred-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; }
-  .cred-item { background: rgba(255,255,255,0.04); padding: 2.5rem 2rem; border: 1px solid rgba(255,255,255,0.08); transition: background 0.2s; }
-  .cred-item:hover { background: rgba(255,255,255,0.08); }
-  .cred-number { font-family: 'Cormorant Garamond', serif; font-size: 3rem; font-weight: 300; color: var(--accent-light); line-height: 1; margin-bottom: 0.5rem; }
-  .cred-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.75rem; }
-  .cred-desc { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.6; }
-  .recommendations-section { background: var(--warm-white); }
-  .rec-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 3rem; }
-  .rec-card { background: var(--cream); border: 1px solid var(--border); padding: 2rem; transition: background 0.2s; display: flex; flex-direction: column; }
-  .rec-card:hover { background: #F0EAE0; }
-  .rec-card-content { flex-grow: 1; }
-  .rec-card-buttons { margin-top: 1.5rem; display: flex; gap: 0.75rem; }
-  .btn-view-letter-small { background: var(--accent); color: var(--warm-white); padding: 10px 20px; font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.2s; }
-  .btn-view-letter-small:hover { background: var(--accent-light); }
-  .rec-quote { font-size: 14px; color: var(--charcoal); line-height: 1.8; font-style: italic; margin-bottom: 1rem; }
-  .rec-attribution { font-size: 12px; color: var(--light); font-weight: 500; }
 
-  /* SIGNATURE STORIES */
-  .stories-section { background: var(--charcoal); color: var(--warm-white); }
-  .stories-section h2 { color: var(--warm-white); }
-  .stories-section .section-label { color: var(--accent-light); }
-  .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.08); }
-  .story-card { background: #232320; padding: 2.25rem; cursor: pointer; transition: background 0.2s; display: flex; flex-direction: column; }
-  .story-card:hover { background: #2B2B27; }
-  .story-card-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--warm-white); margin-bottom: 1rem; line-height: 1.25; }
-  .story-card-teaser { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.75; flex-grow: 1; margin-bottom: 1.5rem; }
-  .story-card-cta { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-light); }
-  .story-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: var(--charcoal); overflow-y: auto; }
-  .story-modal.show { display: block; }
-  .story-modal-inner { max-width: 780px; margin: 0 auto; padding: 4rem 3rem 6rem; }
-  .story-modal-back { display: inline-flex; align-items: center; gap: 8px; background: none; border: none; color: rgba(255,255,255,0.6); font-size: 13px; font-family: 'DM Sans', sans-serif; cursor: pointer; margin-bottom: 2.5rem; padding: 0; transition: color 0.2s; }
-  .story-modal-back:hover { color: var(--accent-light); }
-  .story-modal-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 400; color: var(--warm-white); margin-bottom: 2rem; line-height: 1.15; }
-  .story-modal-body p { color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.9; margin-bottom: 1.4rem; }
-  .story-modal-body p:last-child { margin-bottom: 0; }
+  /* JD ASKS */
+  .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 3rem; background: var(--on-dark-line); border: 1px solid var(--on-dark-line); }
+  .story-card { background: var(--panel); padding: 2rem; cursor: pointer; display: flex; flex-direction: column; gap: 1rem; text-align: left; border: none; color: inherit; font: inherit; transition: background 0.2s; min-width: 0; }
+  .story-card:hover { background: var(--panel-hi); }
+  .story-kicker { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); }
+  .story-ask { font-family: var(--display); font-size: 1.05rem; font-weight: 500; line-height: 1.45; color: var(--on-dark); }
+  .story-teaser { font-size: 14px; color: var(--on-dark-muted); line-height: 1.65; flex-grow: 1; }
+  .story-cta { font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
+  .story-card:hover .story-cta { text-decoration: underline; text-underline-offset: 4px; }
 
-  .skills-section { background: var(--cream); padding: 6rem 0; }
-  .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 3rem; }
-  .skill-card { background: var(--warm-white); border: 1px solid var(--border); padding: 2rem; }
-  .skill-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
-  .skill-items { font-size: 14px; color: var(--mid); line-height: 1.8; }
-  .experience-section { background: var(--warm-white); }
+  .story-modal { position: fixed; inset: 0; z-index: 1000; background: var(--ink); color: var(--on-dark); overflow-y: auto; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .story-modal-inner { max-width: 820px; margin: 0 auto; padding: 3rem max(24px, env(safe-area-inset-right, 0px)) 5rem max(24px, env(safe-area-inset-left, 0px)); }
+  .story-back { background: none; border: none; color: var(--on-dark-muted); font: 500 14px var(--body); cursor: pointer; margin-bottom: 2.5rem; padding: 0; }
+  .story-back:hover { color: var(--gold); }
+  .ask-block { border: 1px solid var(--gold); padding: 1.5rem 1.75rem; margin-bottom: 2.5rem; }
+  .ask-block .story-kicker { margin-bottom: 0.5rem; }
+  .ask-quote { font-family: var(--display); font-size: clamp(1.2rem, 2.4vw, 1.5rem); font-weight: 500; line-height: 1.4; }
+  .story-modal-title { font-size: clamp(1.9rem, 4vw, 2.6rem); font-weight: 700; line-height: 1.12; margin-bottom: 2.5rem; }
+  .modal-part { margin-bottom: 2.5rem; }
+  .modal-part h4 { font-family: var(--display); font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem; }
+  .modal-source { font-size: 14px; color: var(--on-dark-muted); margin-bottom: 1rem; }
+  .modal-part p { color: rgba(255,255,255,0.86); margin-bottom: 1.1rem; max-width: 66ch; }
+  .modal-translate { background: var(--panel); padding: 1.75rem; }
+
+  /* MINDSET (the one gold band) */
+  .mindset { background: var(--gold); color: var(--ink); }
+  .mindset .section-label { color: var(--ink); }
+  .mindset-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-top: 2.5rem; }
+  .mindset-item { border-top: 3px solid var(--ink); padding-top: 1.25rem; }
+  .mindset-label { font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.5rem; }
+  .mindset-headline { font-family: var(--display); font-size: 1.45rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.75rem; }
+  .mindset-body { font-size: 15px; line-height: 1.65; }
+
+  /* NUMBERS */
+  .numbers { background: var(--paper); }
+  .cred-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 3rem; }
+  .cred-item { background: var(--white); border: 1px solid var(--line); padding: 2.25rem 2rem; }
+  .cred-number { font-family: var(--display); font-size: clamp(2.75rem, 5vw, 3.75rem); font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .cred-label { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; }
+  .cred-desc { font-size: 15px; color: var(--text); line-height: 1.6; }
+
+  /* RECOMMENDATIONS */
+  .rec-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 3rem; }
+  .rec-card { border: 1px solid var(--line); padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem; }
+  .rec-org { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-deep); }
+  .rec-quote { font-size: 16px; line-height: 1.75; color: var(--text); flex-grow: 1; }
+  .rec-name { font-family: var(--display); font-weight: 600; font-size: 15px; }
+  .rec-title { font-size: 13px; color: var(--muted); }
+  .rec-card .btn { align-self: flex-start; padding: 10px 18px; font-size: 12px; }
+
+  /* SKILLS */
+  .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 3rem; }
+  .skill-card { background: var(--panel); border: 1px solid var(--on-dark-line); padding: 2rem 2.25rem; }
+  .skill-label { font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+  .skill-items { font-size: 16px; color: rgba(255,255,255,0.82); line-height: 1.85; }
+
+  /* EXPERIENCE */
+  .exp-top { display: flex; justify-content: space-between; align-items: end; gap: 1.5rem; flex-wrap: wrap; }
   .exp-list { margin-top: 3rem; }
-  .exp-item { display: grid; grid-template-columns: 200px 1fr; gap: 3rem; padding: 2.5rem 0; border-top: 1px solid var(--border); }
-  .exp-item:last-child { border-bottom: 1px solid var(--border); }
-  .exp-meta { padding-top: 4px; }
-  .exp-company { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.4rem; }
-  .exp-period { font-size: 12px; color: var(--light); }
-  .exp-title { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; margin-bottom: 0.75rem; color: var(--charcoal); }
-  .exp-body { font-size: 14px; color: var(--mid); line-height: 1.75; }
-  .exp-bullets { margin-top: 0.75rem; padding-left: 1rem; }
-  .exp-bullets li { font-size: 13px; color: var(--mid); margin-bottom: 0.4rem; line-height: 1.6; }
-  .contact-section { background: var(--charcoal); color: var(--warm-white); padding: 5rem 0; }
-  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
-  .contact-section h2 { color: var(--warm-white); }
-  .contact-section .section-label { color: var(--accent-light); }
-  .contact-tagline { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-style: italic; color: rgba(255,255,255,0.5); margin-top: 1rem; }
-  .contact-details { display: flex; flex-direction: column; gap: 1.5rem; }
-  .contact-item { display: flex; flex-direction: column; gap: 4px; }
-  .contact-item-label { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-light); }
-  .contact-item-value { font-size: 15px; color: rgba(255,255,255,0.85); text-decoration: none; }
-  .contact-item-value:hover { color: var(--accent-light); }
-  .divider { width: 40px; height: 1px; background: var(--accent); margin: 1.5rem 0; }
-  @media (max-width: 768px) {
-    .hero { grid-template-columns: 1fr; min-height: auto; }
-    .hero-left { min-height: 50vh; }
-    .hero-left::after { display: none; }
-    .hero-right { padding: 3rem 2rem; }
-    .narrative-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .exp-item { display: grid; grid-template-columns: 220px 1fr; gap: 3rem; padding-block: 2.25rem; border-top: 1px solid var(--line); }
+  .exp-item:last-child { border-bottom: 1px solid var(--line); }
+  .exp-item > div { min-width: 0; }
+  .exp-company { font-family: var(--display); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.3rem; }
+  .exp-period { font-size: 14px; color: var(--muted); }
+  .exp-title { font-family: var(--display); font-size: 1.2rem; font-weight: 600; line-height: 1.35; margin-bottom: 0.6rem; }
+  .exp-body { font-size: 15px; color: var(--muted); }
+  .exp-bullets { margin-top: 0.75rem; padding-left: 1.1rem; }
+  .exp-bullets li { font-size: 15px; color: var(--text); margin-bottom: 0.45rem; line-height: 1.6; }
+  .exp-bullets li::marker { color: var(--gold-deep); }
+
+  /* CONTACT */
+  .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+  .contact-tagline { font-size: 1.1rem; color: var(--on-dark-muted); margin-top: 1rem; }
+  .contact-details { display: flex; flex-direction: column; gap: 1.4rem; }
+  .contact-item { display: flex; flex-direction: column; gap: 2px; }
+  .contact-item-label { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); }
+  .contact-item-value { font-size: 16px; color: var(--on-dark); text-decoration: none; user-select: text; }
+  a.contact-item-value:hover { color: var(--gold); }
+  .footnote { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--on-dark-line); font-size: 12px; color: rgba(255,255,255,0.45); }
+
+  /* LETTER MODAL */
+  .modal { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; padding: 1.5rem; }
+  .modal-content { background: var(--white); width: 95vw; max-width: 1100px; height: 88vh; position: relative; padding: 3rem 1rem 1rem; }
+  .modal-close { position: absolute; top: 0.6rem; right: 1rem; background: none; border: none; font-size: 30px; line-height: 1; cursor: pointer; color: var(--text); }
+
+  @media (max-width: 860px) {
+    section { padding-block: 4rem; }
+    .hero-grid { grid-template-columns: 1fr; gap: 3rem; padding-block: 3rem 4rem; }
+    .hero-photo-wrap { max-width: 280px; justify-self: start; }
+    .narrative-grid, .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
     .narrative-sticky { position: static; }
-    .cred-grid { grid-template-columns: 1fr; }
-    .exp-item { grid-template-columns: 1fr; gap: 0.5rem; }
-    .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
-    .container { padding: 0 1.5rem; }
-    section { padding: 4rem 0; }
-    .rec-grid { grid-template-columns: 1fr; }
-    .skills-grid { grid-template-columns: 1fr; }
-    .stories-grid { grid-template-columns: 1fr; }
-    .story-modal-inner { padding: 3rem 1.5rem 4rem; }
+    .stories-grid, .mindset-grid, .cred-grid, .rec-grid, .skills-grid { grid-template-columns: 1fr; }
+    .exp-item { grid-template-columns: 1fr; gap: 0.75rem; }
   }
-  .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
-  .fade-in.visible { opacity: 1; transform: translateY(0); }
-  .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 2rem 1rem; }
-  .modal.show { display: flex; align-items: center; justify-content: center; }
-  .modal-content { background-color: var(--warm-white); padding: 2rem; width: 95vw; max-width: 1200px; height: 90vh; overflow-y: auto; position: relative; }
-  .modal-close { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 28px; font-weight: bold; color: var(--charcoal); cursor: pointer; z-index: 1001; }
-  .modal-close:hover { color: var(--accent); }
+  @media (min-width: 861px) and (max-width: 1060px) {
+    .stories-grid, .cred-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 </style>
 </head>
 <body>
 
-<!-- HERO -->
-<section class="hero" id="hero-section">
-  <div class="hero-left">
-    <img src="headshot.png" alt="Kelsey Tietjen" class="hero-photo" id="hero-photo">
-  </div>
-  <div class="hero-right">
-    <p class="eyebrow" id="hero-eyebrow"></p>
-    <h1 id="hero-name-wrap"></h1>
-    <p class="hero-tagline" id="hero-tagline"></p>
-    <div class="divider"></div>
-    <div class="cta-row" id="hero-cta"></div>
-  </div>
-</section>
-
-<!-- NARRATIVE -->
-<section class="narrative-section">
-  <div class="container">
-    <div class="narrative-grid">
-      <div class="narrative-sticky fade-in">
-        <p class="section-label">My Story</p>
-        <h2 id="narrative-title"></h2>
-        <div class="divider"></div>
-      </div>
-      <div class="narrative-body fade-in" id="narrative-body"></div>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-photo-wrap"><img src="headshot.jpg" alt="Kelsey Tietjen" class="hero-photo"></div>
+    <div>
+      <p class="eyebrow" id="hero-eyebrow"></p>
+      <h1 id="hero-name"></h1>
+      <p class="hero-tagline" id="hero-tagline"></p>
+      <div class="hero-pills" id="hero-pills"></div>
+      <div class="cta-row" id="hero-cta"></div>
     </div>
   </div>
 </section>
 
-<!-- SIGNATURE STORIES -->
-<section class="stories-section">
+<section class="narrative">
+  <div class="container narrative-grid">
+    <div class="narrative-sticky">
+      <p class="section-label">My Story</p>
+      <h2 id="narrative-title"></h2>
+      <div class="rule"></div>
+    </div>
+    <div class="narrative-body" id="narrative-body"></div>
+  </div>
+</section>
+
+<section class="dark" id="role-fit">
   <div class="container">
     <p class="section-label">Signature Stories</p>
-    <h2>Which experiences tell it best.</h2>
+    <h2>What the role asks for. Where I've done it.</h2>
+    <p class="lede">Each card is a requirement from the Stryker Emergency Care Sales Representative posting. Open one to see the experience behind it and how it carries into Fire/EMS sales.</p>
     <div class="stories-grid" id="stories-grid"></div>
   </div>
 </section>
 
-<!-- RECOMMENDATIONS -->
-<section class="recommendations-section">
+<section class="mindset">
   <div class="container">
-    <p class="section-label">Recommendations</p>
-    <h2>What others are saying.</h2>
-    <div class="rec-grid" id="rec-grid"></div>
+    <p class="section-label">Mindset</p>
+    <h2 id="mindset-title"></h2>
+    <div class="mindset-grid" id="mindset-grid"></div>
   </div>
 </section>
 
-<!-- CREDENTIALS / BY THE NUMBERS -->
-<section class="credentials">
+<section class="numbers">
   <div class="container">
     <p class="section-label">By the Numbers</p>
     <h2 id="credentials-title"></h2>
@@ -210,8 +231,15 @@
   </div>
 </section>
 
-<!-- SKILLS & STRENGTHS -->
-<section class="skills-section">
+<section>
+  <div class="container">
+    <p class="section-label">Recommendations</p>
+    <h2>What others are saying.</h2>
+    <div class="rec-grid" id="rec-grid"></div>
+  </div>
+</section>
+
+<section class="dark">
   <div class="container">
     <p class="section-label">Skills &amp; Strengths</p>
     <h2>What I bring to the table.</h2>
@@ -219,324 +247,137 @@
   </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section class="experience-section">
+<section>
   <div class="container">
-    <p class="section-label">Experience</p>
-    <h2>Where I've been. What I built.</h2>
-    <div class="cta-row" id="exp-resume"></div>
+    <div class="exp-top">
+      <div>
+        <p class="section-label">Experience</p>
+        <h2>Where I've been. What I built.</h2>
+      </div>
+      <div class="cta-row" id="exp-resume"></div>
+    </div>
     <div class="exp-list" id="exp-list"></div>
   </div>
 </section>
 
-<!-- MODALS (rendered dynamically) -->
-<div id="modals-container"></div>
-<div id="story-modals-container"></div>
-
-<!-- CONTACT -->
-<section class="contact-section">
+<section class="dark">
   <div class="container">
     <div class="contact-inner">
-      <div class="fade-in">
-        <p class="section-label" id="contact-section-label"></p>
+      <div>
+        <p class="section-label" id="contact-label"></p>
         <h2 id="contact-headline"></h2>
         <p class="contact-tagline" id="contact-tagline"></p>
       </div>
-      <div class="contact-details fade-in" id="contact-details"></div>
+      <div class="contact-details" id="contact-details"></div>
     </div>
+    <p class="footnote">Personal candidate page prepared for a Stryker Emergency Care application. Not affiliated with or endorsed by Stryker.</p>
   </div>
 </section>
 
+<div id="modals"></div>
+
 <script>
-fetch('portfolio-data.json')
-  .then(r => r.json())
-  .then(data => {
-    const { hero, narrative, credentials, experience, recommendations, contact, skills, startStories } = data;
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+const paras = (t) => (t || '').split('\n\n').filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
+let lastFocus = null;
+function openModal(m) { lastFocus = document.activeElement; m.hidden = false; document.body.style.overflow = 'hidden'; const b = m.querySelector('button'); if (b) b.focus(); }
+function closeModal(m) { m.hidden = true; document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelectorAll('#modals > div:not([hidden])').forEach(closeModal); });
 
-    // HERO
-    if (hero) {
-      const eyebrow = document.getElementById('hero-eyebrow');
-      if (eyebrow) eyebrow.textContent = hero.eyebrow || '';
+fetch('portfolio-data.json').then(r => r.json()).then(d => {
+  const modals = document.getElementById('modals');
+  const { hero, narrative, startStories, mindset, credentials, recommendations, skills, experience, contact } = d;
 
-      const nameWrap = document.getElementById('hero-name-wrap');
-      if (nameWrap && hero.name) {
-        nameWrap.innerHTML = hero.name + '<br><em>' + (hero.nameEmphasis || '') + '</em>';
-      }
+  // HERO
+  document.getElementById('hero-eyebrow').textContent = hero.eyebrow || '';
+  document.getElementById('hero-name').innerHTML = `${hero.name}<span class="em">${hero.nameEmphasis || ''}</span>`;
+  document.getElementById('hero-tagline').textContent = hero.tagline || '';
+  const pills = document.getElementById('hero-pills');
+  (hero.pills || []).forEach(p => pills.appendChild(el('span', 'pill', p)));
+  const cta = document.getElementById('hero-cta');
+  if (hero.resumeFile) { const a = el('a', 'btn btn-gold', 'View Resume'); a.href = hero.resumeFile; a.target = '_blank'; a.rel = 'noopener'; cta.appendChild(a); }
+  if (hero.linkedinUrl) { const a = el('a', 'btn btn-ghost', 'LinkedIn'); a.href = hero.linkedinUrl; a.target = '_blank'; a.rel = 'noopener'; cta.appendChild(a); }
+  const fit = el('a', 'btn btn-ghost', 'See Role Fit'); fit.href = '#role-fit'; cta.appendChild(fit);
 
-      const tagline = document.getElementById('hero-tagline');
-      if (tagline) tagline.textContent = hero.tagline || '';
+  // NARRATIVE
+  document.getElementById('narrative-title').textContent = narrative.title || '';
+  document.getElementById('narrative-body').innerHTML = (narrative.highlight ? `<p class="highlight-text">${narrative.highlight}</p>` : '') + paras(narrative.body);
 
-      const cta = document.getElementById('hero-cta');
-      if (cta) {
-        cta.innerHTML = '';
-        if (hero.linkedinUrl) {
-          const a1 = document.createElement('a');
-          a1.href = hero.linkedinUrl;
-          a1.target = '_blank';
-          a1.className = 'btn-primary';
-          a1.textContent = 'View LinkedIn';
-          cta.appendChild(a1);
-        }
-        if (hero.email) {
-          const a2 = document.createElement('a');
-          a2.href = 'mailto:' + hero.email;
-          a2.className = 'btn-secondary';
-          a2.textContent = 'Get in Touch';
-          cta.appendChild(a2);
-        }
-      }
+  // JD ASK CARDS + MODALS
+  const grid = document.getElementById('stories-grid');
+  startStories.forEach(s => {
+    const card = el('button', 'story-card', `
+      <span class="story-kicker">Stryker asks</span>
+      <span class="story-ask">${s.ask}</span>
+      <span class="story-teaser">${s.teaser}</span>
+      <span class="story-cta">See the experience &rarr;</span>`);
+    card.type = 'button';
+    const m = el('div', 'story-modal', `
+      <div class="story-modal-inner">
+        <button class="story-back" type="button">&larr; Back to role fit</button>
+        <div class="ask-block"><p class="story-kicker">Stryker asks</p><p class="ask-quote">${s.ask}</p></div>
+        <h3 class="story-modal-title">${s.title}</h3>
+        <div class="modal-part"><h4>Where I've done it</h4><p class="modal-source">${s.source}</p>${paras(s.experience)}</div>
+        <div class="modal-part modal-translate"><h4>How it carries into Fire/EMS sales</h4>${paras(s.translation)}</div>
+      </div>`);
+    m.hidden = true; m.setAttribute('role', 'dialog'); m.setAttribute('aria-modal', 'true'); m.setAttribute('aria-label', s.title);
+    m.querySelector('.story-back').onclick = () => closeModal(m);
+    card.onclick = () => openModal(m);
+    grid.appendChild(card); modals.appendChild(m);
+  });
+
+  // MINDSET
+  document.getElementById('mindset-title').textContent = mindset.title || '';
+  const mg = document.getElementById('mindset-grid');
+  mindset.items.forEach(i => mg.appendChild(el('div', 'mindset-item', `<p class="mindset-label">${i.label}</p><p class="mindset-headline">${i.headline}</p><p class="mindset-body">${i.body}</p>`)));
+
+  // NUMBERS
+  document.getElementById('credentials-title').textContent = credentials.title || '';
+  const cg = document.getElementById('cred-grid');
+  credentials.items.forEach(i => cg.appendChild(el('div', 'cred-item', `<div class="cred-number">${i.number}</div><div class="cred-label">${i.label}</div><div class="cred-desc">${i.description}</div>`)));
+
+  // RECOMMENDATIONS
+  const rg = document.getElementById('rec-grid');
+  recommendations.forEach((r, i) => {
+    const org = r.title.split(', ').slice(-1)[0];
+    const card = el('div', 'rec-card', `<p class="rec-org">${org}</p><p class="rec-quote">&ldquo;${r.text}&rdquo;</p><div><p class="rec-name">${r.name}</p><p class="rec-title">${r.title}</p></div>`);
+    if (r.pdfFile) {
+      const b = el('button', 'btn btn-dark', r.buttonText || 'View Full Letter'); b.type = 'button';
+      const m = el('div', 'modal', `<div class="modal-content"><button class="modal-close" type="button" aria-label="Close">&times;</button><iframe src="${r.pdfFile}" title="Letter from ${r.name}" width="100%" height="100%" style="border:none"></iframe></div>`);
+      m.hidden = true;
+      m.querySelector('.modal-close').onclick = () => closeModal(m);
+      m.onclick = e => { if (e.target === m) closeModal(m); };
+      b.onclick = () => openModal(m);
+      card.appendChild(b); modals.appendChild(m);
     }
+    rg.appendChild(card);
+  });
 
-    // NARRATIVE
-    if (narrative) {
-      const title = document.getElementById('narrative-title');
-      if (title) title.textContent = narrative.title || '';
+  // SKILLS
+  const sg = document.getElementById('skills-grid');
+  skills.forEach(s => sg.appendChild(el('div', 'skill-card', `<div class="skill-label">${s.label}</div><div class="skill-items">${s.items}</div>`)));
 
-      const body = document.getElementById('narrative-body');
-      if (body && narrative.body) {
-        const paras = narrative.body.split('\n\n').filter(p => p.trim());
-        body.innerHTML = '';
-        if (narrative.highlight) {
-          const hi = document.createElement('p');
-          hi.className = 'highlight-text';
-          hi.textContent = narrative.highlight;
-          body.appendChild(hi);
-        }
-        paras.forEach(p => {
-          const el = document.createElement('p');
-          el.textContent = p.trim();
-          body.appendChild(el);
-        });
-      }
-    }
+  // EXPERIENCE
+  const er = document.getElementById('exp-resume');
+  if (hero.resumeFile) { const a = el('a', 'btn btn-dark', 'View Resume (PDF)'); a.href = hero.resumeFile; a.target = '_blank'; a.rel = 'noopener'; er.appendChild(a); }
+  const el2 = document.getElementById('exp-list');
+  experience.forEach(j => {
+    const bullets = (j.bullets || []).length ? `<ul class="exp-bullets">${j.bullets.map(b => `<li>${b}</li>`).join('')}</ul>` : '';
+    el2.appendChild(el('div', 'exp-item', `<div><div class="exp-company">${j.company}</div><div class="exp-period">${j.period}</div></div><div><div class="exp-title">${j.title}</div>${j.body ? `<div class="exp-body">${j.body}</div>` : ''}${bullets}</div>`));
+  });
 
-    // CREDENTIALS
-    if (credentials) {
-      const title = document.getElementById('credentials-title');
-      if (title) title.textContent = credentials.title || '';
-
-      const grid = document.getElementById('cred-grid');
-      if (grid && credentials.items) {
-        grid.innerHTML = '';
-        credentials.items.forEach(item => {
-          const div = document.createElement('div');
-          div.className = 'cred-item fade-in';
-          div.innerHTML = `
-            <div class="cred-number">${item.number || ''}</div>
-            <div class="cred-label">${item.label || ''}</div>
-            <div class="cred-desc">${item.description || ''}</div>
-          `;
-          grid.appendChild(div);
-        });
-      }
-    }
-
-    // RECOMMENDATIONS + MODALS
-    if (recommendations) {
-      const grid = document.getElementById('rec-grid');
-      const modals = document.getElementById('modals-container');
-      if (grid) grid.innerHTML = '';
-      if (modals) modals.innerHTML = '';
-
-      recommendations.forEach((rec, i) => {
-        const card = document.createElement('div');
-        card.className = 'rec-card fade-in';
-
-        const content = document.createElement('div');
-        content.className = 'rec-card-content';
-        content.innerHTML = `
-          <div class="rec-quote">"${rec.text || ''}"</div>
-          <div class="rec-attribution">— ${rec.name || ''}, ${rec.title || ''}</div>
-        `;
-        card.appendChild(content);
-
-        if (rec.pdfFile) {
-          const modalId = 'modal-' + (rec.id || i);
-          const btns = document.createElement('div');
-          btns.className = 'rec-card-buttons';
-          const btn = document.createElement('button');
-          btn.className = 'btn-view-letter-small';
-          btn.textContent = rec.buttonText || 'View Full Letter';
-          btn.onclick = () => document.getElementById(modalId).classList.add('show');
-          btns.appendChild(btn);
-          card.appendChild(btns);
-
-          // Build modal
-          const modal = document.createElement('div');
-          modal.id = modalId;
-          modal.className = 'modal';
-          modal.innerHTML = `
-            <div class="modal-content">
-              <span class="modal-close">&times;</span>
-              <iframe src="${rec.pdfFile}" width="100%" height="100%" style="border:none;border-radius:4px;"></iframe>
-            </div>
-          `;
-          modal.querySelector('.modal-close').onclick = () => modal.classList.remove('show');
-          modal.onclick = (e) => { if (e.target === modal) modal.classList.remove('show'); };
-          if (modals) modals.appendChild(modal);
-        }
-
-        if (grid) grid.appendChild(card);
-      });
-    }
-
-    // SIGNATURE STORIES + MODALS
-    if (startStories) {
-      const grid = document.getElementById('stories-grid');
-      const modals = document.getElementById('story-modals-container');
-      if (grid) grid.innerHTML = '';
-      if (modals) modals.innerHTML = '';
-
-      startStories.forEach((story, i) => {
-        const modalId = 'story-modal-' + (story.id || i);
-
-        const card = document.createElement('div');
-        card.className = 'story-card fade-in';
-        card.innerHTML = `
-          <div class="story-card-title">${story.title || ''}</div>
-          <div class="story-card-teaser">${story.teaser || ''}</div>
-          <div class="story-card-cta">Read More...</div>
-        `;
-        card.onclick = () => document.getElementById(modalId).classList.add('show');
-        if (grid) grid.appendChild(card);
-
-        const bodyParas = (story.body || '').split('\n\n').filter(p => p.trim());
-        const bodyHTML = bodyParas.map(p => `<p>${p.trim()}</p>`).join('');
-
-        const modal = document.createElement('div');
-        modal.id = modalId;
-        modal.className = 'story-modal';
-        modal.innerHTML = `
-          <div class="story-modal-inner">
-            <button class="story-modal-back">&#8592; Back</button>
-            <h3 class="story-modal-title">${story.title || ''}</h3>
-            <div class="story-modal-body">${bodyHTML}</div>
-          </div>
-        `;
-        modal.querySelector('.story-modal-back').onclick = () => modal.classList.remove('show');
-        if (modals) modals.appendChild(modal);
-      });
-    }
-
-    // SKILLS
-    const skillsGrid = document.getElementById('skills-grid');
-    if (skillsGrid) {
-      skillsGrid.innerHTML = '';
-
-      const skillItems = (skills && skills.length)
-        ? skills
-        : [
-            { label: 'Sales & Customer Engagement', items: 'Consultative selling · Territory management · Account management · Objection handling · Executive presentations' },
-            { label: 'Clinical & Healthcare', items: 'Emergency medical care · Pharmacology fundamentals · Physician collaboration · Patient education · Patient access and reimbursement' },
-            { label: 'Business Acumen & Analysis', items: 'Financial analysis · Contract interpretation · Market analysis · KPI reporting · Process improvement' },
-            { label: 'Languages & Credentials', items: 'Bilingual, English and Spanish · Licensed EMT (NREMT) · BLS Certified · FEMA Certified' }
-          ];
-
-      skillItems.forEach(s => {
-        const card = document.createElement('div');
-        card.className = 'skill-card fade-in';
-        card.innerHTML = `
-          <div class="skill-label">${s.label || ''}</div>
-          <div class="skill-items">${s.items || ''}</div>
-        `;
-        skillsGrid.appendChild(card);
-      });
-    }
-
-    // RESUME BUTTON (Experience section)
-    const expResume = document.getElementById('exp-resume');
-    if (expResume && hero && hero.resumeFile) {
-      const r = document.createElement('a');
-      r.href = hero.resumeFile;
-      r.target = '_blank';
-      r.className = 'btn-secondary';
-      r.textContent = 'View Resume';
-      expResume.appendChild(r);
-    }
-
-    // EXPERIENCE
-    if (experience) {
-      const list = document.getElementById('exp-list');
-      if (list) {
-        list.innerHTML = '';
-        experience.forEach(job => {
-          const item = document.createElement('div');
-          item.className = 'exp-item fade-in';
-
-          let bulletsHTML = '';
-          if (job.bullets && job.bullets.length) {
-            bulletsHTML = '<ul class="exp-bullets">' +
-              job.bullets.map(b => `<li>${b}</li>`).join('') +
-              '</ul>';
-          }
-
-          item.innerHTML = `
-            <div class="exp-meta">
-              <div class="exp-company">${job.company || ''}</div>
-              <div class="exp-period">${job.period || ''}</div>
-            </div>
-            <div>
-              <div class="exp-title">${job.title || ''}</div>
-              <div class="exp-body">${job.body || ''}</div>
-              ${bulletsHTML}
-            </div>
-          `;
-          list.appendChild(item);
-        });
-      }
-    }
-
-    // CONTACT
-    if (contact) {
-      const label = document.getElementById('contact-section-label');
-      if (label) label.textContent = contact.title || "Let's Connect";
-
-      const headline = document.getElementById('contact-headline');
-      if (headline) headline.textContent = contact.headline || "I'd love to hear from you.";
-
-      const tagline = document.getElementById('contact-tagline');
-      if (tagline) tagline.textContent = contact.tagline || '';
-
-      const details = document.getElementById('contact-details');
-      if (details && contact.items) {
-        details.innerHTML = '';
-        contact.items.forEach(item => {
-          const div = document.createElement('div');
-          div.className = 'contact-item';
-          const label = document.createElement('span');
-          label.className = 'contact-item-label';
-          label.textContent = item.label || '';
-          div.appendChild(label);
-
-          if (item.href) {
-            const a = document.createElement('a');
-            a.href = item.href;
-            a.className = 'contact-item-value';
-            if (item.href.startsWith('http') || item.href.endsWith('.pdf')) a.target = '_blank';
-            a.textContent = item.value || '';
-            div.appendChild(a);
-          } else {
-            const span = document.createElement('span');
-            span.className = 'contact-item-value';
-            span.textContent = item.value || '';
-            div.appendChild(span);
-          }
-          details.appendChild(div);
-        });
-      }
-    }
-
-    // Fade-in observer
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry, i) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => entry.target.classList.add('visible'), i * 80);
-        }
-      });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-  })
-  .catch(err => console.error('Failed to load portfolio-data.json:', err));
+  // CONTACT
+  document.getElementById('contact-label').textContent = contact.title || '';
+  document.getElementById('contact-headline').textContent = contact.headline || '';
+  document.getElementById('contact-tagline').textContent = contact.tagline || '';
+  const cd = document.getElementById('contact-details');
+  contact.items.forEach(c => {
+    const wrap = el('div', 'contact-item', `<span class="contact-item-label">${c.label}</span>`);
+    const v = c.href ? el('a', 'contact-item-value', c.value) : el('span', 'contact-item-value', c.value);
+    if (c.href) { v.href = c.href; if (c.href.startsWith('http') || c.href.endsWith('.pdf')) { v.target = '_blank'; v.rel = 'noopener'; } }
+    wrap.appendChild(v); cd.appendChild(wrap);
+  });
+}).catch(err => console.error('Failed to load portfolio-data.json:', err));
 </script>
 </body>
 </html>

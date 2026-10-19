@@ -1,57 +1,109 @@
 {
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
+    "eyebrow": "Candidate · Stryker Emergency Care · Fire/EMS Sales Representative · Dallas-Fort Worth",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
-    "tagline": "Built across account management, territory outreach, and clinical credibility"
+    "tagline": "EMT clinical training, institutional account management, and a business built from referrals.",
+    "pills": ["Licensed EMT", "Top 5% of EMT cohort", "100% client retention", "Founded a consulting practice", "Spanish, working proficiency"],
     "linkedinUrl": "https://www.linkedin.com/in/kelseytietjen",
     "email": "kelseytietjen@gmail.com",
-    "resumeFile": "Kelsey_Tietjen_Resume_Oct2026.pdf"
+    "resumeFile": "Kelsey_Tietjen_Resume_Stryker.pdf"
   },
   "narrative": {
-    "title": "Why Kelsey?",
-    "highlight": "Healthcare sales depends on trust, clinical credibility, and follow-through. I built client trust managing institutional accounts at Goldman Sachs, earned clinical credibility training in the ER as a licensed EMT, and showed follow-through in bilingual territory outreach.",
-    "body": "My career started in client relationship management and business development. My longstanding interest in medicine led me to earn my EMT license, where training in the field and ER alongside clinicians gave me firsthand insight into clinical practice and the potential for advances in life sciences and medical technology to transform treatment. That experience clarified how I wanted to make an impact in healthcare by helping bring innovative therapies and devices to more patients through partnerships with the physicians who make treatment decisions.\n\nAlthough I have not held a pharmaceutical or medical device sales title, I bring a proven track record of building client relationships, generating business, and retaining high-value accounts, alongside firsthand healthcare experience. At Goldman Sachs, I managed approximately 20 multi-million-dollar accounts, maintaining 100% client retention while navigating complex client needs. Through 18 months of volunteer Spanish-language territory outreach, I developed skills in prospecting, objection handling, and persuasive communication, generating more than 50% of new commitments through referrals. My EMT training strengthened my clinical understanding and experience collaborating with healthcare professionals, preparing me to communicate clinical information effectively, engage physicians, and drive measurable territory growth."
+    "title": "Why Kelsey for Stryker Emergency Care?",
+    "highlight": "Fire chiefs and medical directors want a rep who understands patient care, follows through on every order, and finds new business without being told where to look. I trained as an EMT in the ER and trauma bay, kept 100% of roughly 20 multi-million-dollar accounts at Goldman Sachs, and built a consulting practice from zero.",
+    "body": "My career started in client relationship management at Goldman Sachs, where I managed about 20 corporate lending accounts and kept every one of them with zero escalations. My interest in medicine led me to the UT Dallas EMT program. I finished in the top 5% of my cohort and trained alongside a medical director, physicians, nurses, and emergency medical services teams. My EMT and BLS training covered CPR, AED use, and chest compressions, the same areas Stryker's defibrillator and chest compression products serve.\n\nI have not held a sales title. What I bring is the work underneath one. At Vivint I analyzed field selling performance and found a $2 million cost reduction and revenue opportunity that informed executive budget decisions. In 2023 I founded a consulting practice and grew it to 13 client families through referrals and outreach to parent groups. For 18 months I did volunteer outreach across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota, met my assigned quotas, and generated more than half of my new commitments through referrals.\n\nStryker Emergency Care sells to people who make patient care decisions on municipal budgets. I want to be the rep who understands both the clinical side and the budget side."
+  },
+  "startStories": [
+    {
+      "id": "quota",
+      "ask": "Achieve your assigned quota by taking a consultative approach to Pre-Hospital sales.",
+      "title": "Quota attainment through a consultative approach",
+      "teaser": "I met my assigned quotas across a three-state territory, with more than half of new commitments coming from referrals.",
+      "source": "Spanish-Speaking Territory · Volunteer Service Representative · 2014 to 2015",
+      "experience": "For 18 months I did volunteer outreach across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota. I worked against assigned performance quotas, planned each visit in advance, and reviewed it afterward to see what to change.\n\nOne community leader controlled access to local families and had shut out every representative before me. I did not push. I got to know his wife first, learned he missed playing soccer, and organized a pickup game. Over time he became my best source of referrals. More than 50% of my new commitments came through referrals, and I met weekly performance goals for 12 consecutive weeks while onboarding a new representative.",
+      "translation": "A fire department that already runs another vendor's equipment is the same problem: a gatekeeper with no reason to change. I would learn what matters to the chief, the medical director, and the crews before pitching anything, plan every call, review it afterward, and let satisfied departments lead me to the next one."
+    },
+    {
+      "id": "clinical",
+      "ask": "Become the resident Emergency Care expert as you work with fire chiefs, medical directors, clinical instructors and administrators.",
+      "title": "Clinical credibility with a clinical audience",
+      "teaser": "Top 5% of my UT Dallas EMT cohort, with training alongside a medical director, physicians, nurses, and EMS teams.",
+      "source": "University of Texas at Dallas · EMT Program & Clinical Training · 2025",
+      "experience": "I finished the UT Dallas EMT program in the top 5% of my cohort and passed national NREMT testing. I trained with a medical director, physicians, nurses, and emergency medical services teams in clinical and trauma settings.\n\nOne night around 2am I was sent to the helipad with two nurses to receive an air ambulance patient. In the trauma bay the physician called for someone to cut the patient's clothes off. I stepped in while he performed an emergency tracheotomy, and the nurses told the other students to follow my lead.",
+      "translation": "Fire/EMS buyers can tell quickly whether a rep understands patient care. I have completed the same EMT training many of their crews hold, I know the terminology, and I know what it means when a device adds a step during patient care. That lets me talk with a medical director about protocols and with a crew about workflow, and it gives me a base to become the expert on Stryker's products and on what competitors offer."
+    },
+    {
+      "id": "service",
+      "ask": "Focus on customer satisfaction by solving problems through a consultative approach and providing a highly responsive and unsurpassed level of customer service.",
+      "title": "Customer service that keeps every account",
+      "teaser": "About 20 multi-million-dollar accounts at Goldman Sachs, 100% retained, zero escalations.",
+      "source": "Goldman Sachs · Global Markets Analyst · 2021 to 2023",
+      "experience": "At Goldman Sachs I managed approximately 20 multi-million-dollar corporate lending accounts with a focus on customer satisfaction. I resolved client inquiries on loan terms, interest rates, and payment structures in partnership with support teams, and I never had an escalation across the portfolio.\n\nIf I gave a client a deadline, I met it, even when that meant working from a plane on Christmas Eve. When teammates were out, I covered their accounts too. I kept 100% of my book and received a performance-based bonus for customer service quality and operational accuracy.",
+      "translation": "Fire and EMS agencies run around the clock, and a monitor or cot that is out of service is a problem that cannot wait. I would bring the same responsiveness: answer fast, bring in the right support team, close the loop, and keep the account for the next budget cycle."
+    },
+    {
+      "id": "orders",
+      "ask": "Address inquiries, negotiate pricing, and manage orders seamlessly. Take pride in cost reduction, and commit to on-time, complete, and error-free shipments.",
+      "title": "Contracts, pricing terms, and error-free execution",
+      "teaser": "I read 100 to 250+ page legal agreements so I would catch a problem before the client did.",
+      "source": "Goldman Sachs · Global Markets Analyst · 2021 to 2023",
+      "experience": "My accounts at Goldman Sachs ran on complex legal agreements of 100 to 250+ pages. I read every one front to back and translated the contractual terms, pricing, and payment structures into clear guidance for each client. My bonus recognized operational accuracy as well as service.",
+      "translation": "Fire/EMS purchases move through municipal budgets, cooperative contracts, and grant paperwork. I am comfortable reading terms closely, understanding how pricing and payment structures work, and tracking an order until it arrives complete and correct."
+    },
+    {
+      "id": "budget",
+      "ask": "Display experience with reports and budget, customer service, and project management. Have basic knowledge of market research, new product introduction, and P&L management.",
+      "title": "Reports, budget, and new product introduction",
+      "teaser": "At Vivint I found a $2 million cost reduction and revenue opportunity and led the rollout of executive dashboards.",
+      "source": "Vivint · Business Operations Analyst · 2019 to 2020",
+      "experience": "I started at Vivint without knowing SQL and was delivering executive reporting within nine days. Working in the data every day, I identified seven operational inefficiencies in field selling performance that added up to a $2 million cost reduction and revenue opportunity. The analysis informed executive budget and resource allocation.\n\nI also developed executive dashboards and led their product introduction to the COO and six department leaders, who used them to monitor KPIs and sales targets.",
+      "translation": "A department buys new equipment when someone shows the budget case: injury costs, maintenance, uptime, and what the purchase replaces. I can build that case with the customer's own numbers, track my own territory's numbers against target, and introduce a new product to a group of leaders in a way they will adopt. Running my own practice also gave me working knowledge of pricing and P&L."
+    },
+    {
+      "id": "growth",
+      "ask": "Promote and sell Stryker Emergency Care products to meet our customers' needs and drive business growth.",
+      "title": "Business development from zero",
+      "teaser": "I founded a consulting practice and grew it to 13 client families through referrals and parent group outreach.",
+      "source": "Kelsey Tietjen Consulting · Independent Consultant · 2023 to present",
+      "experience": "In 2023 I founded a consulting practice specializing in private school admissions strategy and early childhood development for Dallas-area families. Nobody handed me clients. I went to parent groups to introduce the practice, and every engagement after that grew through referrals.\n\nI secured 13 client families, managed engagements spanning 3 to 6 months, and earned repeat business from families who came back for another child. One student I worked with was admitted to a Dallas private school with a 15% acceptance rate.",
+      "translation": "A territory is a book of business that someone has to build. I have already done that on my own, with my own name on the line. I would treat a Fire/EMS territory the same way: find the decision makers, earn the first department, and use that result to open the next."
+    }
+  ],
+  "mindset": {
+    "title": "Hunter. Entrepreneur. Competitor.",
+    "items": [
+      {
+        "label": "Hunter",
+        "headline": "I go find the business.",
+        "body": "In a three-state territory I won over a community leader who had shut out every representative before me, and he became my best source of referrals. More than half of my new commitments came from referrals like his."
+      },
+      {
+        "label": "Entrepreneur",
+        "headline": "I built a practice from nothing.",
+        "body": "I founded my consulting practice in 2023, marketed it in person to parent groups, set my own terms, and grew it to 13 client families with repeat business."
+      },
+      {
+        "label": "Competitor",
+        "headline": "I play to win.",
+        "body": "Competition is the first of my Gallup top five strengths, followed by Focus, Significance, Strategic, and Activator. I finished in the top 5% of my EMT cohort and learned SQL in nine days to deliver executive reporting at Vivint."
+      }
+    ]
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
     "items": [
-      {
-        "number": "100%",
-        "label": "Client Retention",
-        "description": "Held every account across a book of roughly 20 multi-million dollar corporate lending relationships at Goldman Sachs, with zero escalations"
-      },
-      {
-        "number": "Top 5%",
-        "label": "EMT Program",
-        "description": "UT Dallas EMT certification with hands-on clinical rotations in emergency, surgical, and in-transit care"
-      },
-      {
-        "number": "$2M",
-        "label": "Revenue Opportunity",
-        "description": "Sized and sold a business case to senior leadership at Vivint that redirected executive resource allocation"
-      },
-      {
-        "number": "50%+",
-        "label": "Referral-Driven Growth",
-        "description": "Share of new commitments earned through referrals rather than cold outreach across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota"
-      },
-      {
-        "number": "9 Days",
-        "label": "To Executive Reporting",
-        "description": "Time it took to learn SQL and business intelligence tools from scratch at Vivint and deliver reporting used by the COO and 6 department leaders"
-      },
-      {
-        "number": "13",
-        "label": "Families Through Referral",
-        "description": "Clients acquired at Kelsey Tietjen Consulting entirely through referrals, without paid marketing or outbound prospecting"
-      }
+      { "number": "100%", "label": "Client Retention", "description": "Kept every account across roughly 20 multi-million-dollar corporate lending relationships at Goldman Sachs, with zero escalations." },
+      { "number": "Top 5%", "label": "EMT Program", "description": "UT Dallas EMT program with clinical training alongside a medical director, physicians, nurses, and EMS teams." },
+      { "number": "$2M", "label": "Cost Reduction & Revenue", "description": "Opportunity identified in field selling performance at Vivint that informed executive budget and resource allocation." },
+      { "number": "50%+", "label": "Referral-Driven Growth", "description": "Share of new commitments earned through referrals across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota." },
+      { "number": "9 Days", "label": "To Executive Reporting", "description": "Time it took to learn SQL and business intelligence tools at Vivint and deliver reporting for the COO and six department leaders." },
+      { "number": "13", "label": "Client Families", "description": "Secured at Kelsey Tietjen Consulting through referral-driven lead generation and relationship-based client acquisition." }
     ]
   },
   "recommendations": [
     {
       "id": "brock",
-      "label": "Stryker",
       "name": "Brock Frazer",
       "title": "Marketing Manager, Stryker",
       "text": "She brings the kind of drive, curiosity, and relationship-building mindset that translates to medical sales success.",
@@ -60,7 +112,6 @@
     },
     {
       "id": "spencer",
-      "label": "Stryker",
       "name": "Spencer Curtis",
       "title": "Product Manager, NPD, Stryker",
       "text": "Kelsey has a unique drive, customer-first mindset and attention to detail that differentiates her from other candidates. She would perform with utmost accountability, integrity, and customer-centric mindset.",
@@ -69,7 +120,6 @@
     },
     {
       "id": "adi",
-      "label": "EMT Instructor",
       "name": "Aditya Kanakasabapathy",
       "title": "EMT Instructor, University of Texas at Dallas",
       "text": "She is capable of having a conversation about medical products with the relevant professionals on a really intelligent level, viewed through the patient care and clinical realities lens, which will facilitate her making a true connection with healthcare professionals.",
@@ -78,7 +128,6 @@
     },
     {
       "id": "justin",
-      "label": "iRhythm",
       "name": "Justin Atchison",
       "title": "Territory Manager, iRhythm Technologies",
       "text": "I was immediately impressed by her communication skills, her genuine curiosity about the industry, and her potential as a sales professional. She asked thoughtful questions about the clinical side and showed real interest in how it impacts physicians and patients.",
@@ -86,118 +135,68 @@
       "buttonText": "View Full Letter"
     }
   ],
-  "startStories": [
-    {
-      "id": "consultative",
-      "title": "Account Management and Client Retention",
-      "teaser": "At Goldman Sachs I managed about 20 multi-million-dollar lending accounts and kept every one of them, with zero escalations.",
-      "body": "At Goldman Sachs I managed about 20 multi-million-dollar corporate lending accounts. The contracts ran 100 to 250+ pages, and I read every one front to back so I'd catch a problem before the client did. If I gave a client a deadline, I met it, even when that meant working from a plane on Christmas Eve. When teammates were out, I covered their accounts too.\n\nIn sales terms, that's account management and customer retention. I kept 100% of my book with zero escalations by knowing the details cold, communicating complex terms clearly, and following through every time. That's how I'll build trust with physicians and protect the accounts in my territory."
-    },
-    {
-      "id": "clinical",
-      "title": "Clinical Credibility",
-      "teaser": "I finished my UT Dallas EMT program in the top 5% of my class and trained alongside physicians, nurses, and trauma teams.",
-      "body": "I finished the UT Dallas EMT program in the top 5% of my cohort. One night around 2am, I was sent to the helipad with two nurses to receive an air ambulance patient. When we got him to the trauma bay, the physician called for someone to cut his clothes off. I stepped in while he performed an emergency tracheotomy, and the nurses told the other students to follow my lead.\n\nThat's where my clinical credibility comes from. I understand clinical workflows and patient handoffs, and I know what happens when a product adds a step. With that background I can hold a real conversation with a physician, communicate clinical value, and position a product around patient outcomes."
-    },
-    {
-      "id": "business",
-      "title": "Business Acumen and Data-Driven Insight",
-      "teaser": "At Vivint I found seven operational inefficiencies that added up to a $2 million revenue opportunity.",
-      "body": "I started at Vivint without knowing SQL and was delivering executive reporting in nine days. Once I was in the data every day, I noticed things nobody had asked me to look for. I found seven operational inefficiencies that added up to a $2 million revenue opportunity, built the business case, and presented it to senior leadership. They used it to reallocate resources.\n\nFor a territory, that means market analysis and KPI tracking. I'll know my numbers, spot growth opportunities in my accounts, and bring my manager and customers a clear business case."
-    },
-    {
-      "id": "territory",
-      "title": "Territory Outreach and Bilingual Communication",
-      "teaser": "In a Spanish-speaking territory across Nebraska, Iowa, and South Dakota, more than half of my new commitments came from referrals.",
-      "body": "For 18 months I did volunteer outreach in a Spanish-speaking territory across Nebraska, Iowa, and South Dakota. One community leader controlled access to local families, and he had shut out every representative before me. I didn't push. I got to know his wife first, learned he missed playing soccer, and organized a pickup game. Over time he became my best source of referrals.\n\nThat's prospecting and objection handling with a hard-to-reach stakeholder. I used pre-call planning and post-call reviews, hit my assigned quotas, and generated more than 50% of new commitments through referrals. I'll use the same approach with physicians who have already turned other reps away."
-    },
-    {
-      "id": "leadership",
-      "title": "Coaching and Onboarding",
-      "teaser": "I mentored an intern and two struggling teammates at Goldman Sachs, and trained a new representative while we hit our goals 12 weeks in a row.",
-      "body": "At Goldman Sachs I mentored an intern and two teammates who were struggling. With each one, I figured out whether the gap was knowledge, confidence, or process before I tried to fix anything. As a volunteer representative, I onboarded a new rep, and we met our weekly goals 12 weeks in a row while I trained her.\n\nIn a sales role, that carries over to training office staff on a new product, working cross-functionally, and eventually helping onboard new reps on my team. I measure success by results, not activity."
-    },
-    {
-      "id": "ownership",
-      "title": "Referral-Based Business Development",
-      "teaser": "I built a paid private school admissions consulting practice to 13 families, all through referrals.",
-      "body": "In 2023 I started a consulting practice helping Dallas families with private school admissions. I set my own pricing and built every consultation around the family's needs. All 13 families came through referrals, with no paid marketing or cold outreach. Several came back for a younger child, and one student I worked with was admitted to a school with a 15% acceptance rate.\n\nThat's business development from zero. I ran needs assessments, delivered results, and earned repeat business and referrals. That's the same way I'll grow a territory."
-    }
-  ],
   "skills": [
-    {
-      "label": "Sales & Account Management",
-      "items": "Territory management · Quota attainment · Account management · Prospecting · Consultative selling · Objection handling · Business development · Customer retention · Needs assessment · Executive presentations"
-    },
-    {
-      "label": "Clinical & Healthcare Knowledge",
-      "items": "Emergency medical care · Patient care · Pharmacology fundamentals · Medical terminology · Physician collaboration · Patient education · Prior authorization · Reimbursement & coding knowledge"
-    },
-    {
-      "label": "Communication & Business",
-      "items": "Spanish · Training & coaching · Cross-functional collaboration · Client education · Business analysis · Market analysis · Data analysis · KPI reporting · Forecasting · Process improvement"
-    },
-    {
-      "label": "Credentials & Strengths",
-      "items": "Licensed EMT (NREMT) · Basic Life Support (BLS), American Heart Association · FEMA Emergency and Disaster Response Protocols · Gallup Strengths: Competition, Focus, Significance, Strategic, Activator"
-    }
+    { "label": "Sales & Account Management", "items": "Territory management · Quota attainment · Account management · Prospecting · Consultative selling · Objection handling · Business development · Needs assessment · Executive presentations · Customer service · Negotiating" },
+    { "label": "Clinical & Healthcare Knowledge", "items": "Emergency medical services (EMS) · Patient care · Medical terminology · Physician collaboration · CPR · AED & chest compression" },
+    { "label": "Communication & Business", "items": "Spanish · Training & coaching · Cross-functional collaboration · Client education · Market research · Data analysis · KPI reporting · Forecasting · Project management · Industry trends analysis · P&L management · Marketing" },
+    { "label": "Credentials & Strengths", "items": "Emergency Medical Technician (EMT), NREMT · Basic Life Support (BLS), American Heart Association · FEMA Emergency and Disaster Response Protocols · Gallup Strengths: Competition, Focus, Significance, Strategic, Activator" }
   ],
   "experience": [
     {
-      "company": "Kelsey Tietjen Consulting · Self-employed",
-      "period": "Mar 2023 – Present",
-      "title": "Independent Consultant",
-      "body": "Built a paid, referral-based consulting practice serving Dallas-area families.",
+      "company": "Kelsey Tietjen Consulting",
+      "period": "March 2023 – Present",
+      "title": "Independent Consultant, Private School Admissions & Early Childhood Development",
+      "body": "Founded a consulting practice specializing in private school admissions strategy and early childhood development for Dallas-area families.",
       "bullets": [
-        "Acquired 13 clients entirely through referrals, without paid marketing or outbound prospecting.",
-        "Set pricing for individualized, 45-minute consultations.",
-        "Earned repeat business from returning clients.",
-        "Helped a client reach a highly competitive goal with a 15% success rate."
-      ]
-    },
-    {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "EMT Program & Clinical Training",
-      "body": "",
-      "bullets": [
-        "Ranked in the top 5% of the EMT cohort and earned national EMT licensure.",
-        "Collaborated with physicians, nurses, EMTs, and emergency response teams in clinical and trauma settings.",
-        "Supported an ER physician during a high-acuity emergency tracheotomy under clinical supervision, demonstrating composure and effective teamwork in a time-sensitive environment."
+        "Secured 13 client families through referral-driven lead generation and relationship-based client acquisition.",
+        "Managed client engagements spanning 3 to 6 months, guiding families through individualized admissions strategies and ongoing decision-making.",
+        "Generated repeat business from existing clients seeking guidance for additional children and subsequent school transitions.",
+        "Helped a child gain admission to a Dallas private school with a 15% acceptance rate through a consultative approach to admissions guidance."
       ]
     },
     {
       "company": "Goldman Sachs",
-      "period": "Apr 2021 – Mar 2023",
+      "period": "April 2021 – March 2023",
       "title": "Global Markets Analyst, Client Relationships & Syndicated Lending",
-      "body": "Managed a portfolio of high-value corporate lending accounts, serving as a trusted relationship partner and translating complex financial products, contractual terms, and account requirements into clear client guidance.",
+      "body": "Managed a portfolio of high-value corporate lending accounts with a focus on customer satisfaction, building credibility as a trusted relationship partner and translating complex financial products, contractual terms, and account requirements into clear client guidance.",
       "bullets": [
         "Managed approximately 20 multi-million-dollar corporate lending accounts, maintaining 100% client retention through high-touch relationship management.",
-        "Resolved complex client inquiries involving loan terms, interest rates, and payment structures, achieving zero escalations across the portfolio.",
+        "Resolved complex client inquiries involving loan terms, interest rates, and payment structures in partnership with support teams, achieving zero escalations across the portfolio.",
         "Interpreted complex legal agreements spanning 100 to 250+ pages, communicating contractual requirements clearly and supporting timely resolution of client needs.",
         "Mentored one intern and two underperforming team members through individualized coaching and performance support.",
-        "Received a performance-based bonus in recognition of client service quality and operational accuracy."
+        "Received a performance-based bonus in recognition of customer service quality and operational accuracy."
       ]
     },
     {
       "company": "Vivint",
-      "period": "May 2019 – Apr 2020",
+      "period": "May 2019 – April 2020",
       "title": "Business Operations Analyst",
-      "body": "Analyzed operational and field performance data in SQL and business intelligence tools to build executive dashboards and strategic recommendations for C-suite decision-making.",
+      "body": "",
       "bullets": [
-        "Identified seven operational inefficiencies through performance analysis, uncovering a $2 million revenue opportunity that informed executive resource allocation.",
-        "Developed executive dashboards used by the COO and six department leaders to monitor KPIs and guide business decisions.",
+        "Identified seven operational inefficiencies in field selling performance, uncovering a $2 million cost reduction and revenue opportunity that informed executive budget and resource allocation.",
+        "Developed and led the product introduction of executive dashboards used by the COO and six department leaders to monitor KPIs and sales targets and guide business decisions.",
         "Delivered executive reporting within nine days of onboarding after rapidly learning SQL and business intelligence tools."
       ]
     },
     {
+      "company": "University of Texas at Dallas",
+      "period": "June 2025 – September 2025",
+      "title": "EMT Program & Clinical Training",
+      "body": "",
+      "bullets": [
+        "Ranked in the top 5% of the EMT cohort and earned national EMT licensure through NREMT testing.",
+        "Collaborated with a medical director, physicians, nurses, and emergency medical services teams in pre-hospital, clinical, and trauma settings.",
+        "Supported an ER physician during a high-acuity emergency tracheotomy under clinical supervision, demonstrating composure and effective teamwork in a time-sensitive environment."
+      ]
+    },
+    {
       "company": "Spanish-Speaking Territory",
-      "period": "Feb 2014 – Aug 2015",
+      "period": "February 2014 – August 2015",
       "title": "Volunteer Service Representative, Nebraska, Iowa & South Dakota",
-      "body": "Built a Spanish-speaking territory across three states, expanding membership primarily through referral rather than cold outreach.",
+      "body": "",
       "bullets": [
         "Generated more than 50% of new commitments through referrals, demonstrating relationship-based prospecting and trust-building.",
-        "Achieved assigned performance quotas through structured territory outreach, consultative conversations, and consistent follow-up.",
+        "Achieved assigned performance quotas by promoting programs through structured territory outreach, a consultative approach, and consistent follow-up.",
         "Addressed objections, adapted messaging to individual needs, and used pre-call planning and post-call evaluations to improve outreach effectiveness.",
         "Mentored and onboarded a new representative while meeting weekly performance goals for 12 consecutive weeks."
       ]
@@ -205,34 +204,14 @@
   ],
   "contact": {
     "title": "Let's Connect",
-    "headline": "I'd love to hear from you.",
+    "headline": "I'd love to talk about the Fire/EMS territory.",
     "tagline": "\"Solving for the person across from me.\"",
     "items": [
-      {
-        "label": "Email",
-        "value": "kelseytietjen@gmail.com",
-        "href": "mailto:kelseytietjen@gmail.com"
-      },
-      {
-        "label": "Phone",
-        "value": "(385) 207-5272",
-        "href": "tel:3852075272"
-      },
-      {
-        "label": "LinkedIn",
-        "value": "linkedin.com/in/kelseytietjen",
-        "href": "https://www.linkedin.com/in/kelseytietjen"
-      },
-      {
-        "label": "Resume",
-        "value": "Download PDF",
-        "href": "Kelsey_Tietjen_Resume_Oct2026.pdf"
-      },
-      {
-        "label": "Location",
-        "value": "Dallas-Fort Worth, Texas",
-        "href": null
-      }
+      { "label": "Email", "value": "kelseytietjen@gmail.com", "href": "mailto:kelseytietjen@gmail.com" },
+      { "label": "Phone", "value": "(385) 207-5272", "href": "tel:3852075272" },
+      { "label": "LinkedIn", "value": "linkedin.com/in/kelseytietjen", "href": "https://www.linkedin.com/in/kelseytietjen" },
+      { "label": "Resume", "value": "Stryker resume (PDF)", "href": "Kelsey_Tietjen_Resume_Stryker.pdf" },
+      { "label": "Location", "value": "Dallas-Fort Worth, Texas", "href": null }
     ]
   }
 }
