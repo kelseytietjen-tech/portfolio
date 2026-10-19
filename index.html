@@ -59,7 +59,8 @@
   .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.25rem; }
   h1 { font-size: clamp(3rem, 7vw, 5.25rem); font-weight: 800; line-height: 0.98; letter-spacing: -0.02em; margin-bottom: 1.25rem; }
   h1 .em { color: var(--gold); display: block; }
-  .hero-tagline { font-size: 1.15rem; color: var(--on-dark-muted); max-width: 46ch; margin-bottom: 1.75rem; }
+  .hero-tagline { font-size: 1.05rem; font-weight: 500; color: var(--on-dark-muted); max-width: 62ch; margin-bottom: 2rem; }
+  .hero-pills:empty { display: none; }
   .hero-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.25rem; }
   .pill { font-size: 12px; font-weight: 600; letter-spacing: 0.04em; padding: 6px 12px; border: 1px solid var(--on-dark-line); color: var(--on-dark); background: var(--panel); }
   .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -295,9 +296,8 @@ fetch('portfolio-data.json').then(r => r.json()).then(d => {
   const pills = document.getElementById('hero-pills');
   (hero.pills || []).forEach(p => pills.appendChild(el('span', 'pill', p)));
   const cta = document.getElementById('hero-cta');
-  if (hero.resumeFile) { const a = el('a', 'btn btn-gold', 'View Resume'); a.href = hero.resumeFile; a.target = '_blank'; a.rel = 'noopener'; cta.appendChild(a); }
+  if (hero.email) { const a = el('a', 'btn btn-gold', 'Get in Touch'); a.href = 'mailto:' + hero.email; cta.appendChild(a); }
   if (hero.linkedinUrl) { const a = el('a', 'btn btn-ghost', 'LinkedIn'); a.href = hero.linkedinUrl; a.target = '_blank'; a.rel = 'noopener'; cta.appendChild(a); }
-  const fit = el('a', 'btn btn-ghost', 'See Role Fit'); fit.href = '#role-fit'; cta.appendChild(fit);
 
   // NARRATIVE
   document.getElementById('narrative-title').textContent = narrative.title || '';
