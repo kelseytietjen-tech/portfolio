@@ -1,6 +1,6 @@
 {
   "hero": {
-    "eyebrow": "Medical Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
+    "eyebrow": "Field SDR Sales · Goldman Sachs Alum · Licensed EMT · Bilingual · DFW",
     "name": "Kelsey",
     "nameEmphasis": "Tietjen",
     "tagline": "Built across account management, territory outreach, and clinical credibility",
@@ -10,8 +10,8 @@
   },
   "narrative": {
     "title": "Why Kelsey?",
-    "highlight": "Healthcare sales depends on trust, clinical credibility, and follow-through. I built client trust managing institutional accounts at Goldman Sachs, earned clinical credibility training in the ER as a licensed EMT, and showed follow-through in bilingual territory outreach.",
-    "body": "My career started in client relationship management and business development. My longstanding interest in medicine led me to earn my EMT license, where training in the field and ER alongside clinicians gave me firsthand insight into clinical practice and the potential for advances in life sciences and medical technology to transform treatment. That experience clarified how I wanted to make an impact in healthcare by helping bring innovative therapies and devices to more patients through partnerships with the physicians who make treatment decisions.\n\nAlthough I have not held a pharmaceutical or medical device sales title, I bring a proven track record of building client relationships, generating business, and retaining high-value accounts, alongside firsthand healthcare experience. At Goldman Sachs, I managed approximately 20 multi-million-dollar accounts, maintaining 100% client retention while navigating complex client needs. Through 18 months of volunteer Spanish-language territory outreach, I developed skills in prospecting, objection handling, and persuasive communication, generating more than 50% of new commitments through referrals. My EMT training strengthened my clinical understanding and experience collaborating with healthcare professionals, preparing me to communicate clinical information effectively, engage physicians, and drive measurable territory growth."
+    "highlight": "Field sales in healthcare AI is won with hustle, trust, and clinical credibility. I am a competitive, coachable, entrepreneurial outlier who wins on the phone and face to face. I won client trust owning institutional accounts at Goldman Sachs, earned clinical credibility training in the ER as a licensed EMT, and proved my hustle in bilingual door-to-door territory outreach.",
+    "body": "My career started in client relationship management and new business development. My longstanding interest in medicine led me to earn my EMT license, where training in the field and ER alongside clinicians gave me firsthand insight into clinical practice and point-of-care workflows. I saw how much of a physician's time went to documentation instead of patient care. That experience clarified how I wanted to make an impact in healthcare by helping bring innovative tools and technology to the physicians who make treatment decisions, so they can work more effectively and efficiently and patients get the care they need, and help fix healthcare!\n\nAlthough I have not held a sales title, I bring a proven track record of prospecting, sourcing new business, and retaining high-value accounts, alongside firsthand healthcare experience. At Goldman Sachs, I owned approximately 20 multi-million-dollar accounts and kept 100% of them while solving complex client needs. Through 18 months of volunteer Spanish-language territory outreach, I knocked doors, approached people in public, followed leads, and made phone calls, some days hitting up to 100 cold touch points and often hitting 10 appointments a day. I overcame objections and generated more than 50% of new commitments through referrals. My EMT training strengthened my clinical understanding and experience collaborating with healthcare professionals, preparing me to communicate clinical information effectively, engage physicians, qualify accounts, schedule demos, and drive revenue growth as part of a high-performing team. I hunt new business, and I do not wait for leads to come to me."
   },
   "credentials": {
     "title": "The foundation behind the pitch.",
@@ -34,7 +34,7 @@
       {
         "number": "50%+",
         "label": "Referral-Driven Growth",
-        "description": "Share of new commitments earned through referrals rather than cold outreach across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota"
+        "description": "Share of new commitments earned through referrals across a Spanish-speaking territory in Nebraska, Iowa, and South Dakota"
       },
       {
         "number": "9 Days",
@@ -43,8 +43,8 @@
       },
       {
         "number": "13",
-        "label": "Families Through Referral",
-        "description": "Clients acquired at Kelsey Tietjen Consulting entirely through referrals, without paid marketing or outbound prospecting"
+        "label": "Families Through Outreach & Referral",
+        "description": "Clients acquired at Kelsey Tietjen Consulting through outreach in Dallas parent groups and referrals"
       }
     ]
   },
@@ -88,91 +88,80 @@
   ],
   "startStories": [
     {
-      "id": "consultative",
-      "title": "Account Management and Client Retention",
-      "teaser": "At Goldman Sachs I managed about 20 multi-million-dollar lending accounts and kept every one of them, with zero escalations.",
-      "body": "At Goldman Sachs I managed about 20 multi-million-dollar corporate lending accounts. The contracts ran 100 to 250+ pages, and I read every one front to back so I'd catch a problem before the client did. If I gave a client a deadline, I met it, even when that meant working from a plane on Christmas Eve. When teammates were out, I covered their accounts too.\n\nIn sales terms, that's account management and customer retention. I kept 100% of my book with zero escalations by knowing the details cold, communicating complex terms clearly, and following through every time. That's how I'll build trust with physicians and protect the accounts in my territory."
+      "id": "territory",
+      "title": "Up to 100 Cold Touch Points a Day",
+      "teaser": "18 months of door-to-door and public outreach in Spanish across three states, some days hitting up to 100 cold touch points and often hitting 10 appointments a day.",
+      "body": "For 18 months I did volunteer outreach in a Spanish-speaking territory across Nebraska, Iowa, and South Dakota. On a 13-hour daily schedule, I knocked doors, approached people in public, followed leads, and made phone calls, some days hitting up to 100 cold touch points and often hitting 10 appointments a day. I did pre-call research and planning before each day and reviewed my results after it. Most people said no, and I kept going.\n\nIn Field SDR terms, that is high-volume cold outreach, prospect research, appointment setting, and overcoming rejection every day. I met my weekly goals. I will bring that same volume to cold calls and walk-ins at DFW private practices and turn it into scheduled demos."
+    },
+    {
+      "id": "gatekeeper",
+      "title": "The Gatekeeper Who Shut Everyone Out",
+      "teaser": "One community leader with influence over a large network had turned away every representative before me. He became our best source of referrals.",
+      "body": "In the same territory, I was the senior representative on a two-person team. One community leader had influence over a large network of local families, and he had shut out every representative before me. I needed a different angle. I got to know his wife first, learned he missed playing soccer, and organized a pickup game. Over time he became our best source of referrals.\n\nIn sales terms, he was the gatekeeper to the account, and his objection was trust. I researched him, found an opening, and built the relationship before I asked for anything. More than 50% of my new commitments came through referrals. Private practices work the same way: a front desk or practice manager decides who reaches the physician. I will learn what matters to that person, earn access, and turn the first meeting into a qualified demo."
     },
     {
       "id": "clinical",
-      "title": "Clinical Credibility",
-      "teaser": "I finished my UT Dallas EMT program in the top 5% of my class and trained alongside physicians, nurses, and trauma teams.",
-      "body": "I finished the UT Dallas EMT program in the top 5% of my cohort. One night around 2am, I was sent to the helipad with two nurses to receive an air ambulance patient. When we got him to the trauma bay, the physician called for someone to cut his clothes off. I stepped in while he performed an emergency tracheotomy, and the nurses told the other students to follow my lead.\n\nThat's where my clinical credibility comes from. I understand clinical workflows and patient handoffs, and I know what happens when a product adds a step. With that background I can hold a real conversation with a physician, communicate clinical value, and position a product around patient outcomes."
+      "title": "2 a.m. Grit in the Trauma Bay",
+      "teaser": "Top 5% of my UT Dallas EMT class. At 2 a.m., the nurses told the other students to follow my lead.",
+      "body": "I finished the UT Dallas EMT program in the top 5% of my cohort. One night around 2 a.m., I was sent to the helipad with two nurses to receive an air ambulance patient. When we got him to the trauma bay, the physician called for someone to shear his clothes to check for injuries. I stepped in while he performed an emergency tracheotomy. I didn't realize the other two students hadn't moved until the nurses told them to follow my lead.\n\nI work well under pressure, and I come prepared for the situation and the opportunity. That is where my clinical credibility comes from. I have documented patient care in the EHR, I understand clinical workflows and patient handoffs, and I have watched physicians stop to chart before they could get to the next patient. I can talk with a physician or practice manager about ambient AI documentation in terms of their day: less time charting and more time with patients."
     },
     {
-      "id": "business",
-      "title": "Business Acumen and Data-Driven Insight",
-      "teaser": "At Vivint I found seven operational inefficiencies that added up to a $2 million revenue opportunity.",
-      "body": "I started at Vivint without knowing SQL and was delivering executive reporting in nine days. Once I was in the data every day, I noticed things nobody had asked me to look for. I found seven operational inefficiencies that added up to a $2 million revenue opportunity, built the business case, and presented it to senior leadership. They used it to reallocate resources.\n\nFor a territory, that means market analysis and KPI tracking. I'll know my numbers, spot growth opportunities in my accounts, and bring my manager and customers a clear business case."
-    },
-    {
-      "id": "territory",
-      "title": "Territory Outreach and Bilingual Communication",
-      "teaser": "In a Spanish-speaking territory across Nebraska, Iowa, and South Dakota, more than half of my new commitments came from referrals.",
-      "body": "For 18 months I did volunteer outreach in a Spanish-speaking territory across Nebraska, Iowa, and South Dakota. One community leader controlled access to local families, and he had shut out every representative before me. I didn't push. I got to know his wife first, learned he missed playing soccer, and organized a pickup game. Over time he became my best source of referrals.\n\nThat's prospecting and objection handling with a hard-to-reach stakeholder. I used pre-call planning and post-call reviews, hit my assigned quotas, and generated more than 50% of new commitments through referrals. I'll use the same approach with physicians who have already turned other reps away."
-    },
-    {
-      "id": "leadership",
-      "title": "Coaching and Onboarding",
-      "teaser": "I mentored an intern and two struggling teammates at Goldman Sachs, and trained a new representative while we hit our goals 12 weeks in a row.",
-      "body": "At Goldman Sachs I mentored an intern and two teammates who were struggling. With each one, I figured out whether the gap was knowledge, confidence, or process before I tried to fix anything. As a volunteer representative, I onboarded a new rep, and we met our weekly goals 12 weeks in a row while I trained her.\n\nIn a sales role, that carries over to training office staff on a new product, working cross-functionally, and eventually helping onboard new reps on my team. I measure success by results, not activity."
+      "id": "consultative",
+      "title": "20 Accounts. 100% Retained. Zero Escalations.",
+      "teaser": "At Goldman Sachs I owned about 20 multi-million-dollar lending accounts and kept every one.",
+      "body": "At Goldman Sachs I owned about 20 multi-million-dollar corporate lending accounts. The contracts ran 100 to 250+ pages, and I read every one front to back so I'd catch a problem before the client did. If I gave a client a deadline, I met it, even when that meant working from a plane on Christmas Eve. When teammates were out, I covered their accounts too.\n\nIn sales terms, that is account ownership, follow-through, and customer retention. I kept 100% of my book with zero escalations by knowing the details cold and following through every time. As an SDR, the account starts with me. I will qualify it carefully, set clear expectations, hand the Account Executive a clean opportunity, and own every follow-up."
     },
     {
       "id": "ownership",
-      "title": "Referral-Based Business Development",
-      "teaser": "I built a paid private school admissions consulting practice to 13 families, all through referrals.",
-      "body": "In 2023 I started a consulting practice helping Dallas families with private school admissions. I set my own pricing and built every consultation around the family's needs. All 13 families came through referrals, with no paid marketing or cold outreach. Several came back for a younger child, and one student I worked with was admitted to a school with a 15% acceptance rate.\n\nThat's business development from zero. I ran needs assessments, delivered results, and earned repeat business and referrals. That's the same way I'll grow a territory."
+      "title": "1 to 13 Clients: 1,200% Growth",
+      "teaser": "In 2023 I launched a consulting business with no clients and built it to 13 families through outreach and referrals.",
+      "body": "In 2023 I started a consulting practice helping Dallas families with private school admissions. I had no client list and no marketing budget. I prospected in Dallas parent groups, turned early clients into referral sources, ran a needs assessment with every family, set my own pricing, and managed concurrent engagements of 3 to 6 months. I grew the practice to 13 families through outreach and referrals. Several came back for a younger child, and one student was admitted to a school with a 15% acceptance rate.\n\nThat is new business development from zero: prospecting, qualifying, closing, and earning referrals and repeat business. I will take the same entrepreneurial approach to opening new private practice accounts in DFW."
+    },
+    {
+      "id": "coachable",
+      "title": "Coachable: SQL in 9 Days, $2M Found",
+      "teaser": "At Vivint I learned SQL from scratch, delivered executive reporting in 9 days, and found a $2 million revenue opportunity.",
+      "body": "I started at Vivint without knowing SQL and was delivering executive reporting in nine days. Once I was in the data every day, I found seven operational inefficiencies that added up to a $2 million revenue opportunity, built the business case, and presented it to senior leadership. They used it to reallocate resources. At Goldman Sachs I mentored an intern and two struggling teammates by first working out whether each gap was knowledge, confidence, or process.\n\nFor a Field SDR, that means I will ramp quickly on Commure's products, Athelas Insights, and RCM, apply my manager's feedback the same day I get it, and track my own activity and conversion numbers. I own my own success. I create opportunities without being asked, and I do not wait for someone to tell me to move."
     }
   ],
   "skills": [
     {
-      "label": "Sales & Account Management",
-      "items": "Territory management · Quota attainment · Account management · Prospecting · Consultative selling · Objection handling · Business development · Customer retention · Needs assessment · Executive presentations"
+      "label": "Sales & Prospecting",
+      "items": "Phone & face-to-face selling · Hustle · Cold calling · Door-to-door prospecting · Competitive · Lead generation · Prospect research · Appointment scheduling · Entrepreneurial · Territory management · New business development · Objection handling · Driven to win · Consultative selling · Quota attainment · Needs assessment"
     },
     {
       "label": "Clinical & Healthcare Knowledge",
-      "items": "Emergency medical care · Patient care · Pharmacology fundamentals · Medical terminology · Physician collaboration · Patient education · Prior authorization · Reimbursement & coding knowledge"
+      "items": "Healthcare AI · Emergency medical care · Patient care · Committed to fixing healthcare · Medical terminology · Physician collaboration · Point-of-care workflows · Prior authorization · Revenue cycle management (RCM)"
     },
     {
       "label": "Communication & Business",
-      "items": "Spanish · Training & coaching · Cross-functional collaboration · Client education · Business analysis · Market analysis · Data analysis · KPI reporting · Forecasting · Process improvement"
+      "items": "Bilingual (English & Spanish) · Coachable · Project management · Cross-functional collaboration · Training & coaching · High-performing teams · Client education · Business analysis · Market analysis · KPI reporting · Forecasting · Process improvement"
     },
     {
       "label": "Credentials & Strengths",
-      "items": "Licensed EMT (NREMT) · Basic Life Support (BLS), American Heart Association · FEMA Emergency and Disaster Response Protocols · Gallup Strengths: Competition, Focus, Significance, Strategic, Activator"
+      "items": "Outlier profile: Goldman Sachs, licensed EMT, door-to-door outreach · Licensed EMT (NREMT) · Basic Life Support (BLS), American Heart Association · FEMA Emergency and Disaster Response Protocols · Gallup Strengths: Competition, Focus, Significance, Strategic, Activator"
     }
   ],
   "experience": [
     {
-      "company": "Kelsey Tietjen Consulting · Self-employed",
+      "company": "Kelsey Tietjen Consulting · Dallas, TX",
       "period": "Mar 2023 – Present",
-      "title": "Independent Consultant",
-      "body": "Built a paid, referral-based consulting practice serving Dallas-area families.",
+      "title": "Independent Consultant, Private School Admissions & Early Childhood Development",
+      "body": "Founded a consulting practice specializing in private school admissions strategy and early childhood development for Dallas-area families.",
       "bullets": [
-        "Acquired 13 clients entirely through referrals, without paid marketing or outbound prospecting.",
-        "Set pricing for individualized, 45-minute consultations.",
-        "Earned repeat business from returning clients.",
-        "Helped a client reach a highly competitive goal with a 15% success rate."
+        "Built a client base of 13 families by launching outreach in Dallas parent groups and generating referrals.",
+        "Stayed organized across concurrent client engagements spanning 3 to 6 months, guiding families through individualized admissions strategies and ongoing decision-making.",
+        "Generated repeat business from existing clients seeking guidance for additional children and subsequent school transitions.",
+        "Helped a child gain admission to a Dallas private school with a 15% acceptance rate through tailored admissions guidance."
       ]
     },
     {
-      "company": "UT Dallas",
-      "period": "Jun – Sep 2025",
-      "title": "EMT Program & Clinical Training",
-      "body": "",
-      "bullets": [
-        "Ranked in the top 5% of the EMT cohort and earned national EMT licensure.",
-        "Collaborated with physicians, nurses, EMTs, and emergency response teams in clinical and trauma settings.",
-        "Supported an ER physician during a high-acuity emergency tracheotomy under clinical supervision, demonstrating composure and effective teamwork in a time-sensitive environment."
-      ]
-    },
-    {
-      "company": "Goldman Sachs",
+      "company": "Goldman Sachs · Dallas, TX",
       "period": "Apr 2021 – Mar 2023",
       "title": "Global Markets Analyst, Client Relationships & Syndicated Lending",
       "body": "Managed a portfolio of high-value corporate lending accounts, serving as a trusted relationship partner and translating complex financial products, contractual terms, and account requirements into clear client guidance.",
       "bullets": [
-        "Managed approximately 20 multi-million-dollar corporate lending accounts, maintaining 100% client retention through high-touch relationship management.",
+        "Managed approximately 20 multi-million-dollar corporate lending accounts using loan management software, maintaining 100% client retention through high-touch relationship management.",
         "Resolved complex client inquiries involving loan terms, interest rates, and payment structures, achieving zero escalations across the portfolio.",
         "Interpreted complex legal agreements spanning 100 to 250+ pages, communicating contractual requirements clearly and supporting timely resolution of client needs.",
         "Mentored one intern and two underperforming team members through individualized coaching and performance support.",
@@ -180,33 +169,44 @@
       ]
     },
     {
-      "company": "Vivint",
+      "company": "Vivint · Lehi, UT",
       "period": "May 2019 – Apr 2020",
       "title": "Business Operations Analyst",
-      "body": "Analyzed operational and field performance data in SQL and business intelligence tools to build executive dashboards and strategic recommendations for C-suite decision-making.",
+      "body": "",
       "bullets": [
-        "Identified seven operational inefficiencies through performance analysis, uncovering a $2 million revenue opportunity that informed executive resource allocation.",
+        "Identified seven operational inefficiencies through performance analysis, uncovering a $2 million revenue growth opportunity that informed executive resource allocation.",
         "Developed executive dashboards used by the COO and six department leaders to monitor KPIs and guide business decisions.",
         "Delivered executive reporting within nine days of onboarding after rapidly learning SQL and business intelligence tools."
       ]
     },
     {
-      "company": "Spanish-Speaking Territory",
+      "company": "University of Texas at Dallas · Richardson, TX",
+      "period": "Jun – Sep 2025",
+      "title": "EMT Program & Clinical Training",
+      "body": "",
+      "bullets": [
+        "Ranked in the top 5% of the EMT cohort and earned national EMT licensure.",
+        "Collaborated with physicians, nurses, EMTs, and emergency response teams in clinical and trauma settings and documented patient care in the EHR.",
+        "Supported an ER physician during a high-acuity emergency tracheotomy under clinical supervision, demonstrating composure, confidence, and effective teamwork in a time-sensitive environment."
+      ]
+    },
+    {
+      "company": "Spanish-Speaking Territory · Nebraska, Iowa & South Dakota",
       "period": "Feb 2014 – Aug 2015",
-      "title": "Volunteer Service Representative, Nebraska, Iowa & South Dakota",
-      "body": "Built a Spanish-speaking territory across three states, expanding membership primarily through referral rather than cold outreach.",
+      "title": "Volunteer Service Representative",
+      "body": "",
       "bullets": [
         "Generated more than 50% of new commitments through referrals, demonstrating relationship-based prospecting and trust-building.",
-        "Achieved assigned performance quotas through structured territory outreach, consultative conversations, and consistent follow-up.",
-        "Addressed objections, adapted messaging to individual needs, and used pre-call planning and post-call evaluations to improve outreach effectiveness.",
+        "Achieved assigned performance quotas working 13-hour days through structured territory outreach, consultative conversations, and consistent follow-up.",
+        "Addressed objections, adapted messaging to individual needs, set appointments, and used pre-call research, planning, and post-call evaluations to improve outreach effectiveness.",
         "Mentored and onboarded a new representative while meeting weekly performance goals for 12 consecutive weeks."
       ]
     }
   ],
   "contact": {
     "title": "Let's Connect",
-    "headline": "I'd love to hear from you.",
-    "tagline": "\"Solving for the person across from me.\"",
+    "headline": "I look forward to our conversation.",
+    "tagline": "\"I despise big insurance companies' malicious tactics and want to help fix healthcare.\"",
     "items": [
       {
         "label": "Email",
